@@ -1,30 +1,43 @@
 <div align="center">
   
-# Hi there, I'm B143KC47 👋
+# 👋 Hi there, I'm B143KC47
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Full+Stack+Developer;Always+learning+new+things)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=AI+Engineer+%7C+Deep+Learning+Explorer;NLP+%7C+Computer+Vision+%7C+VLM+Developer)](https://git.io/typing-svg)
 
 <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" width="350" />
 
 </div>
 
-### 🚀 About Me
+### 🤖 About Me
 
-<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<img align='right' src="https://media.giphy.com/media/f7omQNmgiS0ZvU8Td4/giphy.gif" width="230">
 
-- 🔭 I'm currently working on Web Development projects
-- 🌱 I'm learning React and TypeScript
-- 👯 I'm looking to collaborate on open source projects
-- 💬 Ask me about anything tech related!
+- 🔭 I'm currently working on Large Language Models and Vision-Language Models
+- 🌱 I'm exploring Multimodal AI and Advanced Computer Vision
+- 🤝 Open to collaborate on AI/ML research projects
+- 💡 Interested in: NLP, Computer Vision, VLM, and AI Applications
+- 🎯 2024 Goals: Contribute more to AI open source projects
 
 ### 🛠️ Tech Stack 
 
-![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=flat-square&logo=html5&logoColor=ffffff)
-![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
-![React](https://img.shields.io/badge/-React-%23282C34?style=flat-square&logo=react)
-![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)
-![VS Code](https://img.shields.io/badge/-VSCode-%23007ACC?style=flat-square&logo=visual-studio-code)
+#### Languages
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+
+#### AI/ML Frameworks
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+
+#### Tools & Environments
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ### 📊 GitHub Stats
 
@@ -33,14 +46,14 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=radical"/>
 </div>
 
-### 🏆 Featured Projects
+### 🎯 AI Projects
 
 <div align="center">
-  <a href="https://github.com/B143KC47/project1">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=project1&theme=radical" />
+  <a href="https://github.com/B143KC47/nlp-project">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=nlp-project&theme=aura" />
   </a>
-  <a href="https://github.com/B143KC47/project2">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=project2&theme=radical" />
+  <a href="https://github.com/B143KC47/vision-project">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=vision-project&theme=aura" />
   </a>
 </div>
 
@@ -74,11 +87,11 @@
 ### 💻 Skills Progress
 
 ```text
-JavaScript   ███████████████░░░   80%
-React        ████████████████░░   85%
-Node.js      ████████████░░░░░░   65%
-HTML/CSS     ███████████████░░░   80%
-Python       ██████████░░░░░░░░   55%
+Computer Vision    ███████████████░░░   80%
+NLP               ████████████████░░   85%
+MLOps             ████████████░░░░░░   65%
+Deep Learning     ███████████████░░░   80%
+VLM               ██████████░░░░░░░░   55%
 ```
 
 ### 📊 Weekly Development Breakdown
@@ -125,3 +138,17 @@ CSS          8 mins          █░░░░░░░░░░░   1.2%
 width="800"  height="3">
 
 </div>
+
+### 🔬 Research Interests
+- Large Language Models (LLMs)
+- Vision-Language Models (VLMs)
+- Multimodal Deep Learning
+- Neural Architecture Search
+- AI Model Optimization
+
+### 📚 Latest AI Blog Posts
+<!-- BLOG-POST-LIST:START -->
+- 🤖 [Understanding Vision-Language Models]()
+- 🧠 [Implementing Attention Mechanisms]()
+- 📊 [Model Optimization Techniques]()
+<!-- BLOG-POST-LIST:END -->
