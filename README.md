@@ -12,11 +12,11 @@
 
 <img align='right' src="https://media.giphy.com/media/f7omQNmgiS0ZvU8Td4/giphy.gif" width="230">
 
-- 🔭 I'm currently working on Large Language Models and Vision-Language Models
-- 🌱 I'm exploring Multimodal AI and Advanced Computer Vision
-- 🤝 Open to collaborate on AI/ML research projects
-- 💡 Interested in: NLP, Computer Vision, VLM, and AI Applications
-- 🎯 2024 Goals: Contribute more to AI open source projects
+- 🔭 I'm currently working on Large Language Models and Vision-Language Models, focusing on improving their efficiency and generalization capabilities. Check out my work and thoughts on my [website](https://b143kc47.github.io) and [blog](https://b143kc47.github.io/blog).
+- 🌱 I'm exploring Multimodal AI and Advanced Computer Vision techniques for real-world applications.
+- 🤝 Open to collaborate on AI/ML research projects, especially those involving innovative approaches to solving complex problems.
+- 💡 Interested in: NLP, Computer Vision, VLM, and AI Applications, with a passion for developing AI solutions that benefit society.
+- 🎯 2024 Goals: Contribute more to AI open source projects, publish research papers, and build impactful AI applications.
 
 ### 🛠️ Tech Stack 
 
@@ -24,6 +24,8 @@
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 #### AI/ML Frameworks
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white)
@@ -31,6 +33,7 @@
 ![Scikit-learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 
 #### Tools & Environments
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -38,12 +41,14 @@
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/-JupyterNotebook-F37726?style=flat-square&logo=jupyter&logoColor=white)
+![Weights & Biases](https://img.shields.io/badge/-Weights%20%26%20Biases-FF8C00?style=flat-square&logo=wandb&logoColor=white)
 
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=radical&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=radical"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=dark&include_all_commits=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=dark"/>
 </div>
 
 ### 🎯 AI Projects
@@ -51,9 +56,11 @@
 <div align="center">
   <a href="https://github.com/B143KC47/nlp-project">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=nlp-project&theme=aura" />
+    <p>NLP Project: A project focused on natural language processing tasks. See related blog posts [here](https://b143kc47.github.io/blog/nlp-project-posts).</p>
   </a>
   <a href="https://github.com/B143KC47/vision-project">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=vision-project&theme=aura" />
+    <p>Vision Project: An exploration of computer vision techniques and applications. Read more on my [blog](https://b143kc47.github.io/blog/vision-project-posts).</p>
   </a>
 </div>
 
@@ -68,6 +75,18 @@
   </a>
   <a href="https://www.linkedin.com/in/yourprofile/">
     <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white"/>
+  </a>
+  <a href="https://twitter.com/yourtwitter">
+    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter"/>
+  </a>
+  <a href="https://yourwebsite.com">
+    <img src="https://img.shields.io/badge/-Website-4CAF50?style=flat-square&logo=internet-explorer&logoColor=white"/>
+  </a>
+  <a href="https://b143kc47.github.io">
+    <img src="https://img.shields.io/badge/-Personal%20Website-blue?style=flat-square&logo=internet-explorer&logoColor=white"/>
+  </a>
+  <a href="https://b143kc47.github.io/blog">
+    <img src="https://img.shields.io/badge/-Blog-orange?style=flat-square&logo=rss&logoColor=white"/>
   </a>
 </div>
 
@@ -87,7 +106,7 @@
 ### 💻 Skills Progress
 
 ```text
-Computer Vision    ███████████████░░░   80%
+Computer Vision   ███████████████░░░   80%
 NLP               ████████████████░░   85%
 MLOps             ████████████░░░░░░   65%
 Deep Learning     ███████████████░░░   80%
@@ -99,7 +118,7 @@ VLM               ██████████░░░░░░░░   55%
 ```text
 JavaScript   4 hrs 32 mins   ████████░░░░   64.8%
 React        2 hrs 5 mins    ██████░░░░░░   29.7%
-HTML         18 mins         ██░░░░░░░░░░   4.3%
+HTML         18 mins         ██░░░░░░░░░   4.3%
 CSS          8 mins          █░░░░░░░░░░░   1.2%
 ```
 
@@ -148,7 +167,7 @@ width="800"  height="3">
 
 ### 📚 Latest AI Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- 🤖 [Understanding Vision-Language Models]()
-- 🧠 [Implementing Attention Mechanisms]()
-- 📊 [Model Optimization Techniques]()
+- 🤖 [Understanding Vision-Language Models](https://b143kc47.github.io/blog/understanding-vision-language-models)
+- 🧠 [Implementing Attention Mechanisms](https://b143kc47.github.io/blog/implementing-attention-mechanisms)
+- 📊 [Model Optimization Techniques](https://b143kc47.github.io/blog/model-optimization-techniques)
 <!-- BLOG-POST-LIST:END -->
