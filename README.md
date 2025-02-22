@@ -10,7 +10,7 @@
 
 ### 🤖 About Me
 
-<img align='right' src="https://media.giphy.com/media/f7omQNmgiS0ZvU8Td4/giphy.gif" width="230">
+<img align='right' src="https://media.giphy.com/media/j5FqEuGkm0WI1kjhmz/giphy.gif" width="230">
 
 - 🔭 I'm currently working on Large Language Models and Vision-Language Models, focusing on improving their efficiency and generalization capabilities. Check out my work and thoughts on my [website](https://b143kc47.github.io) and [blog](https://b143kc47.github.io/blog).
 - 🌱 I'm exploring Multimodal AI and Advanced Computer Vision techniques for real-world applications.
@@ -26,6 +26,8 @@
 ![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 #### AI/ML Frameworks
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white)
@@ -43,6 +45,7 @@
 ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/-JupyterNotebook-F37726?style=flat-square&logo=jupyter&logoColor=white)
 ![Weights & Biases](https://img.shields.io/badge/-Weights%20%26%20Biases-FF8C00?style=flat-square&logo=wandb&logoColor=white)
+![Anaconda](https://img.shields.io/badge/-Anaconda-42B029?style=flat-square&logo=anaconda&logoColor=white)
 
 ### 📊 GitHub Stats
 
