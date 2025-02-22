@@ -119,12 +119,9 @@ VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░  
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=radical&no-frame=true&row=1&&margin-w=30&no-bg=true" width="800px"/>
+    <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=radical&no-frame=true&row=1&margin-w=30&no-bg=true" width="800px"/>
   </a>
 </p>
-
-
-
 
 <div align="center">
 
