@@ -54,33 +54,26 @@
 ### 🎯 AI Projects
 
 <div align="center">
-  <a href="https://github.com/B143KC47/nlp-project">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=nlp-project&theme=aura" />
-    <p>NLP Project: A project focused on natural language processing tasks. See related blog posts [here](https://b143kc47.github.io/blog/nlp-project-posts).</p>
-  </a>
-  <a href="https://github.com/B143KC47/vision-project">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=vision-project&theme=aura" />
-    <p>Vision Project: An exploration of computer vision techniques and applications. Read more on my [blog](https://b143kc47.github.io/blog/vision-project-posts).</p>
+  <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=student-nlp-learning&theme=aura" />
+      <p>NLP Learning Tool: An NLP project designed to help students learn and practice natural language processing concepts. Check out related resources and tutorials [here](https://b143kc47.github.io/blog/nlp-learning-resources).</p>
   </a>
 </div>
 
 ### 📫 Connect with Me
 
 <div align="center">
-  <a href="mailto:your.email@example.com">
+<!-- 邮箱 -->
+  <a href="mailto:s20200057@ylmass.edu.hk">
     <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
+  <!-- Github -->
   <a href="https://github.com/B143KC47">
     <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github"/>
   </a>
-  <a href="https://www.linkedin.com/in/yourprofile/">
+  <!--linkedin  -->
+  <a href="https://www.linkedin.com/in/blackcat/?originalSubdomain=hk">
     <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white"/>
-  </a>
-  <a href="https://twitter.com/yourtwitter">
-    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter"/>
-  </a>
-  <a href="https://yourwebsite.com">
-    <img src="https://img.shields.io/badge/-Website-4CAF50?style=flat-square&logo=internet-explorer&logoColor=white"/>
   </a>
   <a href="https://b143kc47.github.io">
     <img src="https://img.shields.io/badge/-Personal%20Website-blue?style=flat-square&logo=internet-explorer&logoColor=white"/>
@@ -113,18 +106,14 @@ Deep Learning     ███████████████░░░   80%
 VLM               ██████████░░░░░░░░   55%
 ```
 
-### 📊 Weekly Development Breakdown
+### 📊 Yearly Development Breakdown
 
 ```text
-JavaScript   4 hrs 32 mins   ████████░░░░   64.8%
-React        2 hrs 5 mins    ██████░░░░░░   29.7%
-HTML         18 mins         ██░░░░░░░░░   4.3%
-CSS          8 mins          █░░░░░░░░░░░   1.2%
+Blog                4 hrs 32 mins   ████████████░░   60%
+Personal Website    2 hrs 5 mins    ██████████████   100%
+Gym_helper          18 mins         ████░░░░░░░░░░   20%
+VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░   15%
 ```
-
-### 🐍 Contribution Graph
-
-![Snake animation](https://github.com/{username}/B143KC47/blob/output/github-contribution-grid-snake.svg)
 
 ### 🏆 GitHub Profile Trophy
 
@@ -142,9 +131,6 @@ CSS          8 mins          █░░░░░░░░░░░   1.2%
 
 </details>
 
-### 🎵 What I'm Listening To
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&cover_image=true&theme=novatorem)](https://spotify-github-profile.vercel.app/api/view?uid=YOUR_SPOTIFY_ID&redirect=true)
 
 ### 💭 Quote of the Day
 ![Quote](https://github-readme-quotes.herokuapp.com/quote?theme=radical&animation=grow_out_in&layout=churchill)
@@ -167,7 +153,5 @@ width="800"  height="3">
 
 ### 📚 Latest AI Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- 🤖 [Understanding Vision-Language Models](https://b143kc47.github.io/blog/understanding-vision-language-models)
-- 🧠 [Implementing Attention Mechanisms](https://b143kc47.github.io/blog/implementing-attention-mechanisms)
-- 📊 [Model Optimization Techniques](https://b143kc47.github.io/blog/model-optimization-techniques)
 <!-- BLOG-POST-LIST:END -->
+````
