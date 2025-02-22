@@ -123,17 +123,8 @@ VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░  
   </a>
 </p>
 
-<details>
-  <summary>✨ More Stats</summary>
-  <br>
-  
-  ![Metrics](https://metrics.lecoq.io/B143KC47?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&notable=1&achievements.threshold=C&achievements.secrets=true&achievements.limit=0&notable.repositories=true&config.timezone=Asia/Shanghai)
-
-</details>
 
 
-### 💭 Quote of the Day
-![Quote](https://github-readme-quotes.herokuapp.com/quote?theme=radical&animation=grow_out_in&layout=churchill)
 
 <div align="center">
 
