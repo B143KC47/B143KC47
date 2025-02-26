@@ -1,3 +1,4 @@
+
 <div align="center">
   
 # 👋 Hi there, I'm B143KC47
@@ -12,11 +13,11 @@
 
 <img align='right' src="https://media.giphy.com/media/j5FqEuGkm0WI1kjhmz/giphy.gif" width="230">
 
-- 🔭 I'm currently working on Large Language Models and Vision-Language Models, focusing on improving their efficiency and generalization capabilities. Check out my work and thoughts on my [website](https://b143kc47.github.io) and [blog](https://b143kc47.github.io/blog).
-- 🌱 I'm exploring Multimodal AI and Advanced Computer Vision techniques for real-world applications.
+- 🔭 I'm currently working on **Large Language Models** and **Vision-Language Models**, focusing on improving their efficiency and generalization capabilities. Check out my work and thoughts on my [website](https://b143kc47.github.io) and [blog](https://b143kc47.github.io/blog).
+- 🌱 I'm exploring **Multimodal AI** and **Advanced Computer Vision** techniques for real-world applications.
 - 🤝 Open to collaborate on AI/ML research projects, especially those involving innovative approaches to solving complex problems.
-- 💡 Interested in: NLP, Computer Vision, VLM, and AI Applications, with a passion for developing AI solutions that benefit society.
-- 🎯 2024 Goals: Contribute more to AI open source projects, publish research papers, and build impactful AI applications.
+- 💡 Interested in: **NLP**, **Computer Vision**, **VLM**, and **AI Applications**, with a passion for developing AI solutions that benefit society.
+- 🎯 2024 Goals: Contribute more to AI open-source projects, publish research papers, and build impactful AI applications.
 
 ### 🛠️ Tech Stack 
 
@@ -50,39 +51,36 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=dark&include_all_commits=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=dark"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=dark&hide=jupyter%20notebook"/>
 </div>
 
 ### 🎯 AI Projects
 
 <div align="center">
   <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=student-nlp-learning&theme=aura" />
-      <p>NLP Learning Tool: An NLP project designed to help students learn and practice natural language processing concepts. Check out related resources and tutorials [here](https://b143kc47.github.io/blog/nlp-learning-resources).</p>
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=CityU_GenAi_AIcademy&theme=aura" />
+    <p><strong>CityU GenAI Academy</strong>: A project focused on generative AI applications. Check out related resources and tutorials <a href="https://b143kc47.github.io/blog/genai-resources">here</a>.</p>
   </a>
 </div>
 
 ### 📫 Connect with Me
 
 <div align="center">
-<!-- 邮箱 -->
   <a href="mailto:s20200057@ylmass.edu.hk">
-    <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <!-- Github -->
   <a href="https://github.com/B143KC47">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github"/>
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github"/>
   </a>
-  <!--linkedin  -->
   <a href="https://www.linkedin.com/in/blackcat/?originalSubdomain=hk">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white"/>
   </a>
   <a href="https://b143kc47.github.io">
-    <img src="https://img.shields.io/badge/-Personal%20Website-blue?style=flat-square&logo=internet-explorer&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Personal%20Website-blue?style=for-the-badge&logo=internet-explorer&logoColor=white"/>
   </a>
   <a href="https://b143kc47.github.io/blog">
-    <img src="https://img.shields.io/badge/-Blog-orange?style=flat-square&logo=rss&logoColor=white"/>
+    <img src="https://img.shields.io/badge/-Blog-orange?style=for-the-badge&logo=rss&logoColor=white"/>
   </a>
 </div>
 
@@ -112,10 +110,10 @@ VLM               ██████████░░░░░░░░   55%
 ### 📊 Yearly Development Breakdown
 
 ```text
-Blog                4 hrs 32 mins   ████████████░░   60%
-Personal Website    2 hrs 5 mins    ██████████████   100%
-Gym_helper          18 mins         ████░░░░░░░░░░   20%
-VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░   15%
+Blog                4 hrs 32 mins   ████████████░░░░   60%
+Personal Website    2 hrs 5 mins    ██████████████░░   100%
+Gym_helper          18 mins         ████░░░░░░░░░░░░   20%
+VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░░░   15%
 ```
 
 ### 🏆 GitHub Profile Trophy
@@ -130,19 +128,21 @@ VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░  
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Handlee&center=true&vCenter=true&width=500&height=60&lines=The+traveler+often+arrives%2C+and+the+doer+often+succeeds.)](https://git.io/typing-svg)
 
-<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif"
-width="800"  height="3">
+<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="800" height="3">
 
 </div>
 
 ### 🔬 Research Interests
-- Large Language Models (LLMs)
-- Vision-Language Models (VLMs)
-- Multimodal Deep Learning
-- Neural Architecture Search
-- AI Model Optimization
+- **Large Language Models (LLMs)**
+- **Vision-Language Models (VLMs)**
+- **Multimodal Deep Learning**
+- **Neural Architecture Search**
+- **AI Model Optimization**
 
 ### 📚 Latest AI Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Exploring Generative AI: Tips and Tricks](https://b143kc47.github.io/blog/post1)
+- [Optimizing Vision-Language Models for Real-World Use](https://b143kc47.github.io/blog/post2)
 <!-- BLOG-POST-LIST:END -->
-````
+
+
