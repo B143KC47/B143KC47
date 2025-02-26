@@ -1,129 +1,154 @@
 <div align="center">
   
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> 欢迎来到我的GitHub, 我是 B143KC47
+# 👋 Hi there, I'm B143KC47
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&random=false&width=600&lines=AI+Engineer+%7C+Deep+Learning+Explorer+%7C+Researcher;NLP+%7C+Computer+Vision+%7C+VLM+Developer;Always+learning%2C+always+growing)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=AI+Engineer+%7C+Deep+Learning+Explorer;NLP+%7C+Computer+Vision+%7C+VLM+Developer)](https://git.io/typing-svg)
 
 <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" width="350" />
 
-[![GitHub followers](https://img.shields.io/github/followers/B143KC47?style=for-the-badge&logo=github)](https://github.com/B143KC47?tab=followers)
-[![GitHub Stars](https://img.shields.io/github/stars/B143KC47?style=for-the-badge&logo=github)](https://github.com/B143KC47?tab=repositories)
-[![Years Badge](https://badges.pufler.dev/years/B143KC47?style=for-the-badge&logo=github)](https://github.com/B143KC47)
+<!-- 添加GitHub状态卡片 - 以彩色块形式展示 -->
+<p align="center">
+  <a href="https://github.com/B143KC47">
+    <img src="https://img.shields.io/github/followers/B143KC47?label=Followers&style=social" alt="GitHub Badge">
+  </a>
+  <a href="https://github.com/B143KC47?tab=repositories&sort=stargazers">
+    <img alt="total stars" title="Total stars on GitHub" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&color=55960c&labelColor=488207&label=Stars&style=for-the-badge&query=%24.stars&url=https://api.github-star-counter.workers.dev/user/B143KC47"/>
+  </a>
+  <a href="https://github.com/B143KC47">
+    <img alt="views" title="GitHub profile views" src="https://shields-io-visitor-counter.herokuapp.com/badge?page=B143KC47&style=for-the-badge"/>
+  </a>
+</p>
 
 </div>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24px"> 关于我 
+### 🤖 About Me
 
 <img align='right' src="https://media.giphy.com/media/j5FqEuGkm0WI1kjhmz/giphy.gif" width="230">
 
-- 🔭 **工作重心:** 专注于大语言模型和视觉-语言模型的研发，致力于提升模型效率和泛化能力
-- 🌐 **个人网站:** [网站](https://b143kc47.github.io) | [博客](https://b143kc47.github.io/blog)
-- 🌱 **学习方向:** 多模态AI和先进计算机视觉技术在实际应用中的落地
-- 🤝 **合作邀请:** 欢迎AI/ML研究项目的合作，特别是涉及创新方法解决复杂问题的项目
-- 💡 **兴趣领域:** NLP、计算机视觉、VLM和AI应用，致力于开发对社会有益的AI解决方案
-- 🎯 **2024目标:** 为AI开源项目做出更多贡献，发表研究论文，构建有影响力的AI应用
+- 🔭 I'm currently working on Large Language Models and Vision-Language Models, focusing on improving their efficiency and generalization capabilities. Check out my work and thoughts on my [website](https://b143kc47.github.io) and [blog](https://b143kc47.github.io/blog).
+- 🌱 I'm exploring Multimodal AI and Advanced Computer Vision techniques for real-world applications.
+- 🤝 Open to collaborate on AI/ML research projects, especially those involving innovative approaches to solving complex problems.
+- 💡 Interested in: NLP, Computer Vision, VLM, and AI Applications, with a passion for developing AI solutions that benefit society.
+- 🎯 2024 Goals: Contribute more to AI open source projects, publish research papers, and build impactful AI applications.
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 技术栈 
+### 🛠️ Tech Stack 
 
 <details open>
-<summary>点击查看详细技术栈</summary>
+<summary><b>📋 Languages & Frameworks</b></summary>
 <br>
 
-### 💻 编程语言
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+#### Languages
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
-### 🧠 AI/ML框架
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=for-the-badge&logo=PyTorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/-Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![Keras](https://img.shields.io/badge/-Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-
-### 🛠️ 开发工具与环境
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Weights & Biases](https://img.shields.io/badge/-W&B-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=white)
-![Anaconda](https://img.shields.io/badge/-Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-### 📊 数据分析与可视化
-![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+#### AI/ML Frameworks
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
 </details>
 
-## 📈 GitHub统计数据
+<details open>
+<summary><b>🔧 Tools & Platforms</b></summary>
+<br>
+
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/-JupyterNotebook-F37726?style=flat-square&logo=jupyter&logoColor=white)
+![Weights & Biases](https://img.shields.io/badge/-Weights%20%26%20Biases-FF8C00?style=flat-square&logo=wandb&logoColor=white)
+![Anaconda](https://img.shields.io/badge/-Anaconda-42B029?style=flat-square&logo=anaconda&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)
+</details>
+
+### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=radical&count_private=true&hide_border=true&include_all_commits=true" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&theme=radical&hide_border=true" height="170" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
 </div>
+
+### 📈 Contribution Graph
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=B143KC47&theme=radical" width="680" />
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=B143KC47&theme=tokyo-night&hide_border=true" width="100%"/>
 </div>
 
-## 🎯 精选AI项目
+### 🎯 AI Projects
 
 <div align="center">
   <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=student-nlp-learning&theme=radical&hide_border=true" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=student-nlp-learning&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/B143KC47/nlp-learning-resources">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=nlp-learning-resources&theme=radical&hide_border=true" />
+  <a href="https://b143kc47.github.io/blog/nlp-learning-resources">
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=nlp-learning-resources&theme=tokyonight&hide_border=true" />
   </a>
 </div>
 
 <details>
-  <summary>📝 项目详情</summary>
+  <summary>📝 <b>Project Details</b></summary>
   
-### NLP学习工具
-一个帮助学生学习和实践自然语言处理概念的NLP项目。该工具提供了从基础到高级的NLP知识体系，包含实战案例和互动练习。
+### NLP Learning Tool
+An NLP project designed to help students learn and practice natural language processing concepts. This tool provides a structured learning path from basics to advanced NLP concepts with hands-on exercises and interactive tutorials.
   
-### 相关资源
-- 🔗 [NLP学习路径](https://b143kc47.github.io/blog/nlp-learning-path)
-- 🔗 [实战项目展示](https://b143kc47.github.io/blog/nlp-projects)
-- 📚 [推荐学习资料](https://b143kc47.github.io/blog/nlp-resources)
+### Key Resources
+- 🔗 [Learning Path](https://b143kc47.github.io/blog/nlp-learning-path)
+- 🔗 [Practice Projects](https://b143kc47.github.io/blog/nlp-projects)
+- 📚 [Recommended Resources](https://b143kc47.github.io/blog/nlp-learning-resources)
 </details>
 
-## 🔬 研究兴趣
-```mermaid
-mindmap
-  root((AI研究方向))
-    大型语言模型
-      模型压缩与推理优化
-      知识蒸馏
-      可解释性研究
-    视觉-语言模型
-      跨模态对齐
-      多模态自我监督学习
-      视觉语言基础模型
-    深度学习优化
-      神经架构搜索
-      高效训练方法
-      小样本学习
-    AI应用落地
-      医疗影像分析
-      自动驾驶感知
-      智能教育解决方案
-```
+### 📫 Connect with Me
 
-## 💻 编程能力
+<div align="center">
+  <a href="mailto:s20200057@ylmass.edu.hk">
+    <img src="https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://github.com/B143KC47">
+    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://www.linkedin.com/in/blackcat/?originalSubdomain=hk">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/>
+  </a>
+  <a href="https://b143kc47.github.io">
+    <img src="https://img.shields.io/badge/-Personal%20Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+  <a href="https://b143kc47.github.io/blog">
+    <img src="https://img.shields.io/badge/-Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white"/>
+  </a>
+</div>
 
-```
+### 👀 Visitor Count
+<div align="center">
+  <img src="https://profile-counter.glitch.me/B143KC47/count.svg" />
+</div>
+
+### ⚡ Recent Activity
+<!--START_SECTION:activity-->
+1. 🎉 Merged PR in repository
+2. 💪 Opened PR in repository
+3. ⭐ Starred repository
+<!--END_SECTION:activity-->
+
+### 🔥 Streak Stats
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+### 💻 Skills Progress
+
+<div align="center">
+
+```text
 Computer Vision   ███████████████░░░   80% 🔍
 NLP               ████████████████░░   85% 📝
 MLOps             ████████████░░░░░░   65% 🚀
@@ -131,55 +156,61 @@ Deep Learning     ███████████████░░░   80% �
 VLM               ██████████░░░░░░░░   55% 👁️
 ```
 
-## 🔥 活跃度统计
+</div>
+
+### 📊 Yearly Development Breakdown
 
 <div align="center">
-  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=radical&hide_border=true)](https://github.com/B143KC47)
+
+```text
+Blog                4 hrs 32 mins   ████████████░░   60% 📊
+Personal Website    2 hrs 5 mins    ██████████████   100% 🌐
+Gym_helper          18 mins         ████░░░░░░░░░░   20% 💪
+VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░   15% 👁️
+```
 
 </div>
 
-## 📊 本周编码时间
+### 🏆 GitHub Profile Trophy
 
-<!--START_SECTION:waka-->
-```text
-开发中...
-```
-<!--END_SECTION:waka-->
-
-## 📝 最新博客文章
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=tokyonight&no-frame=true&row=1&margin-w=15&no-bg=true" width="100%"/>
+  </a>
+</p>
 
 <div align="center">
 
-## 🏆 GitHub成就
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6A5ACD&center=true&vCenter=true&random=false&width=500&height=60&lines=The+traveler+often+arrives%2C+and+the+doer+often+succeeds.)](https://git.io/typing-svg)
 
-<img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=radical&no-frame=true&row=1&column=6&margin-w=15&margin-h=15" />
+<img src="https://raw.githubusercontent.com/trinib/trinib/snake/github-contribution-grid-snake-dark.svg" width="100%">
 
-## 📫 联系我
+<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="100%" height="3">
 
-<a href="mailto:s20200057@ylmass.edu.hk">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://github.com/B143KC47">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/blackcat/?originalSubdomain=hk">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://b143kc47.github.io">
-  <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-</a>
-<a href="https://b143kc47.github.io/blog">
-  <img src="https://img.shields.io/badge/Blog-FFA500?style=for-the-badge&logo=rss&logoColor=white"/>
-</a>
+</div>
 
-## 👀 访问计数
-  
-![访问量](https://profile-counter.glitch.me/B143KC47/count.svg)
+### 🔬 Research Interests
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling"/>
+<details open>
+<summary><b>🧠 AI Research Focus Areas</b></summary>
+<br>
 
+| Area | Topics |
+|------|--------|
+| **Large Language Models** | Model Compression, Knowledge Distillation, Interpretability |
+| **Vision-Language Models** | Cross-modal Alignment, Multi-modal Self-supervised Learning |
+| **Multimodal Deep Learning** | Fusion Techniques, Joint Representations |
+| **Neural Architecture Search** | Efficient Training Methods, AutoML |
+| **AI Applications** | Medical Imaging, Educational AI, Robotics |
+
+</details>
+
+### 📚 Latest AI Blog Posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+<br>
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6A5ACD&height=120&section=footer&animation=fadeIn" width="100%">
 </div>
 ````
