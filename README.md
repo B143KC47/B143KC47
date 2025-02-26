@@ -1,7 +1,6 @@
-
 <div align="center">
   
-# 👋 Hi there, I'm B143KC47
+![Header](./github-header-image.png)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=AI+Engineer+%7C+Deep+Learning+Explorer;NLP+%7C+Computer+Vision+%7C+VLM+Developer)](https://git.io/typing-svg)
 
@@ -19,36 +18,29 @@
 - 💡 Interested in: **NLP**, **Computer Vision**, **VLM**, and **AI Applications**, with a passion for developing AI solutions that benefit society.
 - 🎯 2024 Goals: Contribute more to AI open-source projects, publish research papers, and build impactful AI applications.
 
-### 🛠️ Tech Stack 
+### ��️ Tech Stack 
 
-#### Languages
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+#### Tech Stack
+##### Languages
+| Python | C++ | Lua | JavaScript | etc. |
+|---|---|---|---|---|
+| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white) | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) | ... |
 
-#### AI/ML Frameworks
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/-Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![ONNX](https://img.shields.io/badge/-ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
-![Keras](https://img.shields.io/badge/-Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+##### AI/ML Frameworks
+| PyTorch | TensorFlow | Scikit-learn | Hugging Face | etc. |
+|---|---|---|---|---|
+| ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white) | ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white) | ... |
 
-#### Tools & Environments
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/-JupyterNotebook-F37726?style=flat-square&logo=jupyter&logoColor=white)
-![Weights & Biases](https://img.shields.io/badge/-Weights%20%26%20Biases-FF8C00?style=flat-square&logo=wandb&logoColor=white)
-![Anaconda](https://img.shields.io/badge/-Anaconda-42B029?style=flat-square&logo=anaconda&logoColor=white)
+##### Tools & Environments
+| Docker | CUDA | Linux | Git | etc. |
+|---|---|---|---|---|
+| ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) | ... |
 
-### 📊 GitHub Stats
+#### ☁️ Cloud Platforms
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+### �� GitHub Stats
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
@@ -144,5 +136,40 @@ VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░�
 - [Exploring Generative AI: Tips and Tricks](https://b143kc47.github.io/blog/post1)
 - [Optimizing Vision-Language Models for Real-World Use](https://b143kc47.github.io/blog/post2)
 <!-- BLOG-POST-LIST:END -->
+
+### 📈 Contribution Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&hide_border=true" width="100%"/>
+
+### 🌟 Current Focus
+
+```mermaid
+mindmap
+  root((AI Research))
+    LLMs
+      Parameter Efficient Fine-tuning
+      Prompt Engineering
+      Model Compression
+    VLMs
+      Multi-modal Learning
+      Zero-shot Learning
+      Cross-modal Transfer
+    MLOps
+      Model Deployment
+      Performance Optimization
+      Monitoring
+```
+
+### 🎯 Weekly Development Breakdown
+
+```text
+AI Research     ██████████░░░░░░   50.00 %
+MLOps           ████████░░░░░░░░   40.00 %
+Documentation   ██░░░░░░░░░░░░░░   10.00 %
+```
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=B143KC47&theme=radical" width="100%"/>
+</div>
 
 
