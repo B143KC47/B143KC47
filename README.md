@@ -56,7 +56,7 @@ MLOps          ████████░░░░░░   50%
 <tr>
 <td width="50%" align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=B143KC47&theme=midnight-purple&hide_border=true&background=0d1117&ring=c792ea&fire=ff6e96&currStreakLabel=c792ea&sideLabels=c792ea&dates=a9b1d6&currStreakNum=7fdbca&sideNums=7fdbca&border=0d1117)](https://streak-stats.demolab.com)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=B143KC47&hide_border=true&background=0d1117&ring=c792ea&fire=ff6e96&currStreakLabel=c792ea&sideLabels=c792ea&dates=a9b1d6&currStreakNum=7fdbca&sideNums=7fdbca)](https://github-readme-streak-stats.herokuapp.com)
 
 </td>
 <td width="50%" align="center">
