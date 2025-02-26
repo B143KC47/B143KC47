@@ -55,7 +55,7 @@
 <tr>
 <td width="50%" align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=B143KC47&theme=midnight-purple&hide_border=true&locale=zh_Hans&mode=weekly&background=0D1117&stroke=7FDBCA&ring=C792EA&fire=FF6E96&currStreakNum=A9B1D6&sideNums=A9B1D6&currStreakLabel=7FDBCA&sideLabels=7FDBCA&dates=A9B1D6)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=B143KC47&theme=midnight-purple&hide_border=true&background=0D1117&stroke=7FDBCA&ring=C792EA&fire=FF6E96&currStreakNum=A9B1D6&sideNums=A9B1D6&currStreakLabel=7FDBCA&sideLabels=7FDBCA&dates=A9B1D6&card_width=500)](https://git.io/streak-stats)
 </td>
 <td width="50%" align="center">
 
