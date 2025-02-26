@@ -27,11 +27,10 @@
 <td width="40%">
 
 ### 📊 编码目標
-```text
-AI Research     ████████████░░   75%
-MLOps          ████████░░░░░░   50%
-文档编写        ██████░░░░░░░░   40%
-```
+- LLM 框架
+- Website
+- AI 新架构
+- AI Learning Tech
 </td>
 </tr>
 </table>
@@ -56,8 +55,7 @@ MLOps          ████████░░░░░░   50%
 <tr>
 <td width="50%" align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=B143KC47&hide_border=true&background=0d1117&ring=c792ea&fire=ff6e96&currStreakLabel=c792ea&sideLabels=c792ea&dates=a9b1d6&currStreakNum=7fdbca&sideNums=7fdbca)](https://github-readme-streak-stats.herokuapp.com)
-
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=B143KC47&theme=dark&locale=zh_Hans&mode=weekly)](https://git.io/streak-stats)
 </td>
 <td width="50%" align="center">
 
