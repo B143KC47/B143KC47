@@ -57,7 +57,7 @@
 </td>
 <td width="50%" align="center">
 
-![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6)
+![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6)
 </td>
 </tr>
 <tr>
@@ -82,7 +82,7 @@
 
 ![Commit Calendar](https://ghchart.rshah.org/B143KC47)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=B14CKC47&theme=dark)](https://git.io/streak-stats)
+
 </td>
 </tr>
 </table>
