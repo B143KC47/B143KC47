@@ -57,12 +57,13 @@
 </td>
 <td width="50%" align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=您的用户名&hide_border=true&background=0D1117&stroke=7FDBCA&ring=C792EA&fire=FF6E96&currStreakNum=A9B1D6&sideNums=A9B1D6&currStreakLabel=7FDBCA&sideLabels=7FDBCA&dates=A9B1D6)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=B143KC47&hide_border=true&background=0D1117&stroke=7FDBCA&ring=C792EA&fire=FF6E96&currStreakNum=A9B1D6&sideNums=A9B1D6&currStreakLabel=7FDBCA&sideLabels=7FDBCA&dates=A9B1D6)](https://git.io/streak-stats)
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6)
 
 </td>
 <td width="50%" align="center">
@@ -71,7 +72,21 @@
 
 </td>
 </tr>
+<tr>
+<td width="50%" align="center">
+
+![Monthly Contribution](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=B143KC47&theme=moonlight&border_radius=10&hide_border=true)
+
+</td>
+<td width="50%" align="center">
+
+![Commit Activity](https://github-readme-activity-graph.cyclic.app/graph?username=B143KC47&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true)
+
+</td>
+</tr>
 </table>
+
+</div>
 
 ### 🏆 GitHub 成就
 <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=onestar&row=1&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=true" />
