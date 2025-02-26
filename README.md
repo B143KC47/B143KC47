@@ -57,7 +57,7 @@
 </td>
 <td width="50%" align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=B143KC47&hide_border=true&background=0D1117&stroke=7FDBCA&ring=C792EA&fire=FF6E96&currStreakNum=A9B1D6&sideNums=A9B1D6&currStreakLabel=7FDBCA&sideLabels=7FDBCA&dates=A9B1D6)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1)](https://git.io/streak-stats)
 </td>
 </tr>
 <tr>
@@ -80,7 +80,7 @@
 </td>
 <td width="50%" align="center">
 
-![Commit Activity](https://github-readme-activity-graph.cyclic.app/graph?username=B143KC47&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true)
+![Commit Activity](https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true)
 
 </td>
 </tr>
