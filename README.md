@@ -23,14 +23,10 @@
 - 💡 擅长: **NLP**, **计算机视觉**, **VLM**
 - 🎯 2024目标: 为开源项目贡献代码，发表研究论文
 
-### 🎵 最近在听
-[![Spotify](https://novatorem-git-master.jeferson0993.vercel.app/api/spotify)](https://open.spotify.com/user/your_spotify_id)
-
 </td>
 <td width="40%">
-<img align='right' src="https://media.giphy.com/media/j5FqEuGkm0WI1kjhmz/giphy.gif" width="300">
 
-### 📊 编码时间
+### 📊 编码目標
 ```text
 AI Research     ████████████░░   75%
 MLOps          ████████░░░░░░   50%
@@ -60,7 +56,7 @@ MLOps          ████████░░░░░░   50%
 <tr>
 <td width="50%" align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=midnight-purple&hide_border=true&background=0d1117&ring=c792ea&fire=ff6e96&currStreakLabel=c792ea)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=midnight-purple&hide_border=true&background=0d1117&ring=c792ea&fire=ff6e96&currStreakLabel=c792ea&sideLabels=c792ea&dates=a9b1d6&currStreakNum=7fdbca&sideNums=7fdbca&border=0d1117)](https://git.io/streak-stats)
 
 </td>
 <td width="50%" align="center">
