@@ -230,3 +230,32 @@ mindmap
 </div>
 
 <img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="100%" height="3">
+
+
+<!-- ================================================== -->
+<!-- PROFILE VIEWS COUNT -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=B143KC47&style=for-the-badge&color=blueviolet" alt="Profile views" />
+</div>
+
+<!-- ANIMATED FOOTER -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling" width="100%"/>
+</div>
+
+<!-- THANKS MESSAGE -->
+<div align="center">
+  <h3>感谢浏览我的 GitHub 档案 🙏</h3>
+  <p>让我们一起探索 AI 的无限可能！</p>
+  
+  ![Made with love](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-ff69b4.svg)
+</div>
+
+<!-- LAST COMMIT SNAKE ANIMATION -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/B143KC47/B143KC47/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/B143KC47/B143KC47/blob/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://github.com/B143KC47/B143KC47/blob/output/github-contribution-grid-snake-dark.svg" />
+  </picture>
+</div>
