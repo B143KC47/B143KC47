@@ -1,12 +1,33 @@
+# <div align="center">🌟 欢迎来到我的 GitHub 空间</div>
+
 <div align="center">
   
 ![Header](./github-header-image.png)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=AI+Engineer+%7C+Deep+Learning+Explorer;NLP+%7C+Computer+Vision+%7C+VLM+Developer)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7319E&center=true&vCenter=true&random=false&width=435&lines=%F0%9F%94%AD+AI+Engineer+%7C+Deep+Learning+Explorer;%F0%9F%94%AE+NLP+%7C+Computer+Vision+%7C+VLM+Developer" alt="Typing SVG" /></a>
 
 <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" width="350" />
 
 </div>
+
+<details open>
+<summary><b>🤖 关于我</b></summary>
+<br>
+
+<img align='right' src="https://media.giphy.com/media/j5FqEuGkm0WI1kjhmz/giphy.gif" width="230">
+
+### 🎯 当前状态
+
+```text
+🔭 正在学习     Vision Language Models
+🌱 正在研究     Multimodal AI Systems
+👯 期待合作     AI/ML Research Projects
+🤔 在思考      How to make AI more efficient
+💬 可以询问     LLMs, CV, MLOps
+⚡ 有趣的事     I love exploring new AI papers
+```
+
+</details>
 
 ### 🤖 About Me
 
@@ -60,14 +81,38 @@
 
 </details>
 
-### 🎯 AI Projects
+### 🚀 精选项目
 
+<details>
+<summary><b>💫 AI 研究项目</b></summary>
 <div align="center">
-  <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=CityU_GenAi_AIcademy&theme=aura" />
-    <p><strong>CityU GenAI Academy</strong>: A project focused on generative AI applications. Check out related resources and tutorials <a href="https://b143kc47.github.io/blog/genai-resources">here</a>.</p>
-  </a>
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=CityU_GenAi_AIcademy&theme=radical" />
+        <br>
+        <p align="center"><strong>CityU GenAI Academy</strong></p>
+        <p align="center">生成式AI应用研究与开发</p>
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/B143KC47/VLM_Vision_Helper">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=VLM_Vision_Helper&theme=radical" />
+        <br>
+        <p align="center"><strong>VLM Vision Helper</strong></p>
+        <p align="center">视觉语言模型辅助工具</p>
+      </a>
+    </td>
+  </tr>
+</table>
+
+#### 📊 项目贡献统计
+![Repo Card](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=B143KC47&theme=radical)
+
 </div>
+</details>
 
 <details>
 <summary><h2>📫 联系方式</h2></summary>
@@ -235,48 +280,3 @@ AI Research     ██████████░░░░░░   50.00 %
 MLOps           ████████░░░░░░░░   40.00 %
 Documentation   ██░░░░░░░░░░░░░░   10.00 %
 ```
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=B143KC47&theme=radical" width="100%"/>
-</div>
-
-### 📊 GitHub 统计
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=radical&hide=jupyter%20notebook"/>
-</div>
-
-### ⚡ 活跃度
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=radical&hide_border=true" width="100%"/>
-  
-  <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=radical&no-frame=true&row=1&column=7" width="100%"/>
-</div>
-
-<div align="center">
-
-### 🌈 每日一句
-
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
-
-### 🎵 正在收听
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=your_spotify_id&cover_image=true&theme=novatorem&show_offline=false&background_color=121212)](https://github.com/kittinan/spotify-github-profile)
-
-### 🎮 休闲时间
-
-<img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/snake.gif" width="200">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/B143KC47/B143KC47/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/B143KC47/B143KC47/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/B143KC47/B143KC47/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
-
-<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="100%" height="3">
-
-
