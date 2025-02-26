@@ -18,33 +18,32 @@
 - 💡 Interested in: **NLP**, **Computer Vision**, **VLM**, and **AI Applications**, with a passion for developing AI solutions that benefit society.
 - 🎯 2024 Goals: Contribute more to AI open-source projects, publish research papers, and build impactful AI applications.
 
-### ��️ Tech Stack 
+### 🎯 Tech Stack 
 
-#### Tech Stack
-##### Languages
-| Python | C++ | Lua | JavaScript | etc. |
-|---|---|---|---|---|
-| ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white) | ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) | ... |
+<div align="center">
 
-##### AI/ML Frameworks
-| PyTorch | TensorFlow | Scikit-learn | Hugging Face | etc. |
-|---|---|---|---|---|
-| ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white) | ![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white) | ... |
+#### 💻 编程语言
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-##### Tools & Environments
-| Docker | CUDA | Linux | Git | etc. |
-|---|---|---|---|---|
-| ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) | ![CUDA](https://img.shields.io/badge/-CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white) | ... |
+#### 🤖 AI/ML 框架
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge)
 
-#### ☁️ Cloud Platforms
+#### 🛠️ 开发工具
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+
+#### ☁️ 云平台
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 
-### �� GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=dark&hide=jupyter%20notebook"/>
 </div>
 
 ### 🎯 AI Projects
@@ -56,28 +55,32 @@
   </a>
 </div>
 
-### 📫 Connect with Me
+### 📫 联系方式
 
 <div align="center">
   <a href="mailto:s20200057@ylmass.edu.hk">
-    <img src="https://img.shields.io/badge/-Email-red?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://github.com/B143KC47">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github"/>
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="https://www.linkedin.com/in/blackcat/?originalSubdomain=hk">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://b143kc47.github.io">
-    <img src="https://img.shields.io/badge/-Personal%20Website-blue?style=for-the-badge&logo=internet-explorer&logoColor=white"/>
-  </a>
-  <a href="https://b143kc47.github.io/blog">
-    <img src="https://img.shields.io/badge/-Blog-orange?style=for-the-badge&logo=rss&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
 </div>
 
-### 👀 Visitor Count
-![Visitor Count](https://profile-counter.glitch.me/B143KC47/count.svg)
+---
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="100%"/>
+  
+  ![访问计数器](https://profile-counter.glitch.me/B143KC47/count.svg)
+  
+  <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" width="100%"/>
+</div>
 
 ### ⚡ Recent Activity
 <!--START_SECTION:activity-->
@@ -171,5 +174,40 @@ Documentation   ██░░░░░░░░░░░░░░   10.00 %
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=B143KC47&theme=radical" width="100%"/>
 </div>
+
+### 📊 GitHub 统计
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&langs_count=8&theme=radical&hide=jupyter%20notebook"/>
+</div>
+
+### ⚡ 活跃度
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=radical&hide_border=true" width="100%"/>
+  
+  <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=radical&no-frame=true&row=1&column=7" width="100%"/>
+</div>
+
+### 🎯 技能进度
+
+```text
+Large Language Models    ███████████████░░   85%
+Computer Vision         ████████████████░░   90%
+MLOps                   ███████████░░░░░░   65%
+Deep Learning           ███████████████░░   85%
+Vision-Language Models  ██████████████░░░   80%
+```
+
+### 📊 本周编码时间
+
+<!--START_SECTION:waka-->
+```text
+AI 研究     ████████████████░░   80%
+MLOps      ██████░░░░░░░░░░░   30%
+文档编写    ████░░░░░░░░░░░░░   20%
+```
+<!--END_SECTION:waka-->
 
 
