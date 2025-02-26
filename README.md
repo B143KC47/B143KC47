@@ -8,6 +8,15 @@
 
 <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" width="350" />
 
+<div style="margin: 20px 0;">
+  <!-- GitHub Followers & Profile Views Badges -->
+  <img src="https://img.shields.io/github/followers/B143KC47?style=flat&color=c792ea&label=Followers&logo=github" alt="GitHub Followers">
+  <img src="https://komarev.com/ghpvc/?username=B143KC47&color=7fdbca&style=flat&label=Profile+Views" alt="Profile Views">
+  
+  <!-- GitHub Stars Badge -->
+  <img src="https://img.shields.io/github/stars/B143KC47?style=flat&color=ff6e96&label=Stars&logo=github" alt="GitHub Stars">
+</div>
+
 </div>
 
 ## 🤖 关于我
