@@ -10,7 +10,7 @@
 
 ### 🤖 About Me
 
-<div align="center">
+<div align="right">
   
 [![Spotify](https://novatorem-git-master.jeferson0993.vercel.app/api/spotify)](https://open.spotify.com/user/your_spotify_id)
 
@@ -29,13 +29,8 @@
 ⚡ 有趣的事     I love exploring new AI papers
 ```
 
-- 🔭 I'm currently working on **Large Language Models** and **Vision-Language Models**, focusing on improving their efficiency and generalization capabilities. Check out my work and thoughts on my [website](https://b143kc47.github.io) and [blog](https://b143kc47.github.io/blog).
-- 🌱 I'm exploring **Multimodal AI** and **Advanced Computer Vision** techniques for real-world applications.
-- 🤝 Open to collaborate on AI/ML research projects, especially those involving innovative approaches to solving complex problems.
-- 💡 Interested in: **NLP**, **Computer Vision**, **VLM**, and **AI Applications**, with a passion for developing AI solutions that benefit society.
-- 🎯 2024 Goals: Contribute more to AI open-source projects, publish research papers, and build impactful AI applications.
-
-### 🎯 Tech Stack 
+<details>
+<summary><h2>🎯 Tech Stack</h2></summary>
 
 <div align="center">
 
@@ -63,6 +58,8 @@
 
 </div>
 
+</details>
+
 ### 🎯 AI Projects
 
 <div align="center">
@@ -71,6 +68,9 @@
     <p><strong>CityU GenAI Academy</strong>: A project focused on generative AI applications. Check out related resources and tutorials <a href="https://b143kc47.github.io/blog/genai-resources">here</a>.</p>
   </a>
 </div>
+
+<details>
+<summary><h2>📫 联系方式</h2></summary>
 
 ### 📫 联系方式
 
@@ -88,6 +88,11 @@
     <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
 </div>
+
+</details>
+
+<details>
+<summary><h2>🎁 支持我的工作</h2></summary>
 
 ### 🎁 支持我的工作
 
@@ -107,6 +112,8 @@
   <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/coffee.gif" width="150" />
 </div>
 
+</details>
+
 ---
 
 <div align="center">
@@ -117,6 +124,9 @@
   <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" width="100%"/>
 </div>
 
+<details>
+<summary><h2>⚡ Recent Activity</h2></summary>
+
 ### ⚡ Recent Activity
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR in repository
@@ -124,18 +134,18 @@
 3. ⭐ Starred repository
 <!--END_SECTION:activity-->
 
+</details>
+
+<details>
+<summary><h2>🔥 Streak Stats</h2></summary>
+
 ### 🔥 Streak Stats
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=radical)](https://git.io/streak-stats)
 
-### 💻 Skills Progress
+</details>
 
-```text
-Computer Vision   ███████████████░░░   80%
-NLP               ████████████████░░   85%
-MLOps             ████████████░░░░░░   65%
-Deep Learning     ███████████████░░░   80%
-VLM               ██████████░░░░░░░░   55%
-```
+<details>
+<summary><h2>📊 Yearly Development Breakdown</h2></summary>
 
 ### 📊 Yearly Development Breakdown
 
@@ -146,6 +156,11 @@ Gym_helper          18 mins         ████░░░░░░░░░░�
 VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░░░   15%
 ```
 
+</details>
+
+<details>
+<summary><h2>🏆 GitHub Profile Trophy</h2></summary>
+
 ### 🏆 GitHub Profile Trophy
 
 <p align="center">
@@ -153,6 +168,11 @@ VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░�
     <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=radical&no-frame=true&row=1&margin-w=30&no-bg=true" width="800px"/>
   </a>
 </p>
+
+</details>
+
+<details>
+<summary><h2>🔬 Research Interests & 📚 Latest AI Blog Posts</h2></summary>
 
 <div align="center">
 
@@ -174,6 +194,11 @@ VLM_Vision_Helper   8 mins          ██░░░░░░░░░░░░�
 - [Exploring Generative AI: Tips and Tricks](https://b143kc47.github.io/blog/post1)
 - [Optimizing Vision-Language Models for Real-World Use](https://b143kc47.github.io/blog/post2)
 <!-- BLOG-POST-LIST:END -->
+
+</details>
+
+<details>
+<summary><h2>📈 Contribution Graph & 🌟 Current Focus</h2></summary>
 
 ### 📈 Contribution Graph
 
@@ -197,6 +222,11 @@ mindmap
       Performance Optimization
       Monitoring
 ```
+
+</details>
+
+<details>
+<summary><h2>🎯 Weekly Development Breakdown & 📊 GitHub 统计 & ⚡ 活跃度</h2></summary>
 
 ### 🎯 Weekly Development Breakdown
 
@@ -224,26 +254,6 @@ Documentation   ██░░░░░░░░░░░░░░   10.00 %
   
   <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=radical&no-frame=true&row=1&column=7" width="100%"/>
 </div>
-
-### 🎯 技能进度
-
-```text
-Large Language Models    ███████████████░░   85%
-Computer Vision         ████████████████░░   90%
-MLOps                   ███████████░░░░░░   65%
-Deep Learning           ███████████████░░   85%
-Vision-Language Models  ██████████████░░░   80%
-```
-
-### 📊 本周编码时间
-
-<!--START_SECTION:waka-->
-```text
-AI 研究     ████████████████░░   80%
-MLOps      ██████░░░░░░░░░░░   30%
-文档编写    ████░░░░░░░░░░░░░   20%
-```
-<!--END_SECTION:waka-->
 
 <div align="center">
 
