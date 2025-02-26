@@ -10,6 +10,36 @@
 
 </div>
 
+## 🤖 关于我
+
+<table>
+<tr>
+<td width="60%">
+
+### 🎯 个人简介
+- 🔭 正在专注于 **LLMs** 和 **VLMs** 的研究
+- 🌱 探索 **多模态AI** 和 **计算机视觉** 技术
+- 🤝 期待在 AI/ML 研究项目上的合作
+- 💡 擅长: **NLP**, **计算机视觉**, **VLM**
+- 🎯 2024目标: 为开源项目贡献代码，发表研究论文
+
+### 🎵 最近在听
+[![Spotify](https://novatorem-git-master.jeferson0993.vercel.app/api/spotify)](https://open.spotify.com/user/your_spotify_id)
+
+</td>
+<td width="40%">
+<img align='right' src="https://media.giphy.com/media/j5FqEuGkm0WI1kjhmz/giphy.gif" width="300">
+
+### 📊 编码时间
+```text
+AI Research     ████████████░░   75%
+MLOps          ████████░░░░░░   50%
+文档编写        ██████░░░░░░░░   40%
+```
+</td>
+</tr>
+</table>
+
 <details open>
 <summary><b>🤖 关于我</b></summary>
 <br>
@@ -81,12 +111,9 @@
 
 </details>
 
-### 🚀 精选项目
+## 🚀 精选项目
 
-<details>
-<summary><b>💫 AI 研究项目</b></summary>
 <div align="center">
-
 <table>
   <tr>
     <td width="50%">
@@ -107,17 +134,9 @@
     </td>
   </tr>
 </table>
-
-#### 📊 项目贡献统计
-![Repo Card](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=B143KC47&theme=radical)
-
 </div>
-</details>
 
-<details>
-<summary><h2>📫 联系方式</h2></summary>
-
-### 📫 联系方式
+## 📫 联系我 & 支持我
 
 <div align="center">
   <a href="mailto:s20200057@ylmass.edu.hk">
@@ -132,34 +151,15 @@
   <a href="https://b143kc47.github.io">
     <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
-</div>
-
-</details>
-
-<details>
-<summary><h2>🎁 支持我的工作</h2></summary>
-
-### 🎁 支持我的工作
-
-<div align="center">
+  
+  ### 🎁 支持我的工作
   <a href="https://www.buymeacoffee.com/your_username">
     <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
   </a>
   <a href="https://ko-fi.com/your_username">
     <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/>
   </a>
-  <a href="https://www.patreon.com/your_username">
-    <img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"/>
-  </a>
 </div>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/coffee.gif" width="150" />
-</div>
-
-</details>
-
----
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="100%"/>
@@ -267,6 +267,45 @@ mindmap
       Performance Optimization
       Monitoring
 ```
+
+</details>
+
+<details>
+<summary><h2>🎯 Weekly Development Breakdown & 📊 GitHub 统计 & ⚡ 活跃度</h2></summary>
+
+### 🎯 Weekly Development Breakdown
+
+```text
+AI Research     ██████████░░░░░░   50.00 %
+MLOps           ████████░░░░░░░░   40.00 %
+Documentation   ██░░░░░░░░░░░░░░   10.00 %
+```
+
+### 📊 GitHub 统计
+
+<table>
+<tr>
+<td>
+  
+![GitHub统计](https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+  
+</td>
+<td>
+  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=compact&theme=radical&hide=jupyter%20notebook)
+  
+</td>
+</tr>
+</table>
+
+### 🔥 连续提交记录
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=radical&hide_border=true)](https://git.io/streak-stats)
+
+### 📈 贡献图
+![贡献图](https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&hide_border=true&custom_title=贡献热力图)
+
+### 🏆 GitHub 成就
+![Trophy](https://github-profile-trophy.vercel.app/?username=B143KC47&theme=radical&no-frame=true&row=1&column=7)
 
 </details>
 
