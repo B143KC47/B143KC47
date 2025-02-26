@@ -10,7 +10,24 @@
 
 ### 🤖 About Me
 
+<div align="center">
+  
+[![Spotify](https://novatorem-git-master.jeferson0993.vercel.app/api/spotify)](https://open.spotify.com/user/your_spotify_id)
+
+</div>
+
 <img align='right' src="https://media.giphy.com/media/j5FqEuGkm0WI1kjhmz/giphy.gif" width="230">
+
+### 🎯 当前状态
+
+```text
+🔭 正在学习     Vision Language Models
+🌱 正在研究     Multimodal AI Systems
+👯 期待合作     AI/ML Research Projects
+🤔 在思考      How to make AI more efficient
+💬 可以询问     LLMs, CV, MLOps
+⚡ 有趣的事     I love exploring new AI papers
+```
 
 - 🔭 I'm currently working on **Large Language Models** and **Vision-Language Models**, focusing on improving their efficiency and generalization capabilities. Check out my work and thoughts on my [website](https://b143kc47.github.io) and [blog](https://b143kc47.github.io/blog).
 - 🌱 I'm exploring **Multimodal AI** and **Advanced Computer Vision** techniques for real-world applications.
@@ -70,6 +87,24 @@
   <a href="https://b143kc47.github.io">
     <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
+</div>
+
+### 🎁 支持我的工作
+
+<div align="center">
+  <a href="https://www.buymeacoffee.com/your_username">
+    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/>
+  </a>
+  <a href="https://ko-fi.com/your_username">
+    <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"/>
+  </a>
+  <a href="https://www.patreon.com/your_username">
+    <img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white"/>
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/coffee.gif" width="150" />
 </div>
 
 ---
@@ -209,5 +244,29 @@ MLOps      ██████░░░░░░░░░░░   30%
 文档编写    ████░░░░░░░░░░░░░   20%
 ```
 <!--END_SECTION:waka-->
+
+<div align="center">
+
+### 🌈 每日一句
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark)](https://github.com/piyushsuthar/github-readme-quotes)
+
+### 🎵 正在收听
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=your_spotify_id&cover_image=true&theme=novatorem&show_offline=false&background_color=121212)](https://github.com/kittinan/spotify-github-profile)
+
+### 🎮 休闲时间
+
+<img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/snake.gif" width="200">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/B143KC47/B143KC47/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/B143KC47/B143KC47/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/B143KC47/B143KC47/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="100%" height="3">
 
 
