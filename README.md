@@ -139,7 +139,10 @@
 <!-- 添加编程里程碑 -->
 <div align="center">
   <h3>🏁 编程里程碑</h3>
-  <img src="https://wakatime.com/badge/user/35a6cd9e-80f9-4aec-b374-9d57364063ab.svg" alt="WakaTime总时长" />
+  <!-- 修复WakaTime徽章 - 使用正确的用户ID和清除缓存参数 -->
+  <a href="https://wakatime.com/@B143KC47" target="_blank">
+    <img src="https://wakatime.com/badge/user/B143KC47/B143KC47.svg?t=<?php echo time(); ?>" alt="Total time coded since Mar 24 2022" />
+  </a>
   <p>🎯 2024目标: 累计编程时间达到1000小时</p>
   
   <!-- 自定义进度条 -->
