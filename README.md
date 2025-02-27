@@ -97,8 +97,66 @@
 
 ### 💻 编程时间统计
 
+<!-- 更新WakaTime统计展示 -->
+<div align="center">
+  <h3>📊 WakaTime编码活动统计</h3>
+  <a href="https://wakatime.com/@B143KC47" target="_blank">
+    <img src="https://wakatime.com/badge/user/b143kc47/b143kc47.svg" alt="Total time coded since Mar 24 2022" />
+  </a>
+  <p>累计编码时间统计，自动更新</p>
+</div>
 
-[![wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6)](https://wakatime.com/@B143KC47)
+<!-- WakaTime自动更新统计 -->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+<details>
+  <summary><b>📈 更多编程统计详情</b></summary>
+  <br>
+  
+  <div class="wakatime-charts">
+    <!-- 编程语言使用比例图 -->
+    <div class="wakatime-chart">
+      <h4>📊 过去30天编程语言使用比例</h4>
+      <figure>
+        <img src="https://wakatime.com/share/@B143KC47/9835a01d-e699-4175-a41c-44d8148c5a29.png" alt="过去30天编程语言使用比例" />
+      </figure>
+    </div>
+    
+    <!-- 每日编码时间图 -->
+    <div class="wakatime-chart">
+      <h4>📅 过去30天每日编程时间</h4>
+      <figure>
+        <img src="https://wakatime.com/share/@B143KC47/ac12857c-d300-4e0a-81d8-7f4b5bc6bfd4.png" alt="过去30天每日编程时间" />
+      </figure>
+    </div>
+  </div>
+  
+  ### 🏆 编程习惯分析
+  
+  - 🌟 **最高效时段**: 通常在晚间9点-凌晨1点进行编码
+  - 🔥 **连续编码**: 最长连续编码时间为8小时
+  - 📚 **学习焦点**: 主要专注于深度学习框架和AI模型开发
+  - 🛠️ **项目分布**: 60%研究项目，30%实用工具开发，10%文档编写
+</details>
+
+<!-- 添加编程里程碑 -->
+<div align="center" class="coding-milestone">
+  <h3>🏁 编程里程碑</h3>
+  <div class="milestone-progress">
+    <div class="milestone-circle">
+      <div class="milestone-inner">
+        <span id="milestone-percent">65%</span>
+      </div>
+    </div>
+    <p>🎯 2024目标: 累计编程时间达到1000小时</p>
+    <div class="milestone-bar">
+      <div class="milestone-progress-bar" style="width: 65%;">
+        <span>当前进度: 650小时</span>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## ⏱️ 我的编程时间统计
 

@@ -131,3 +131,174 @@
     min-width: 100%;
   }
 }
+
+/**
+ * WakaTime统计数据自定义样式
+ * 优化显示效果和布局
+ */
+
+/* WakaTime图表容器 */
+.wakatime-charts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.wakatime-chart {
+  width: 100%;
+  background-color: #161b22;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #30363d;
+}
+
+.wakatime-chart:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.wakatime-chart h4 {
+  color: #c792ea;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #30363d;
+}
+
+.wakatime-chart figure {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.wakatime-chart img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* 编程里程碑样式 */
+.coding-milestone {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #161b22;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+}
+
+.milestone-progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.milestone-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: conic-gradient(#7957D5 65%, #2D333B 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.milestone-inner {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #0d1117;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#milestone-percent {
+  color: #c792ea;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.milestone-bar {
+  width: 100%;
+  max-width: 500px;
+  height: 20px;
+  background-color: #2D333B;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.milestone-progress-bar {
+  height: 100%;
+  background-color: #7957D5;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+  font-size: 14px;
+  transition: width 1.5s ease-in-out;
+}
+
+/* WakaTime徽章样式 */
+.wakatime-badge {
+  margin: 15px 0;
+}
+
+.wakatime-badge img {
+  height: 24px;
+}
+
+/* START_SECTION:waka 自动更新区域样式 */
+pre {
+  background-color: #161b22;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  overflow-x: auto;
+}
+
+.progress-bar {
+  height: 8px;
+  background-color: #2D333B;
+  border-radius: 4px;
+  margin: 5px 0;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 1s ease-in-out;
+}
+
+/* 响应式设计 */
+@media (min-width: 768px) {
+  .wakatime-charts {
+    flex-direction: row;
+  }
+  
+  .wakatime-chart {
+    width: 48%;
+  }
+}
+
+/* 动画效果 */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+
+.coding-milestone h3 {
+  animation: pulse 2s infinite;
+}
