@@ -296,10 +296,185 @@ mindmap
 </a>
 </div>
 
+## 📊 GitHub 数据大屏
 
+<div align="center">
 
+<!-- 1. 卡片式统计 - 基本GitHub统计 -->
+<img src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" width="49%" alt="GitHub统计" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=midnight-purple&hide_border=true&background=0d1117&stroke=c792ea&ring=7fdbca&fire=ff6e96&currStreakLabel=c792ea" width="49%" alt="连续提交统计" />
 
+<!-- 2. 饼图 - 编程语言占比 -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=B143KC47&layout=donut&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6" width="40%" alt="常用语言" />
 
+<!-- 3. 条形图 - 活动时间统计 -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=B143KC47&theme=moonlight&utcOffset=8" width="58%" />
+
+<!-- 4. 热力图 - 贡献频率 -->
+<div align="center" style="width: 98%;">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true" width="100%" alt="贡献图表" />
+</div>
+
+<!-- 5. 雷达图 - 项目类型分布 -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=B143KC47&theme=moonlight" width="49%" alt="仓库语言" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=B143KC47&theme=moonlight" width="49%" alt="提交语言" />
+
+<!-- 6. 时间轴图 - 贡献历史 -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=B143KC47&theme=moonlight&border_radius=10&hide_border=true" width="98%" alt="详细资料卡片" />
+
+</div>
+
+<!-- 7. 横向徽章 - 成就展示 -->
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=onestar&row=1&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=true" width="98%" alt="GitHub奖杯" />
+</div>
+
+## ⏱️ 编程时间分析
+
+<div class="waka-stats-container">
+
+<!-- 8. 分组柱状图 - 编程时间统计 -->
+<div align="center">
+  <h3>📊 多维度编程数据</h3>
+  <img src="https://wakatime.com/share/@B143KC47/d61b859c-e144-4b34-a4b1-3db76ae0ca89.svg" width="49%" alt="编程语言时间" />
+  <img src="https://wakatime.com/share/@B143KC47/18dd3222-0dc0-44d1-8a32-6f721ed9c196.svg" width="49%" alt="编码时间分布" />
+</div>
+
+<table width="100%">
+<tr>
+<td width="60%" valign="top">
+
+<!-- 9. 自动更新统计区域 - WakaTime自动更新 -->
+<h3>📅 每周编码统计</h3>
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+</td>
+<td width="40%" valign="top">
+
+<!-- 10. 环形进度 - 年度目标 -->
+<h3>🎯 2024编程目标</h3>
+
+<div class="goal-container" align="center">
+  <div class="goal-ring" style="background: conic-gradient(#7957D5 70%, #2D333B 0); width: 150px; height: 150px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+    <div class="goal-inner" style="background: #0d1117; width: 110px; height: 110px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+      <span style="color: #c792ea; font-size: 24px; font-weight: bold;">70%</span>
+    </div>
+  </div>
+  <p style="color: #a9b1d6; margin-top: 10px;">1000小时年度目标</p>
+  <p style="color: #7fdbca;">已完成: 700小时</p>
+</div>
+
+</td>
+</tr>
+</table>
+
+<!-- 11. 折线图 - 时间趋势 -->
+<details>
+  <summary><b>📈 编程时间趋势分析</b></summary>
+  <br>
+  
+  <div align="center">
+    <img src="https://wakatime.com/share/@B143KC47/ac12857c-d300-4e0a-81d8-7f4b5bc6bfd4.svg" width="90%" alt="每日编程时间" />
+  </div>
+  
+  <h4>📊 时间分配分析</h4>
+  <div class="time-allocation" style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+    <div style="width: 30%;" align="center">
+      <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(45deg, #7957D5, #c792ea); display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+        <span style="color: white; font-weight: bold;">60%</span>
+      </div>
+      <p>研究项目</p>
+    </div>
+    <div style="width: 30%;" align="center">
+      <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(45deg, #7fdbca, #00ADD8); display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+        <span style="color: white; font-weight: bold;">30%</span>
+      </div>
+      <p>工具开发</p>
+    </div>
+    <div style="width: 30%;" align="center">
+      <div style="width: 100px; height: 100px; border-radius: 50%; background: linear-gradient(45deg, #ff6e96, #F05032); display: flex; align-items: center; justify-content: center; margin: 0 auto;">
+        <span style="color: white; font-weight: bold;">10%</span>
+      </div>
+      <p>文档编写</p>
+    </div>
+  </div>
+</details>
+
+<!-- 12. 立体卡片 - 编程环境统计 -->
+<details>
+  <summary><b>💻 编程环境数据</b></summary>
+  <div class="dev-env-stats" style="margin-top: 20px;">
+    <div class="stats-card-container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px;">
+      <div class="stats-card" style="width: 48%; background-color: #161b22; border-radius: 10px; padding: 15px; margin-bottom: 10px;">
+        <h4 style="color: #7fdbca; margin-top: 0;">📱 操作系统</h4>
+        <div class="progress-item">
+          <div style="display: flex; justify-content: space-between;">
+            <span>Linux</span>
+            <span>65%</span>
+          </div>
+          <div style="height: 8px; width: 100%; background-color: #2D333B; border-radius: 4px; margin: 5px 0;">
+            <div style="height: 100%; width: 65%; background-color: #7957D5; border-radius: 4px;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <div style="display: flex; justify-content: space-between;">
+            <span>MacOS</span>
+            <span>25%</span>
+          </div>
+          <div style="height: 8px; width: 100%; background-color: #2D333B; border-radius: 4px; margin: 5px 0;">
+            <div style="height: 100%; width: 25%; background-color: #ff6e96; border-radius: 4px;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <div style="display: flex; justify-content: space-between;">
+            <span>Windows</span>
+            <span>10%</span>
+          </div>
+          <div style="height: 8px; width: 100%; background-color: #2D333B; border-radius: 4px; margin: 5px 0;">
+            <div style="height: 100%; width: 10%; background-color: #7fdbca; border-radius: 4px;"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="stats-card" style="width: 48%; background-color: #161b22; border-radius: 10px; padding: 15px; margin-bottom: 10px;">
+        <h4 style="color: #7fdbca; margin-top: 0;">📝 编辑器</h4>
+        <div class="progress-item">
+          <div style="display: flex; justify-content: space-between;">
+            <span>VS Code</span>
+            <span>70%</span>
+          </div>
+          <div style="height: 8px; width: 100%; background-color: #2D333B; border-radius: 4px; margin: 5px 0;">
+            <div style="height: 100%; width: 70%; background-color: #007ACC; border-radius: 4px;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <div style="display: flex; justify-content: space-between;">
+            <span>Vim</span>
+            <span>20%</span>
+          </div>
+          <div style="height: 8px; width: 100%; background-color: #2D333B; border-radius: 4px; margin: 5px 0;">
+            <div style="height: 100%; width: 20%; background-color: #019733; border-radius: 4px;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <div style="display: flex; justify-content: space-between;">
+            <span>Jupyter</span>
+            <span>10%</span>
+          </div>
+          <div style="height: 8px; width: 100%; background-color: #2D333B; border-radius: 4px; margin: 5px 0;">
+            <div style="height: 100%; width: 10%; background-color: #F37626; border-radius: 4px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</details>
+
+</div>
+
+<!-- 移除重复的WakaTime部分 -->
 
 <!-- ================================================== -->
 

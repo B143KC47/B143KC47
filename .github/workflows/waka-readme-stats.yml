@@ -16,7 +16,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           
-          # 显示配置
+          # 统计种类
           SHOW_PROFILE_VIEWS: "False"
           SHOW_COMMIT: "True"
           SHOW_DAYS_OF_WEEK: "True"
@@ -29,14 +29,18 @@ jobs:
           SHOW_SHORT_INFO: "False"
           SHOW_LOC_CHART: "False"
           
-          # 自定义选项
-          LOCALE: "zh"  # 使用中文显示
-          SYMBOL_VERSION: "3"  # 使用更现代的符号
-          COMMIT_BY_ME: "True"  # 只显示自己的提交
+          # 图表样式
+          STATS_GROWTH_TYPE: "gradient"  # 使用渐变图表样式
+          TIME_RANGE: "all_time"        # 显示所有时间的统计
           
-          # 外观自定义
-          CODE_BLOCK: "True"  # 在代码块中显示
+          # 自定义选项
+          LOCALE: "zh"                  # 使用中文显示
+          SYMBOL_VERSION: "3"           # 使用更现代的符号
+          COMMIT_BY_ME: "True"          # 只显示自己的提交
+          
+          # 布局设置
+          CODE_BLOCK: "True"            # 在代码块中显示
           IGNORED_REPOS: "dotfiles, notes"  # 忽略特定仓库
           SHOW_TOTAL_CODE_TIME: "True"  # 显示总编码时间
-          SHOW_UPDATED_DATE: "True"  # 显示更新日期
+          SHOW_UPDATED_DATE: "True"     # 显示更新日期
           UPDATED_DATE_FORMAT: "%Y年%m月%d日 %H:%M"  # 自定义日期格式
