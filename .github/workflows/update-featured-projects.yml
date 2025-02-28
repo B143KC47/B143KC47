@@ -30,15 +30,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install PyGithub pandas markdown requests beautifulsoup4
           
-      - name: Run Update Script
-        run: python .github/scripts/update_featured_projects.py
+      - name: Run Enhanced Update Script
+        run: python .github/scripts/enhanced_update_featured_projects.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: B143KC47
           MAX_PROJECTS: 4
-          SORT_BY: stars  # 可选: stars, updated, created, activity
-          TOPICS_FILTER: "ai,machine-learning,deep-learning,nlp,computer-vision"
-          EXCLUDE_REPOS: "dotfiles,notes,private-repo"
+          SORT_BY: priority  # 使用自定义优先级排序
+          INCLUDE_CATEGORIES: "True"
           
       - name: Commit Changes
         run: |

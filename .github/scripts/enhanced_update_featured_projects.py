@@ -17,8 +17,8 @@ from bs4 import BeautifulSoup
 # 获取环境变量
 GITHUB_TOKEN = os.environ.get("GH_TOKEN")
 USERNAME = os.environ.get("USERNAME", "B143KC47")
-MAX_PROJECTS = int(os.environ.get("MAX_PROJECTS", "6"))
-SORT_BY = os.environ.get("SORT_BY", "priority")  # 默认按优先级排序
+MAX_PROJECTS = int(os.environ.get("MAX_PROJECTS", "4"))
+SORT_BY = os.environ.get("SORT_BY", "priority")
 INCLUDE_CATEGORIES = os.environ.get("INCLUDE_CATEGORIES", "True").lower() == "true"
 README_PATH = "README.md"
 THEME = "midnight-purple"
@@ -105,90 +105,98 @@ def generate_project_card(repo, repo_info, category_info=None):
    <img src="https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo.name}&theme={THEME}&hide_border=true&bg_color=0d1117&title_color={primary_color}&icon_color={secondary_color}&text_color={text_color}" />
    <br>
    <p align="center" style="color: #{primary_color};"><strong>{emoji} {repo.name}</strong></p>
-   <p align="center" style="color: #{text_color};">{description_cn}</p>"""
-    
-    # 如果显示分类标签
-    if category_info and category in category_info:
-        card += f"""
-   <p align="center"><span style="background-color: #{primary_color}30; color: #{primary_color}; padding: 3px 8px; border-radius: 10px; font-size: 0.7em;">{category}</span></p>"""
-    
-    card += """
+   <p align="center" style="color: #{text_color};">{description_cn}</p>
+   <p align="center"><span style="background-color: #{primary_color}30; color: #{primary_color}; padding: 3px 8px; border-radius: 10px; font-size: 0.7em;">{category}</span></p>
  </a>
 </td>"""
     
     return card
 
+def find_projects_section(content):
+    """
+    在README.md中查找精选项目部分
+    """
+    # 正则表达式匹配精选项目部分
+    pattern = re.compile(r'## 🚀 精选项目\s*\n.*?(?=\s*##\s|\Z)', re.DOTALL)
+    match = pattern.search(content)
+    if match:
+        return match.group(0), match.start(), match.end()
+    return None, -1, -1
+
 def update_readme_projects(featured_projects, by_category=None):
     """
     在README.md中更新精选项目部分
     """
-    with open(README_PATH, 'r', encoding='utf-8') as file:
-        content = file.read()
+    try:
+        with open(README_PATH, 'r', encoding='utf-8') as file:
+            content = file.read()
+    except Exception as e:
+        print(f"读取README.md文件出错: {e}")
+        return
     
-    # 查找精选项目部分的起始和结束标记
-    start_marker = "## 🚀 精选项目"
+    # 查找精选项目部分
+    projects_section, start_pos, end_pos = find_projects_section(content)
     
-    # 找到下一个二级标题作为结束标记
-    pattern = re.compile(r'## 🚀 精选项目.*?(?=^##\s)', re.DOTALL | re.MULTILINE)
-    match = pattern.search(content)
-    
-    if match:
+    if start_pos >= 0:
         # 生成新的项目部分
-        projects_section = "## 🚀 精选项目\n\n"
-        projects_section += '<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">\n'
+        new_projects_section = "## 🚀 精选项目\n\n"
+        new_projects_section += '<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">\n'
+        new_projects_section += '<!-- 此部分将由GitHub Actions自动更新，请勿手动修改 -->\n'
         
         # 如果按分类显示
         if by_category and INCLUDE_CATEGORIES:
             for category, projects in by_category.items():
                 if projects:
-                    projects_section += f'<h3 style="color: #c792ea;">{category}</h3>\n'
-                    projects_section += '<table>\n'
+                    new_projects_section += f'<h3 style="color: #c792ea;">{category}</h3>\n'
+                    new_projects_section += '<table>\n'
                     
                     # 添加项目卡片，每行2个
                     for i in range(0, len(projects), 2):
-                        projects_section += '<tr>\n'
-                        projects_section += projects[i]
+                        new_projects_section += '<tr>\n'
+                        new_projects_section += projects[i]
                         
                         if i + 1 < len(projects):
-                            projects_section += projects[i + 1]
+                            new_projects_section += projects[i + 1]
                         else:
                             # 如果是奇数个项目，添加空白单元格保持对称
-                            projects_section += '<td width="50%"></td>\n'
+                            new_projects_section += '<td width="50%"></td>\n'
                             
-                        projects_section += '</tr>\n'
+                        new_projects_section += '</tr>\n'
                         
-                    projects_section += '</table>\n'
+                    new_projects_section += '</table>\n'
         else:
             # 不分类显示所有项目
-            projects_section += '<table>\n'
+            new_projects_section += '<table>\n'
             
             # 添加项目卡片，每行2个
             for i in range(0, len(featured_projects), 2):
-                projects_section += '<tr>\n'
-                projects_section += featured_projects[i]
+                new_projects_section += '<tr>\n'
+                new_projects_section += featured_projects[i]
                 
                 if i + 1 < len(featured_projects):
-                    projects_section += featured_projects[i + 1]
+                    new_projects_section += featured_projects[i + 1]
                 else:
                     # 如果是奇数个项目，添加空白单元格保持对称
-                    projects_section += '<td width="50%"></td>\n'
+                    new_projects_section += '<td width="50%"></td>\n'
                     
-                projects_section += '</tr>\n'
+                new_projects_section += '</tr>\n'
                 
-            projects_section += '</table>\n'
+            new_projects_section += '</table>\n'
         
         # 添加自动更新时间
         update_time = datetime.now().strftime('%Y年%m月%d日 %H:%M')
-        projects_section += f'<p align="center" style="font-size: 12px; color: #666;">自动更新于: {update_time}</p>\n'
-        projects_section += '</div>\n\n'
+        new_projects_section += f'<p align="center" style="font-size: 12px; color: #666;">自动更新于: {update_time}</p>\n'
+        new_projects_section += '</div>\n'
         
         # 替换原有部分
-        new_content = re.sub(pattern, projects_section, content)
+        new_content = content[:start_pos] + new_projects_section + content[end_pos:]
         
-        with open(README_PATH, 'w', encoding='utf-8') as file:
-            file.write(new_content)
-        
-        print(f"更新了 {len(featured_projects)} 个精选项目")
+        try:
+            with open(README_PATH, 'w', encoding='utf-8') as file:
+                file.write(new_content)
+            print(f"更新了 {len(featured_projects)} 个精选项目")
+        except Exception as e:
+            print(f"写入README.md文件出错: {e}")
     else:
         print("无法找到精选项目部分，请检查README.md格式")
 
@@ -199,7 +207,11 @@ def main():
     category_info = custom_info.get("categories", {})
     
     # 获取用户的所有公开仓库
-    repos = user.get_repos(type='owner')
+    try:
+        repos = user.get_repos(type='owner')
+    except Exception as e:
+        print(f"获取GitHub仓库失败: {e}")
+        return
     
     # 准备数据框来分析仓库
     repo_data = []
@@ -217,8 +229,24 @@ def main():
             priority = custom_repo.get("priority", 0)
             category = custom_repo.get("category", "其他")
         else:
+            # 如果没有自定义信息，根据仓库主题猜测分类
+            topics = repo.get_topics()
             priority = 0
-            category = "其他"
+            
+            if any(t in ['ai', 'machine-learning', 'artificial-intelligence'] for t in topics):
+                category = "AI研究"
+            elif any(t in ['nlp', 'natural-language-processing'] for t in topics):
+                category = "NLP研究"
+            elif any(t in ['computer-vision', 'vision', 'image'] for t in topics):
+                category = "计算机视觉"
+            elif any(t in ['mlops', 'deployment', 'serving'] for t in topics):
+                category = "MLOps"
+            elif any(t in ['deep-learning', 'neural'] for t in topics):
+                category = "深度学习"
+            elif any(t in ['web', 'website', 'frontend'] for t in topics):
+                category = "Web开发"
+            else:
+                category = "其他"
         
         repo_data.append({
             "name": repo.name,
@@ -259,19 +287,19 @@ def main():
     
     for _, row in featured_repos.iterrows():
         repo = row["object"]
+        category = row["category"]
         
         # 获取自定义信息或创建默认值
         if repo.name in repo_info_map:
             repo_custom_info = repo_info_map[repo.name]
         else:
-            repo_custom_info = {"description_cn": repo.description or "项目描述待更新"}
+            repo_custom_info = {"description_cn": repo.description or "项目描述待更新", "category": category}
             
         # 生成卡片
         card = generate_project_card(repo, repo_custom_info, category_info)
         featured_cards.append(card)
         
         # 按分类组织项目
-        category = row["category"]
         if category not in projects_by_category:
             projects_by_category[category] = []
         projects_by_category[category].append(card)

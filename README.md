@@ -185,22 +185,26 @@ JavaScript               1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 ## 🚀 精选项目
 
+
+## 🚀 精选项目
+
+
+
+
+
 <div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
-<!-- 此部分将由GitHub Actions自动更新，请勿手动修改 -->
 <table>
 <tr>
 <td width="50%">
  <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
    <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=CityU_GenAi_AIcademy&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" />
    <br>
-   <p align="center" style="color: #c792ea;"><strong>🔮 CityU GenAI Academy</strong></p>
+   <p align="center" style="color: #c792ea;"><strong>CityU GenAI Academy</strong></p>
    <p align="center" style="color: #a9b1d6;">生成式AI应用研究与开发</p>
-   <p align="center"><span style="background-color: #c792ea30; color: #c792ea; padding: 3px 8px; border-radius: 10px; font-size: 0.7em;">AI研究</span></p>
  </a>
 </td>
-<td width="50%">
- <a href="https://github.com/B143KC47/VLM_Vision_Helper">
-   <img src="https://github-readme-stats.vercel.
+</tr>
+</table>
 </div>
 
 ## 🛠️ 技术栈
@@ -243,30 +247,6 @@ JavaScript               1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 ![Alibaba Cloud](https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibaba-cloud&logoColor=white&bg_color=0d1117)
 </div>
 
-## 🚀 精选项目
-
-<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
-<table>
-<tr>
-<td width="50%">
- <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
-   <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=CityU_GenAi_AIcademy&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" />
-   <br>
-   <p align="center" style="color: #c792ea;"><strong>CityU GenAI Academy</strong></p>
-   <p align="center" style="color: #a9b1d6;">生成式AI应用研究与开发</p>
- </a>
-</td>
-<td width="50%">
- <a href="https://github.com/B143KC47/VLM_Vision_Helper">
-   <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=VLM_Vision_Helper&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" />
-   <br>
-   <p align="center" style="color: #c792ea;"><strong>VLM Vision Helper</strong></p>
-   <p align="center" style="color: #a9b1d6;">视觉语言模型辅助工具</p>
- </a>
-</td>
-</tr>
-</table>
-</div>
 
 ## 🔬 研究方向
 
