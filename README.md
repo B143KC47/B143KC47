@@ -124,8 +124,8 @@
 ```text
 星期一                      36 commits          ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   10.14 % 
 星期二                      15 commits          ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   04.23 % 
-星期三                      118 commits         ⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   33.24 % 
-星期四                      88 commits          ⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   24.79 % 
+星期三                      118 commits         ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜   33.24 % 
+星期四                      88 commits          ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜   24.79 % 
 星期五                      26 commits          ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.32 % 
 星期六                      24 commits          ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   06.76 % 
 星期日                      48 commits          ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.52 % 
@@ -171,52 +171,31 @@ JavaScript               1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
  Last Updated on 2025年02月27日 15:45 UTC
 <!--END_SECTION:waka-->
 
-<details>
-  <summary><b>📈 更多编程统计详情</b></summary>
-  <br>
-  
-  <div align="center">
-    <!-- 添加自定义WakaTime卡片 -->
-    <figure>
-      <embed src="https://wakatime.com/share/@B143KC47/9835a01d-e699-4175-a41c-44d8148c5a29.svg"></embed>
-      <figcaption>📊 过去30天编程语言使用比例</figcaption>
-    </figure>
-    
-    <figure>
-      <embed src="https://wakatime.com/share/@B143KC47/ac12857c-d300-4e0a-81d8-7f4b5bc6bfd4.svg"></embed>
-      <figcaption>📅 过去30天每日编程时间</figcaption>
-    </figure>
-  </div>
-  
-  ### 🏆 编程习惯分析
-  
-  - 🌟 **最高效时段**: 通常在晚间9点-凌晨1点进行编码
-  - 🔥 **连续编码**: 最长连续编码时间为8小时
-  - 📚 **学习焦点**: 主要专注于深度学习框架和AI模型开发
-  - 🛠️ **项目分布**: 60%研究项目，30%实用工具开发，10%文档编写
-</details>
-
-<!-- 添加编程里程碑 -->
-<div align="center">
-  <h3>🏁 编程里程碑</h3>
-  <!-- 修复WakaTime徽章 - 使用正确的用户ID和清除缓存参数 -->
-  <a href="https://wakatime.com/@B143KC47" target="_blank">
-    <img src="https://wakatime.com/badge/user/B143KC47/B143KC47.svg?t=<?php echo time(); ?>" alt="Total time coded since Mar 24 2022" />
-  </a>
-  <p>🎯 2024目标: 累计编程时间达到1000小时</p>
-  
-  <!-- 自定义进度条 -->
-  <div style="background-color: #2D333B; border-radius: 5px; height: 20px; width: 100%; margin: 10px auto;">
-    <div style="background-color: #7957D5; border-radius: 5px; height: 20px; width: 65%;">
-      <span style="padding-left: 10px; color: white;">当前进度: 65%</span>
-    </div>
-  </div>
-</div>
 
 ### 🌟 贡献热力图
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=B143KC47&theme=moonlight&utcOffset=8" width="45%" />
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=B143KC47&theme=moonlight" width="45%" />
 
+</div>
+
+## 🚀 精选项目
+
+<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
+<!-- 此部分将由GitHub Actions自动更新，请勿手动修改 -->
+<table>
+<tr>
+<td width="50%">
+ <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
+   <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=CityU_GenAi_AIcademy&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" />
+   <br>
+   <p align="center" style="color: #c792ea;"><strong>🔮 CityU GenAI Academy</strong></p>
+   <p align="center" style="color: #a9b1d6;">生成式AI应用研究与开发</p>
+   <p align="center"><span style="background-color: #c792ea30; color: #c792ea; padding: 3px 8px; border-radius: 10px; font-size: 0.7em;">AI研究</span></p>
+ </a>
+</td>
+<td width="50%">
+ <a href="https://github.com/B143KC47/VLM_Vision_Helper">
+   <img src="https://github-readme-stats.vercel.
 </div>
 
 ## 🛠️ 技术栈
@@ -231,13 +210,16 @@ JavaScript               1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&bg_color=0d1117)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white&bg_color=0d1117)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&bg_color=0d1117)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white&bg_color=0d1117)
 
 ### 🛠️ 开发工具
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white&bg_color=0d1117)
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white&bg_color=0d1117)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&bg_color=0d1117)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&bg_color=0d1117)
 ![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white&bg_color=0d1117)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&bg_color=0d1117)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual-studio&logoColor=white&bg_color=0d1117)
 
 ### 🤖 AI/ML 技术栈
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&bg_color=0d1117)
@@ -253,7 +235,7 @@ JavaScript               1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 ![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white&bg_color=0d1117)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white&bg_color=0d1117)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&bg_color=0d1117)
-
+![Alibaba Cloud](https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibaba-cloud&logoColor=white&bg_color=0d1117)
 </div>
 
 ## 🚀 精选项目

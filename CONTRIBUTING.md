@@ -1,6 +1,6 @@
 # Contributing to B143KC47's Projects
 
-We welcome contributions to our projects! Here's how you can help:
+welcome contributions to my projects! Here's how you can help:
 
 ## How to Contribute
 
@@ -16,8 +16,4 @@ We welcome contributions to our projects! Here's how you can help:
 *   Write clear and concise commit messages.
 *   Provide detailed explanations of your changes in the pull request.
 
-## Code of Conduct
-
-Please note that this project is released with a [Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
-
-Thank you for your contributions!
+ 
