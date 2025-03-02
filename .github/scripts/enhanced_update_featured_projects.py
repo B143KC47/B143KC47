@@ -3,6 +3,7 @@
 """
 增强版: 自动更新GitHub个人资料中的精选项目
 支持自定义项目描述、分类展示和项目趋势分析
+时区问题彻底修复版
 """
 
 import os
@@ -40,7 +41,7 @@ os.makedirs(ASSETS_PATH, exist_ok=True)
 
 # 连接到GitHub API
 g = Github(GITHUB_TOKEN)
-user = g.get_user(USERNAME)
+user = g.get_user(USERNAME)  # 立即初始化用户对象
 
 def debug_print(message):
     """打印调试信息"""
@@ -57,6 +58,7 @@ def ensure_timezone(dt):
         return datetime.now(timezone.utc)
     
     if dt.tzinfo is None:
+        debug_print(f"Fixed timezone for: {dt}")
         return dt.replace(tzinfo=timezone.utc)
     
     return dt
@@ -92,15 +94,33 @@ def get_repo_activity(repo):
         "days_since_update": 0
     }
     
+    # 获取仓库的更新时间并处理时区
+    repo_updated_at = ensure_timezone(repo.updated_at)
+    
+    # 直接计算更新时间差值 (确保使用时区安全版本)
+    try:
+        days_since_update = (now - repo_updated_at).days
+        debug_print(f"仓库 {repo.name} 自上次更新已过去 {days_since_update} 天")
+        activity_score += max(0, 50 - days_since_update)
+        activity_data["days_since_update"] = days_since_update
+    except Exception as e:
+        debug_print(f"计算更新时间差值出错: {e}")
+        days_since_update = 999
+        activity_data["days_since_update"] = days_since_update
+    
     # 获取最近的提交
     try:
         commits = repo.get_commits()
         if commits.totalCount > 0:
             latest_commit = commits[0].commit
+            # 确保提交日期有时区信息
             latest_commit_date = ensure_timezone(latest_commit.author.date)
             
+            # 计算从最后提交到现在的天数
             days_since_last_commit = (now - latest_commit_date).days
-            activity_data["days_since_update"] = days_since_last_commit
+            if days_since_last_commit < days_since_update:  # 使用最小的值
+                activity_data["days_since_update"] = days_since_last_commit
+                days_since_update = days_since_last_commit
             
             # 最近提交获得更高分
             activity_score += max(0, 100 - days_since_last_commit)
@@ -109,28 +129,29 @@ def get_repo_activity(repo):
             last_month = now - timedelta(days=30)
             weekly_commits = [0] * 4  # 4周的提交频率
             
+            commit_count = 0
             for commit in commits:
-                try:
-                    commit_date = ensure_timezone(commit.commit.author.date)
-                    if commit_date > last_month:
-                        activity_data["recent_commits"] += 1
-                        week_index = min(3, (now - commit_date).days // 7)
-                        weekly_commits[week_index] += 1
-                except Exception as e:
-                    debug_print(f"处理提交日期出错: {e}")
-                    continue
+                commit_date = ensure_timezone(commit.commit.author.date)
+                if commit_date < last_month:
+                    break  # 跳出循环，不处理超过30天的提交
+                
+                # 确定提交属于哪一周
+                days_ago = (now - commit_date).days
+                week_index = min(3, days_ago // 7)  # 最多只用4周(0-3)
+                weekly_commits[week_index] += 1
+                commit_count += 1
+                
+                if commit_count >= 50:  # 限制处理的提交数量
+                    break
             
             activity_data["commit_trend"] = weekly_commits
-            
+            activity_data["recent_commits"] = commit_count
+            activity_score += commit_count * 2
     except Exception as e:
         debug_print(f"获取仓库 {repo.name} 的提交出错: {e}")
     
-    # 加上星标数量
-    activity_score += repo.stargazers_count * 3
-    
-    # 加上最近的问题和PR活动
+    # 获取最近的问题
     try:
-        # 确保使用带时区信息的日期
         since_date = now - timedelta(days=30)
         recent_issues = list(repo.get_issues(state='all', since=since_date))
         activity_data["recent_issues"] = len(recent_issues)
@@ -146,24 +167,6 @@ def get_repo_activity(repo):
     # 如果有GitHub Pages，加分
     if repo.has_pages:
         activity_score += 20
-        
-    # 如果最近有更新，加分 (确保时区一致)
-    try:
-        # 确保repo.updated_at有时区信息
-        repo_updated_at = ensure_timezone(repo.updated_at)
-            
-        # 计算天数差
-        days_since_update = (now - repo_updated_at).days
-        debug_print(f"仓库 {repo.name} 自上次更新已过去 {days_since_update} 天")
-        
-        activity_score += max(0, 50 - days_since_update)
-        activity_data["days_since_update"] = days_since_update
-    except Exception as e:
-        debug_print(f"计算仓库 {repo.name} 更新时间出错: {e}")
-        debug_print(traceback.format_exc())
-        # 出现错误时使用默认值
-        days_since_update = 999
-        activity_data["days_since_update"] = days_since_update
     
     debug_print(f"仓库 {repo.name} 活动分数: {activity_score}")
     return activity_score, activity_data
