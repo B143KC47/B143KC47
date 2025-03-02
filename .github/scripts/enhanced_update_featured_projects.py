@@ -21,7 +21,7 @@ import base64
 GITHUB_TOKEN = os.environ.get("GH_TOKEN")
 USERNAME = os.environ.get("USERNAME", "B143KC47")
 MAX_PROJECTS = int(os.environ.get("MAX_PROJECTS", "4"))
-SORT_BY = os.environ.get("SORT_BY", "priority")
+SORT_BY = int(os.environ.get("SORT_BY", "priority"))
 INCLUDE_CATEGORIES = os.environ.get("INCLUDE_CATEGORIES", "True").lower() == "true"
 SHOW_TRENDING = os.environ.get("SHOW_TRENDING", "True").lower() == "true"
 README_PATH = "README.md"
@@ -488,7 +488,7 @@ def main():
             activity_score, activity_data = get_repo_activity(repo)
         except TypeError as e:
             print(f"时区错误处理 {repo.name}: {e}")
-            # 发生错误时使用默认值
+            # 使用默认值继续
             activity_score = 0
             activity_data = {
                 "recent_commits": 0, 
