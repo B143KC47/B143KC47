@@ -9,8 +9,26 @@ on:
   repository_dispatch:
     types: [update-featured]
   
+  # 在仓库上有更新时
+  push:
+    paths:
+      - '.github/scripts/repositories_info.json'
+  
   # 允许手动触发工作流
   workflow_dispatch:
+    inputs:
+      max_projects:
+        description: '显示的最大项目数量'
+        required: false
+        default: '6'
+      sort_by:
+        description: '排序方式 (priority, stars, activity, updated)'
+        required: false
+        default: 'priority'
+      show_trending:
+        description: '显示趋势图'
+        required: false
+        default: 'true'
 
 jobs:
   update-featured:
@@ -19,6 +37,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 30  # 获取更多历史记录用于趋势分析
         
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -28,21 +48,22 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install PyGithub pandas markdown requests beautifulsoup4
+          pip install PyGithub pandas matplotlib numpy requests beautifulsoup4
           
       - name: Run Enhanced Update Script
         run: python .github/scripts/enhanced_update_featured_projects.py
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           USERNAME: B143KC47
-          MAX_PROJECTS: 4
-          SORT_BY: priority  # 使用自定义优先级排序
+          MAX_PROJECTS: ${{ github.event.inputs.max_projects || '6' }}
+          SORT_BY: ${{ github.event.inputs.sort_by || 'priority' }}  # 使用自定义优先级排序
           INCLUDE_CATEGORIES: "True"
+          SHOW_TRENDING: ${{ github.event.inputs.show_trending || 'true' }}
           
       - name: Commit Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "自动更新精选项目 [skip ci]"
+          git add README.md assets/images/project-badges
+          git diff --quiet && git diff --staged --quiet || git commit -m "自动更新精选项目和项目趋势 [skip ci]"
           git push

@@ -2,10 +2,12 @@
   "repositories": [
     {
       "name": "CityU_GenAi_AIcademy",
-      "description_cn": "生成式AI应用研究与开发",
+      "description_cn": "生成式AI应用研究与开发，集成最新的生成式人工智能技术",
       "emoji": "🔮",
       "priority": 100,
-      "category": "AI研究"
+      "category": "AI研究",
+      "status": "活跃开发",
+      "features": ["LLM", "生成式AI", "应用研究"]
     },
     {
       "name": "VLM_Vision_Helper",
