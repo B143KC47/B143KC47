@@ -8,6 +8,7 @@
 import os
 import re
 import json
+import sys
 import requests
 import pandas as pd
 from github import Github
@@ -16,13 +17,17 @@ from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 import numpy as np
 import base64
+import traceback
+
+# 启用调试输出
+DEBUG = True
 
 # 获取环境变量
 GITHUB_TOKEN = os.environ.get("GH_TOKEN")
 USERNAME = os.environ.get("USERNAME", "B143KC47")
 MAX_PROJECTS = int(os.environ.get("MAX_PROJECTS", "4"))
-# 修复 - 确保SORT_BY是字符串而不是整数
-SORT_BY = os.environ.get("SORT_BY", "priority") 
+# 确保SORT_BY是字符串
+SORT_BY = os.environ.get("SORT_BY", "priority")
 INCLUDE_CATEGORIES = os.environ.get("INCLUDE_CATEGORIES", "True").lower() == "true"
 SHOW_TRENDING = os.environ.get("SHOW_TRENDING", "True").lower() == "true"
 README_PATH = "README.md"
@@ -37,34 +42,53 @@ os.makedirs(ASSETS_PATH, exist_ok=True)
 g = Github(GITHUB_TOKEN)
 user = g.get_user(USERNAME)
 
+def debug_print(message):
+    """打印调试信息"""
+    if DEBUG:
+        print(f"[DEBUG] {message}")
+
+def ensure_timezone(dt):
+    """
+    确保日期时间对象有时区信息
+    如果dt是None，返回当前时间
+    如果dt没有时区信息，添加UTC时区
+    """
+    if dt is None:
+        return datetime.now(timezone.utc)
+    
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=timezone.utc)
+    
+    return dt
+
 def load_custom_info():
-    """
-    从配置文件加载自定义仓库信息
-    """
+    """从配置文件加载自定义仓库信息"""
     try:
         with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"配置文件 {CONFIG_PATH} 不存在，将使用默认信息")
+        debug_print(f"配置文件 {CONFIG_PATH} 不存在，将使用默认信息")
         return {"repositories": [], "categories": {}}
     except json.JSONDecodeError:
-        print(f"配置文件 {CONFIG_PATH} 格式错误，将使用默认信息")
+        debug_print(f"配置文件 {CONFIG_PATH} 格式错误，将使用默认信息")
         return {"repositories": [], "categories": {}}
 
 def get_repo_activity(repo):
     """
     计算仓库的活动得分和趋势
     基于最近提交、问题和PR活动
-    修复: 确保所有datetime对象使用相同的时区格式
+    修复: 使用ensure_timezone函数确保所有datetime对象都有时区信息
     """
-    # 使用UTC时区创建now变量，确保与GitHub API返回的时间兼容
+    debug_print(f"开始计算仓库 {repo.name} 的活动分数")
+    
+    # 使用UTC时区创建now变量
     now = datetime.now(timezone.utc)
     activity_score = 0
     activity_data = {
         "recent_commits": 0,
         "recent_issues": 0,
         "recent_prs": 0,
-        "commit_trend": [],
+        "commit_trend": [0, 0, 0, 0],
         "days_since_update": 0
     }
     
@@ -72,12 +96,9 @@ def get_repo_activity(repo):
     try:
         commits = repo.get_commits()
         if commits.totalCount > 0:
-            latest_commit_date = commits[0].commit.author.date
+            latest_commit = commits[0].commit
+            latest_commit_date = ensure_timezone(latest_commit.author.date)
             
-            # 确保latest_commit_date是有时区信息的
-            if latest_commit_date.tzinfo is None:
-                latest_commit_date = latest_commit_date.replace(tzinfo=timezone.utc)
-                
             days_since_last_commit = (now - latest_commit_date).days
             activity_data["days_since_update"] = days_since_last_commit
             
@@ -90,32 +111,28 @@ def get_repo_activity(repo):
             
             for commit in commits:
                 try:
-                    commit_date = commit.commit.author.date
-                    
-                    # 确保commit_date是有时区信息的
-                    if commit_date.tzinfo is None:
-                        commit_date = commit_date.replace(tzinfo=timezone.utc)
-                        
+                    commit_date = ensure_timezone(commit.commit.author.date)
                     if commit_date > last_month:
                         activity_data["recent_commits"] += 1
                         week_index = min(3, (now - commit_date).days // 7)
                         weekly_commits[week_index] += 1
                 except Exception as e:
-                    print(f"Error processing commit date: {e}")
+                    debug_print(f"处理提交日期出错: {e}")
                     continue
             
             activity_data["commit_trend"] = weekly_commits
             
     except Exception as e:
-        print(f"Error getting commits for {repo.name}: {e}")
+        debug_print(f"获取仓库 {repo.name} 的提交出错: {e}")
     
     # 加上星标数量
     activity_score += repo.stargazers_count * 3
     
     # 加上最近的问题和PR活动
     try:
-        # 确保使用offset-aware的datetime对象
-        recent_issues = list(repo.get_issues(state='all', since=now - timedelta(days=30)))
+        # 确保使用带时区信息的日期
+        since_date = now - timedelta(days=30)
+        recent_issues = list(repo.get_issues(state='all', since=since_date))
         activity_data["recent_issues"] = len(recent_issues)
         
         # 区分PR和issues
@@ -124,7 +141,7 @@ def get_repo_activity(repo):
         
         activity_score += len(recent_issues) * 2
     except Exception as e:
-        print(f"Error getting issues for {repo.name}: {e}")
+        debug_print(f"获取仓库 {repo.name} 的问题出错: {e}")
     
     # 如果有GitHub Pages，加分
     if repo.has_pages:
@@ -132,32 +149,27 @@ def get_repo_activity(repo):
         
     # 如果最近有更新，加分 (确保时区一致)
     try:
-        # 修复 - 明确检查repo.updated_at是否为None
-        if repo.updated_at is None:
-            # 如果为None，使用现在的时间
-            repo_updated_at = now
-        else:
-            repo_updated_at = repo.updated_at
-            # 确保repo_updated_at有时区信息
-            if repo_updated_at.tzinfo is None:
-                repo_updated_at = repo_updated_at.replace(tzinfo=timezone.utc)
+        # 确保repo.updated_at有时区信息
+        repo_updated_at = ensure_timezone(repo.updated_at)
             
         # 计算天数差
         days_since_update = (now - repo_updated_at).days
+        debug_print(f"仓库 {repo.name} 自上次更新已过去 {days_since_update} 天")
+        
         activity_score += max(0, 50 - days_since_update)
         activity_data["days_since_update"] = days_since_update
-    except (TypeError, AttributeError) as e:
-        print(f"Error calculating days since update for {repo.name}: {e}")
+    except Exception as e:
+        debug_print(f"计算仓库 {repo.name} 更新时间出错: {e}")
+        debug_print(traceback.format_exc())
         # 出现错误时使用默认值
         days_since_update = 999
         activity_data["days_since_update"] = days_since_update
     
+    debug_print(f"仓库 {repo.name} 活动分数: {activity_score}")
     return activity_score, activity_data
 
 def create_trend_badge(repo_name, trend_data):
-    """
-    创建仓库活动趋势图标
-    """
+    """创建仓库活动趋势图标"""
     # 设置图表样式
     plt.figure(figsize=(3, 1))
     plt.style.use('dark_background')
@@ -190,10 +202,7 @@ def create_trend_badge(repo_name, trend_data):
     return badge_filename.replace("\\", "/")
 
 def get_repo_status_badge(repo, activity_data):
-    """
-    基于仓库活动生成状态徽章
-    修复: 增加错误处理
-    """
+    """基于仓库活动生成状态徽章"""
     try:
         days = activity_data["days_since_update"]
         
@@ -212,7 +221,8 @@ def get_repo_status_badge(repo, activity_data):
         else:
             status = "归档"
             color = "red"
-    except KeyError:
+    except (KeyError, TypeError) as e:
+        debug_print(f"获取仓库状态出错: {e}")
         # 如果找不到days_since_update，使用默认值
         status = "未知状态"
         color = "gray"
@@ -485,6 +495,8 @@ def analyze_repo_topics(repos):
     return "其他"
 
 def main():
+    print("开始更新精选项目...")
+    
     # 加载自定义配置
     custom_info = load_custom_info()
     repo_info_map = {repo["name"]: repo for repo in custom_info.get("repositories", [])}
@@ -493,6 +505,7 @@ def main():
     # 获取用户的所有公开仓库
     try:
         repos = user.get_repos(type='owner')
+        print(f"成功获取 {USERNAME} 的仓库列表")
     except Exception as e:
         print(f"获取GitHub仓库失败: {e}")
         return
@@ -509,9 +522,10 @@ def main():
         # 获取仓库活动分数和数据
         try:
             activity_score, activity_data = get_repo_activity(repo)
-            print(f"仓库 {repo.name} 活动得分: {activity_score}")
+            debug_print(f"仓库 {repo.name} 活动数据: {activity_data}")
         except Exception as e:
             print(f"获取仓库 {repo.name} 活动数据时出错: {e}")
+            print(traceback.format_exc())
             # 使用默认值继续
             activity_score = 0
             activity_data = {
@@ -544,6 +558,8 @@ def main():
             "activity_data": activity_data
         })
     
+    print(f"共处理了 {len(repo_data)} 个仓库")
+    
     # 创建数据框并排序
     if not repo_data:
         print("没有找到符合条件的仓库")
@@ -565,6 +581,7 @@ def main():
     
     # 限制项目数量
     featured_repos = df.head(MAX_PROJECTS)
+    print(f"将展示 {len(featured_repos)} 个精选项目")
     
     # 生成项目卡片
     featured_cards = []
@@ -582,16 +599,27 @@ def main():
             repo_custom_info = {"description_cn": repo.description or "项目描述待更新", "category": category}
             
         # 生成卡片
-        card = generate_project_card(repo, repo_custom_info, category_info, activity_data)
-        featured_cards.append(card)
-        
-        # 按分类组织项目
-        if category not in projects_by_category:
-            projects_by_category[category] = []
-        projects_by_category[category].append(card)
+        try:
+            card = generate_project_card(repo, repo_custom_info, category_info, activity_data)
+            featured_cards.append(card)
+            
+            # 按分类组织项目
+            if category not in projects_by_category:
+                projects_by_category[category] = []
+            projects_by_category[category].append(card)
+        except Exception as e:
+            print(f"生成仓库 {repo.name} 的卡片时出错: {e}")
+            print(traceback.format_exc())
     
     # 更新README.md
     update_readme_projects(featured_cards, projects_by_category)
+    print("精选项目更新完成")
 
-if __name__ == "__main__":
-    main()
+# 在脚本开始处捕获所有未处理的异常
+try:
+    if __name__ == "__main__":
+        main()
+except Exception as e:
+    print(f"执行脚本时发生未处理的异常: {e}")
+    print(traceback.format_exc())
+    sys.exit(1)
