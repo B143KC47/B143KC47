@@ -10,7 +10,7 @@ import json
 import requests
 import pandas as pd
 from github import Github
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
 
 # 获取环境变量
@@ -31,8 +31,10 @@ def get_repo_activity(repo):
     """
     计算仓库的活动得分
     基于最近提交、问题和PR活动
+    修复：确保使用相同的时区格式
     """
-    now = datetime.now()
+    # 使用UTC时区创建now变量，确保与GitHub API返回的时间兼容
+    now = datetime.now(timezone.utc)
     activity_score = 0
     
     # 获取最近的提交
@@ -40,6 +42,10 @@ def get_repo_activity(repo):
         commits = repo.get_commits()
         if commits.totalCount > 0:
             latest_commit_date = commits[0].commit.author.date
+            # 确保latest_commit_date是有时区信息的
+            if latest_commit_date.tzinfo is None:
+                latest_commit_date = latest_commit_date.replace(tzinfo=timezone.utc)
+                
             days_since_last_commit = (now - latest_commit_date).days
             # 最近提交获得更高分
             activity_score += max(0, 100 - days_since_last_commit)
@@ -60,8 +66,12 @@ def get_repo_activity(repo):
     if repo.has_pages:
         activity_score += 20
         
-    # 如果最近有更新，加分
-    days_since_update = (now - repo.updated_at).days
+    # 如果最近有更新，加分 (确保时区一致)
+    repo_updated_at = repo.updated_at
+    if repo_updated_at.tzinfo is None:
+        repo_updated_at = repo_updated_at.replace(tzinfo=timezone.utc)
+        
+    days_since_update = (now - repo_updated_at).days
     activity_score += max(0, 50 - days_since_update)
     
     return activity_score
@@ -198,23 +208,28 @@ def main():
             if not any(topic in TOPICS_FILTER for topic in topics):
                 continue
                 
-        # 获取仓库活动分数
-        activity_score = get_repo_activity(repo)
-        
-        # 获取中文描述
-        description_cn = get_repo_description_cn(repo)
-        if not description_cn:
-            description_cn = "项目描述待更新"
-        
-        repo_data.append({
-            "name": repo.name,
-            "object": repo,
-            "stars": repo.stargazers_count,
-            "updated_at": repo.updated_at,
-            "created_at": repo.created_at,
-            "activity": activity_score,
-            "description_cn": description_cn
-        })
+        try:
+            # 获取仓库活动分数
+            activity_score = get_repo_activity(repo)
+            
+            # 获取中文描述
+            description_cn = get_repo_description_cn(repo)
+            if not description_cn:
+                description_cn = "项目描述待更新"
+            
+            repo_data.append({
+                "name": repo.name,
+                "object": repo,
+                "stars": repo.stargazers_count,
+                "updated_at": repo.updated_at,
+                "created_at": repo.created_at,
+                "activity": activity_score,
+                "description_cn": description_cn
+            })
+        except TypeError as e:
+            print(f"时区错误处理 {repo.name}: {e}")
+            # 发生错误时跳过该仓库
+            continue
     
     # 创建数据框并排序
     if not repo_data:

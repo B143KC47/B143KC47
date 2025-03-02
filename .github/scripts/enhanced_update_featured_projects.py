@@ -11,7 +11,7 @@ import json
 import requests
 import pandas as pd
 from github import Github
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 import numpy as np
@@ -54,8 +54,10 @@ def get_repo_activity(repo):
     """
     计算仓库的活动得分和趋势
     基于最近提交、问题和PR活动
+    修复: 确保所有datetime对象使用相同的时区格式
     """
-    now = datetime.now()
+    # 使用UTC时区创建now变量，确保与GitHub API返回的时间兼容
+    now = datetime.now(timezone.utc)
     activity_score = 0
     activity_data = {
         "recent_commits": 0,
@@ -70,6 +72,11 @@ def get_repo_activity(repo):
         commits = repo.get_commits()
         if commits.totalCount > 0:
             latest_commit_date = commits[0].commit.author.date
+            
+            # 确保latest_commit_date是有时区信息的
+            if latest_commit_date.tzinfo is None:
+                latest_commit_date = latest_commit_date.replace(tzinfo=timezone.utc)
+                
             days_since_last_commit = (now - latest_commit_date).days
             activity_data["days_since_update"] = days_since_last_commit
             
@@ -83,11 +90,17 @@ def get_repo_activity(repo):
             for commit in commits:
                 try:
                     commit_date = commit.commit.author.date
+                    
+                    # 确保commit_date是有时区信息的
+                    if commit_date.tzinfo is None:
+                        commit_date = commit_date.replace(tzinfo=timezone.utc)
+                        
                     if commit_date > last_month:
                         activity_data["recent_commits"] += 1
                         week_index = min(3, (now - commit_date).days // 7)
                         weekly_commits[week_index] += 1
-                except Exception:
+                except Exception as e:
+                    print(f"Error processing commit date: {e}")
                     continue
             
             activity_data["commit_trend"] = weekly_commits
@@ -100,6 +113,7 @@ def get_repo_activity(repo):
     
     # 加上最近的问题和PR活动
     try:
+        # 确保使用offset-aware的datetime对象
         recent_issues = list(repo.get_issues(state='all', since=now - timedelta(days=30)))
         activity_data["recent_issues"] = len(recent_issues)
         
@@ -115,8 +129,12 @@ def get_repo_activity(repo):
     if repo.has_pages:
         activity_score += 20
         
-    # 如果最近有更新，加分
-    days_since_update = (now - repo.updated_at).days
+    # 如果最近有更新，加分 (确保时区一致)
+    repo_updated_at = repo.updated_at
+    if repo_updated_at.tzinfo is None:
+        repo_updated_at = repo_updated_at.replace(tzinfo=timezone.utc)
+        
+    days_since_update = (now - repo_updated_at).days
     activity_score += max(0, 50 - days_since_update)
     
     return activity_score, activity_data
@@ -466,7 +484,19 @@ def main():
             continue
             
         # 获取仓库活动分数和数据
-        activity_score, activity_data = get_repo_activity(repo)
+        try:
+            activity_score, activity_data = get_repo_activity(repo)
+        except TypeError as e:
+            print(f"时区错误处理 {repo.name}: {e}")
+            # 发生错误时使用默认值
+            activity_score = 0
+            activity_data = {
+                "recent_commits": 0, 
+                "recent_issues": 0,
+                "recent_prs": 0,
+                "commit_trend": [0, 0, 0, 0],
+                "days_since_update": 999
+            }
         
         # 检查是否有自定义信息
         if repo.name in repo_info_map:
