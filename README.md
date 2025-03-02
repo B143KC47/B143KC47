@@ -185,9 +185,7 @@ HTML                     1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 ## 🚀 精选项目
 
-
-
-
+<!-- FEATURED_PROJECTS_START -->
 <div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
 <table>
 <tr>
@@ -202,6 +200,7 @@ HTML                     1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </tr>
 </table>
 </div>
+<!-- FEATURED_PROJECTS_END -->
 
 ## 🛠️ 技术栈
 

@@ -1,264 +1,197 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-自动更新GitHub个人资料中的精选项目
-"""
 
 import os
 import re
 import json
-import requests
-import pandas as pd
 from github import Github
-from datetime import datetime, timedelta, timezone
-from bs4 import BeautifulSoup
+from datetime import datetime
 
-# 获取环境变量
-GITHUB_TOKEN = os.environ.get("GH_TOKEN")
-USERNAME = os.environ.get("USERNAME", "B143KC47")
-MAX_PROJECTS = int(os.environ.get("MAX_PROJECTS", "4"))
-SORT_BY = os.environ.get("SORT_BY", "stars")
-TOPICS_FILTER = os.environ.get("TOPICS_FILTER", "").split(",")
-EXCLUDE_REPOS = os.environ.get("EXCLUDE_REPOS", "").split(",")
+# 配置
+USERNAME = "B143KC47"  # 你的GitHub用户名
+CONFIG_PATH = ".github/featured-projects-config.json"
 README_PATH = "README.md"
-THEME = "midnight-purple"
+FEATURED_START_MARKER = "<!-- FEATURED_PROJECTS_START -->"
+FEATURED_END_MARKER = "<!-- FEATURED_PROJECTS_END -->"
 
-# 连接到GitHub API
-g = Github(GITHUB_TOKEN)
-user = g.get_user(USERNAME)
-
-def get_repo_activity(repo):
-    """
-    计算仓库的活动得分
-    基于最近提交、问题和PR活动
-    修复：确保使用相同的时区格式
-    """
-    # 使用UTC时区创建now变量，确保与GitHub API返回的时间兼容
-    now = datetime.now(timezone.utc)
-    activity_score = 0
-    
-    # 获取最近的提交
+def load_config():
+    """加载配置文件，如果不存在则使用默认配置"""
     try:
-        commits = repo.get_commits()
-        if commits.totalCount > 0:
-            latest_commit_date = commits[0].commit.author.date
-            # 确保latest_commit_date是有时区信息的
-            if latest_commit_date.tzinfo is None:
-                latest_commit_date = latest_commit_date.replace(tzinfo=timezone.utc)
+        with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        # 默认配置
+        return {
+            "max_projects": 6,  # 最大显示项目数量
+            "criteria": {
+                "stars": 0.4,       # 星星权重
+                "updated": 0.3,     # 更新时间权重
+                "forks": 0.2,       # Fork数权重
+                "pinned": 0.1       # 是否Pin的权重
+            },
+            "exclude_repos": ["B143KC47"],  # 排除的仓库
+            "layout": "table",      # 显示布局: table 或 cards
+            "columns": 2            # 表格列数
+        }
+
+def get_repo_info(repo):
+    """获取存储库的信息和评分"""
+    stars = repo.stargazers_count
+    forks = repo.forks_count
+    days_since_updated = (datetime.now() - repo.updated_at.replace(tzinfo=None)).days
+    # 更新时间评分 (1.0为今天更新，接近0为长时间未更新)
+    update_score = max(0, min(1.0, 1.0 - (days_since_updated / 365)))
+    
+    return {
+        "name": repo.name,
+        "full_name": repo.full_name,
+        "description": repo.description or "暂无描述",
+        "url": repo.html_url,
+        "stars": stars,
+        "forks": forks,
+        "language": repo.language or "未指定",
+        "updated_at": repo.updated_at.strftime("%Y-%m-%d"),
+        "days_since_updated": days_since_updated,
+        "update_score": update_score
+    }
+
+def calculate_score(repo_info, criteria):
+    """计算仓库评分"""
+    star_factor = repo_info["stars"] * criteria["stars"]
+    update_factor = repo_info["update_score"] * criteria["updated"]
+    fork_factor = repo_info["forks"] * criteria["forks"]
+    
+    # 基础分数
+    score = star_factor + update_factor + fork_factor
+    return score
+
+def generate_table_layout(repos, columns=2):
+    """生成表格布局的Markdown内容"""
+    md = []
+    md.append('<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">')
+    md.append('<table>')
+    
+    for i in range(0, len(repos), columns):
+        md.append('<tr>')
+        for j in range(columns):
+            if i + j < len(repos):
+                repo = repos[i + j]
+                md.append('<td width="{}%">'.format(100 // columns))
+                md.append(' <a href="{}">'.format(repo["url"]))
                 
-            days_since_last_commit = (now - latest_commit_date).days
-            # 最近提交获得更高分
-            activity_score += max(0, 100 - days_since_last_commit)
-    except Exception as e:
-        print(f"Error getting commits for {repo.name}: {e}")
+                # 项目卡片内容
+                md.append('   <img src="https://github-readme-stats.vercel.app/api/pin/?username={}&repo={}&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" />'.format(
+                    USERNAME, repo["name"]
+                ))
+                md.append('   <br>')
+                md.append('   <p align="center" style="color: #c792ea;"><strong>{}</strong></p>'.format(repo["name"]))
+                md.append('   <p align="center" style="color: #a9b1d6;">{}</p>'.format(repo["description"]))
+                md.append(' </a>')
+                md.append('</td>')
+        md.append('</tr>')
     
-    # 加上星标数量
-    activity_score += repo.stargazers_count * 3
+    md.append('</table>')
+    md.append('</div>')
+    return '\n'.join(md)
+
+def generate_card_layout(repos):
+    """生成卡片布局的Markdown内容"""
+    md = []
+    md.append('<div align="center" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">')
     
-    # 加上最近的问题和PR活动
+    for repo in repos:
+        md.append('<div style="flex: 1; min-width: 280px; max-width: 400px; background-color: #0d1117; padding: 15px; border-radius: 10px; border: 1px solid #30363d;">')
+        md.append('  <a href="{}" style="text-decoration: none;">'.format(repo["url"]))
+        md.append('    <h3 style="color: #c792ea; text-align: center;">{}</h3>'.format(repo["name"]))
+        md.append('    <p style="color: #a9b1d6; text-align: center;">{}</p>'.format(repo["description"]))
+        md.append('    <div style="display: flex; justify-content: center; margin-top: 10px;">')
+        md.append('      <span style="color: #7fdbca; margin: 0 10px;"><i class="fas fa-star"></i> {}</span>'.format(repo["stars"]))
+        md.append('      <span style="color: #7fdbca; margin: 0 10px;"><i class="fas fa-code-branch"></i> {}</span>'.format(repo["forks"]))
+        md.append('      <span style="color: #7fdbca; margin: 0 10px;"><i class="fas fa-circle"></i> {}</span>'.format(repo["language"]))
+        md.append('    </div>')
+        md.append('  </a>')
+        md.append('</div>')
+    
+    md.append('</div>')
+    return '\n'.join(md)
+
+def update_readme(featured_projects):
+    """更新README文件中的精选项目部分"""
     try:
-        recent_issues = repo.get_issues(state='all', since=now - timedelta(days=30))
-        activity_score += recent_issues.totalCount * 2
-    except Exception as e:
-        print(f"Error getting issues for {repo.name}: {e}")
-    
-    # 如果有GitHub Pages，加分
-    if repo.has_pages:
-        activity_score += 20
-        
-    # 如果最近有更新，加分 (确保时区一致)
-    repo_updated_at = repo.updated_at
-    if repo_updated_at.tzinfo is None:
-        repo_updated_at = repo_updated_at.replace(tzinfo=timezone.utc)
-        
-    days_since_update = (now - repo_updated_at).days
-    activity_score += max(0, 50 - days_since_update)
-    
-    return activity_score
-
-def get_repo_description_cn(repo):
-    """
-    尝试获取仓库的中文描述（从README或描述中）
-    """
-    description = repo.description or ""
-    
-    # 检查描述是否包含中文
-    if re.search("[\u4e00-\u9fff]", description):
-        return description
-    
-    # 尝试从README中提取中文描述
-    try:
-        readme_content = repo.get_readme().decoded_content.decode('utf-8')
-        # 查找第一个中文句子或段落
-        chinese_matches = re.findall(r'[^!#\s].*[\u4e00-\u9fff]+.*?(?:\.|。|！|？|$)', readme_content)
-        if chinese_matches:
-            # 取第一个合理长度的中文描述
-            for match in chinese_matches:
-                if 10 <= len(match) <= 100:
-                    return match.strip()
-        
-        # 如果没有找到合适的中文描述，则取英文描述
-        return description
-    except Exception as e:
-        print(f"Error reading README for {repo.name}: {e}")
-        return description
-
-def generate_project_card(repo, description_cn):
-    """
-    生成项目卡片的Markdown代码
-    """
-    # 准备主题色和图标
-    primary_color = "c792ea"
-    secondary_color = "7fdbca" 
-    text_color = "a9b1d6"
-    
-    # 根据仓库主题确定表情符号
-    topics = [topic for topic in repo.get_topics()]
-    emoji = "🚀"  # 默认
-    
-    if any(t in ['ai', 'machine-learning', 'artificial-intelligence'] for t in topics):
-        emoji = "🤖"
-    elif any(t in ['nlp', 'natural-language-processing'] for t in topics):
-        emoji = "📝"
-    elif any(t in ['computer-vision', 'vision', 'image'] for t in topics):
-        emoji = "👁️"
-    elif any(t in ['web', 'website', 'frontend'] for t in topics):
-        emoji = "🌐"
-    elif any(t in ['data', 'database', 'analysis'] for t in topics):
-        emoji = "📊"
-    elif any(t in ['tool', 'utility'] for t in topics):
-        emoji = "🔧"
-    
-    # 生成卡片Markdown
-    card = f"""<td width="50%">
- <a href="{repo.html_url}">
-   <img src="https://github-readme-stats.vercel.app/api/pin/?username={USERNAME}&repo={repo.name}&theme={THEME}&hide_border=true&bg_color=0d1117&title_color={primary_color}&icon_color={secondary_color}&text_color={text_color}" />
-   <br>
-   <p align="center" style="color: #{primary_color};"><strong>{emoji} {repo.name}</strong></p>
-   <p align="center" style="color: #{text_color};">{description_cn}</p>
- </a>
-</td>"""
-    
-    return card
-
-def update_readme_projects(featured_projects):
-    """
-    在README.md中更新精选项目部分
-    """
-    with open(README_PATH, 'r', encoding='utf-8') as file:
-        content = file.read()
-    
-    # 查找精选项目部分的起始和结束标记
-    start_marker = "## 🚀 精选项目"
-    
-    # 找到下一个二级标题作为结束标记
-    pattern = re.compile(r'## 🚀 精选项目.*?(?=^##\s)', re.DOTALL | re.MULTILINE)
-    match = pattern.search(content)
-    
-    if match:
-        # 生成新的项目部分
-        projects_section = "## 🚀 精选项目\n\n"
-        projects_section += '<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">\n'
-        projects_section += '<table>\n'
-        
-        # 添加项目卡片，每行2个
-        for i in range(0, len(featured_projects), 2):
-            projects_section += '<tr>\n'
-            projects_section += featured_projects[i]
+        with open(README_PATH, 'r', encoding='utf-8') as f:
+            content = f.read()
             
-            if i + 1 < len(featured_projects):
-                projects_section += featured_projects[i + 1]
-            else:
-                # 如果是奇数个项目，添加空白单元格保持对称
-                projects_section += '<td width="50%"></td>\n'
-                
-            projects_section += '</tr>\n'
+        # 查找标记位置
+        pattern = re.compile(
+            f'{re.escape(FEATURED_START_MARKER)}.*?{re.escape(FEATURED_END_MARKER)}', 
+            re.DOTALL
+        )
+        
+        # 替换标记之间的内容
+        new_section = f"{FEATURED_START_MARKER}\n{featured_projects}\n{FEATURED_END_MARKER}"
+        updated_content = pattern.sub(new_section, content)
+        
+        # 如果没有找到标记，可能需要添加标记
+        if pattern.search(content) is None:
+            print("警告: 在README中没有找到标记。请确保README.md包含以下标记:")
+            print(f"{FEATURED_START_MARKER}")
+            print(f"{FEATURED_END_MARKER}")
+            return False
+        
+        # 写入更新后的内容
+        with open(README_PATH, 'w', encoding='utf-8') as f:
+            f.write(updated_content)
             
-        projects_section += '</table>\n'
-        
-        # 添加自动更新时间
-        update_time = datetime.now().strftime('%Y年%m月%d日 %H:%M')
-        projects_section += f'<p align="center" style="font-size: 12px; color: #666;">自动更新于: {update_time}</p>\n'
-        projects_section += '</div>\n\n'
-        
-        # 替换原有部分
-        new_content = re.sub(pattern, projects_section, content)
-        
-        with open(README_PATH, 'w', encoding='utf-8') as file:
-            file.write(new_content)
-        
-        print(f"更新了 {len(featured_projects)} 个精选项目")
-    else:
-        print("无法找到精选项目部分，请检查README.md格式")
+        return True
+    
+    except Exception as e:
+        print(f"更新README时出错: {e}")
+        return False
 
 def main():
-    # 获取用户的所有公开仓库
-    repos = user.get_repos(type='owner')
-    
-    # 准备数据框来分析仓库
-    repo_data = []
-    for repo in repos:
-        # 跳过被排除的仓库
-        if repo.name in EXCLUDE_REPOS or repo.fork:
-            continue
+    """主函数"""
+    try:
+        # 获取GitHub token
+        token = os.environ.get("GH_TOKEN")
+        if not token:
+            raise ValueError("没有找到GitHub令牌。请设置GH_TOKEN环境变量。")
             
-        # 检查主题过滤器（如果指定了）
-        if TOPICS_FILTER and TOPICS_FILTER[0]:
-            topics = repo.get_topics()
-            if not any(topic in TOPICS_FILTER for topic in topics):
-                continue
-                
-        try:
-            # 获取仓库活动分数
-            activity_score = get_repo_activity(repo)
-            
-            # 获取中文描述
-            description_cn = get_repo_description_cn(repo)
-            if not description_cn:
-                description_cn = "项目描述待更新"
-            
-            repo_data.append({
-                "name": repo.name,
-                "object": repo,
-                "stars": repo.stargazers_count,
-                "updated_at": repo.updated_at,
-                "created_at": repo.created_at,
-                "activity": activity_score,
-                "description_cn": description_cn
-            })
-        except TypeError as e:
-            print(f"时区错误处理 {repo.name}: {e}")
-            # 发生错误时跳过该仓库
-            continue
-    
-    # 创建数据框并排序
-    if not repo_data:
-        print("没有找到符合条件的仓库")
-        return
+        # 初始化GitHub客户端
+        g = Github(token)
+        user = g.get_user(USERNAME)
         
-    df = pd.DataFrame(repo_data)
+        # 加载配置
+        config = load_config()
+        
+        # 获取仓库列表并过滤
+        repos = []
+        for repo in user.get_repos():
+            if repo.name not in config["exclude_repos"] and not repo.fork:
+                repo_info = get_repo_info(repo)
+                repo_info["score"] = calculate_score(repo_info, config["criteria"])
+                repos.append(repo_info)
+        
+        # 按评分排序
+        repos.sort(key=lambda x: x["score"], reverse=True)
+        
+        # 获取前N个仓库
+        featured_repos = repos[:config["max_projects"]]
+        
+        # 根据布局生成Markdown内容
+        if config["layout"] == "table":
+            content = generate_table_layout(featured_repos, config["columns"])
+        else:
+            content = generate_card_layout(featured_repos)
+            
+        # 更新README
+        success = update_readme(content)
+        if success:
+            print(f"成功更新README中的精选项目。")
+        else:
+            print("更新README失败。")
     
-    # 根据指定的排序方式进行排序
-    if SORT_BY == "stars":
-        df = df.sort_values("stars", ascending=False)
-    elif SORT_BY == "updated":
-        df = df.sort_values("updated_at", ascending=False)
-    elif SORT_BY == "created":
-        df = df.sort_values("created_at", ascending=False)
-    elif SORT_BY == "activity":
-        df = df.sort_values("activity", ascending=False)
-    
-    # 限制项目数量
-    featured_repos = df.head(MAX_PROJECTS)
-    
-    # 生成项目卡片
-    featured_cards = []
-    for _, row in featured_repos.iterrows():
-        card = generate_project_card(row["object"], row["description_cn"])
-        featured_cards.append(card)
-    
-    # 更新README.md
-    update_readme_projects(featured_cards)
+    except Exception as e:
+        print(f"发生错误: {e}")
 
 if __name__ == "__main__":
     main()
