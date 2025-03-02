@@ -21,7 +21,8 @@ import base64
 GITHUB_TOKEN = os.environ.get("GH_TOKEN")
 USERNAME = os.environ.get("USERNAME", "B143KC47")
 MAX_PROJECTS = int(os.environ.get("MAX_PROJECTS", "4"))
-SORT_BY = int(os.environ.get("SORT_BY", "priority"))
+# 修复 - 确保SORT_BY是字符串而不是整数
+SORT_BY = os.environ.get("SORT_BY", "priority") 
 INCLUDE_CATEGORIES = os.environ.get("INCLUDE_CATEGORIES", "True").lower() == "true"
 SHOW_TRENDING = os.environ.get("SHOW_TRENDING", "True").lower() == "true"
 README_PATH = "README.md"
@@ -130,12 +131,26 @@ def get_repo_activity(repo):
         activity_score += 20
         
     # 如果最近有更新，加分 (确保时区一致)
-    repo_updated_at = repo.updated_at
-    if repo_updated_at.tzinfo is None:
-        repo_updated_at = repo_updated_at.replace(tzinfo=timezone.utc)
-        
-    days_since_update = (now - repo_updated_at).days
-    activity_score += max(0, 50 - days_since_update)
+    try:
+        # 修复 - 明确检查repo.updated_at是否为None
+        if repo.updated_at is None:
+            # 如果为None，使用现在的时间
+            repo_updated_at = now
+        else:
+            repo_updated_at = repo.updated_at
+            # 确保repo_updated_at有时区信息
+            if repo_updated_at.tzinfo is None:
+                repo_updated_at = repo_updated_at.replace(tzinfo=timezone.utc)
+            
+        # 计算天数差
+        days_since_update = (now - repo_updated_at).days
+        activity_score += max(0, 50 - days_since_update)
+        activity_data["days_since_update"] = days_since_update
+    except (TypeError, AttributeError) as e:
+        print(f"Error calculating days since update for {repo.name}: {e}")
+        # 出现错误时使用默认值
+        days_since_update = 999
+        activity_data["days_since_update"] = days_since_update
     
     return activity_score, activity_data
 
@@ -177,24 +192,30 @@ def create_trend_badge(repo_name, trend_data):
 def get_repo_status_badge(repo, activity_data):
     """
     基于仓库活动生成状态徽章
+    修复: 增加错误处理
     """
-    days = activity_data["days_since_update"]
-    
-    if days <= 7:
-        status = "活跃开发"
-        color = "brightgreen"
-    elif days <= 30:
-        status = "维护中"
-        color = "green"
-    elif days <= 90:
-        status = "低频更新"
-        color = "yellow"
-    elif days <= 365:
-        status = "稳定版"
-        color = "orange"
-    else:
-        status = "归档"
-        color = "red"
+    try:
+        days = activity_data["days_since_update"]
+        
+        if days <= 7:
+            status = "活跃开发"
+            color = "brightgreen"
+        elif days <= 30:
+            status = "维护中"
+            color = "green"
+        elif days <= 90:
+            status = "低频更新"
+            color = "yellow"
+        elif days <= 365:
+            status = "稳定版"
+            color = "orange"
+        else:
+            status = "归档"
+            color = "red"
+    except KeyError:
+        # 如果找不到days_since_update，使用默认值
+        status = "未知状态"
+        color = "gray"
     
     return f"https://img.shields.io/badge/状态-{status}-{color}?style=flat-square&logo=github"
 
@@ -482,12 +503,15 @@ def main():
         # 跳过fork的仓库
         if repo.fork:
             continue
-            
+        
+        print(f"处理仓库: {repo.name}")
+        
         # 获取仓库活动分数和数据
         try:
             activity_score, activity_data = get_repo_activity(repo)
-        except TypeError as e:
-            print(f"时区错误处理 {repo.name}: {e}")
+            print(f"仓库 {repo.name} 活动得分: {activity_score}")
+        except Exception as e:
+            print(f"获取仓库 {repo.name} 活动数据时出错: {e}")
             # 使用默认值继续
             activity_score = 0
             activity_data = {
