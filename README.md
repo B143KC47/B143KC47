@@ -21,28 +21,99 @@
 
 ## 🤖 关于我
 
-<table>
-<tr>
-<td width="60%">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px;">
+  <!-- 个人简介卡片 -->
+  <div style="flex: 1; min-width: 280px; background-color: #0d1117; border-radius: 10px; padding: 20px; border: 1px solid #30363d; box-shadow: 0 4px 12px rgba(0,0,0,0.1); position: relative; overflow: hidden;">
+    <!-- 卡片顶部装饰线 -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #c792ea, #ff6e96, #7fdbca); border-radius: 4px;"></div>
+    
+    <h3 style="color: #c792ea; margin-top: 10px; display: flex; align-items: center;">
+      <span style="background-color: rgba(199, 146, 234, 0.1); padding: 5px 10px; border-radius: 5px; margin-right: 10px;">🎯</span> 
+      个人简介
+    </h3>
+    
+    <ul style="list-style-type: none; padding-left: 10px;">
+      <li style="margin-bottom: 12px; display: flex; align-items: center;">
+        <span style="color: #ff6e96; margin-right: 10px;">🔭</span> 
+        正在专注于 <span style="color: #7fdbca; font-weight: bold;">LLMs</span> 和 
+        <span style="color: #7fdbca; font-weight: bold;">VLMs</span> 的研究
+      </li>
+      <li style="margin-bottom: 12px; display: flex; align-items: center;">
+        <span style="color: #ff6e96; margin-right: 10px;">🌱</span> 
+        探索 <span style="color: #7fdbca; font-weight: bold;">多模态AI</span> 和 
+        <span style="color: #7fdbca; font-weight: bold;">计算机视觉</span> 技术
+      </li>
+      <li style="margin-bottom: 12px; display: flex; align-items: center;">
+        <span style="color: #ff6e96; margin-right: 10px;">🤝</span> 
+        期待在 AI/ML 研究项目上的合作
+      </li>
+      <li style="margin-bottom: 12px; display: flex; align-items: center;">
+        <span style="color: #ff6e96; margin-right: 10px;">💡</span> 
+        擅长: <span style="color: #7fdbca; font-weight: bold;">NLP</span>,
+        <span style="color: #7fdbca; font-weight: bold;">计算机视觉</span>, 
+        <span style="color: #7fdbca; font-weight: bold;">VLM</span>
+      </li>
+      <li style="margin-bottom: 12px; display: flex; align-items: center;">
+        <span style="color: #ff6e96; margin-right: 10px;">🎯</span> 
+        2024目标: 为开源项目贡献代码，发表研究论文
+      </li>
+    </ul>
+  </div>
 
-### 🎯 个人简介
-- 🔭 正在专注于 **LLMs** 和 **VLMs** 的研究
-- 🌱 探索 **多模态AI** 和 **计算机视觉** 技术
-- 🤝 期待在 AI/ML 研究项目上的合作
-- 💡 擅长: **NLP**, **计算机视觉**, **VLM**
-- 🎯 2024目标: 为开源项目贡献代码，发表研究论文
-
-</td>
-<td width="40%">
-
-### 📊 编码目標
-- LLM 框架
-- Website
-- AI 新架构
-- AI Learning Tech
-</td>
-</tr>
-</table>
+  <!-- 编码目标卡片 -->
+  <div style="flex: 1; min-width: 280px; background-color: #0d1117; border-radius: 10px; padding: 20px; border: 1px solid #30363d; box-shadow: 0 4px 12px rgba(0,0,0,0.1); position: relative; overflow: hidden;">
+    <!-- 卡片顶部装饰线 -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #7fdbca, #c792ea, #ff6e96); border-radius: 4px;"></div>
+    
+    <h3 style="color: #c792ea; margin-top: 10px; display: flex; align-items: center;">
+      <span style="background-color: rgba(199, 146, 234, 0.1); padding: 5px 10px; border-radius: 5px; margin-right: 10px;">📊</span> 
+      编码目標
+    </h3>
+    
+    <div style="margin-top: 15px; padding-left: 10px;">
+      <!-- 目标进度条 -->
+      <div style="margin-bottom: 15px;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+          <span style="color: #a9b1d6;">LLM 框架</span>
+          <span style="color: #ff6e96;">进行中</span>
+        </div>
+        <div style="height: 8px; background-color: #30363d; border-radius: 4px; overflow: hidden;">
+          <div style="height: 100%; width: 70%; background: linear-gradient(90deg, #c792ea, #ff6e96); border-radius: 4px;"></div>
+        </div>
+      </div>
+      
+      <div style="margin-bottom: 15px;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+          <span style="color: #a9b1d6;">Website</span>
+          <span style="color: #7fdbca;">完成</span>
+        </div>
+        <div style="height: 8px; background-color: #30363d; border-radius: 4px; overflow: hidden;">
+          <div style="height: 100%; width: 90%; background: linear-gradient(90deg, #7fdbca, #00FF00); border-radius: 4px;"></div>
+        </div>
+      </div>
+      
+      <div style="margin-bottom: 15px;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+          <span style="color: #a9b1d6;">AI 新架构</span>
+          <span style="color: #ff6e96;">规划中</span>
+        </div>
+        <div style="height: 8px; background-color: #30363d; border-radius: 4px; overflow: hidden;">
+          <div style="height: 100%; width: 30%; background: linear-gradient(90deg, #ff6e96, #f78166); border-radius: 4px;"></div>
+        </div>
+      </div>
+      
+      <div style="margin-bottom: 15px;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+          <span style="color: #a9b1d6;">AI Learning Tech</span>
+          <span style="color: #ffae57;">进行中</span>
+        </div>
+        <div style="height: 8px; background-color: #30363d; border-radius: 4px; overflow: hidden;">
+          <div style="height: 100%; width: 50%; background: linear-gradient(90deg, #ffae57, #f78166); border-radius: 4px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ## 📊 GitHub 统计
 
