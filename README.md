@@ -25,7 +25,7 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
   <div style="flex: 1; min-width: 300px;">
     <h3>🎯 个人简介</h3>
-    <ul>
+    <ul align="left">
       <li>🔭 正在专注于 <strong>LLMs</strong> 和 <strong>VLMs</strong> 的研究</li>
       <li>🌱 探索 <strong>多模态AI</strong> 和 <strong>计算机视觉</strong> 技术</li>
       <li>🤝 期待在 AI/ML 研究项目上的合作</li>
@@ -36,7 +36,7 @@
 
   <div style="flex: 1; min-width: 300px;">
     <h3>📊 编码目標</h3>
-    <ul>
+    <ul align="left">
       <li>LLM 框架</li>
       <li>Website</li>
       <li>AI 新架构</li>
