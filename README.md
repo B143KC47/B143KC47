@@ -25,7 +25,7 @@
 <div>
 <table style="border: none; border-collapse: collapse;" width="100%">
 <tr style="border: none;">
-<td style="border: none; padding: 10px;" width="50%">
+<td style="border: none; " width="50%">
 
 ### 🎯 个人简介
 - 🔭 正在专注于 **LLMs** 和 **VLMs** 的研究
@@ -35,7 +35,7 @@
 - 🎯 2024目标: 为开源项目贡献代码，发表研究论文
 
 </td>
-<td style="border: none; padding: 10px;" width="50%">
+<td style="border: none;" width="50%">
 
 ### 📊 编码目標
 - LLM 框架
