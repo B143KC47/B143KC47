@@ -19,32 +19,31 @@
 
 </div>
 
-
 ## 🤖 关于我
 
 <div align="center">
-<table style="border: none; border-collapse: collapse;" width="100%" >
-<tr style="border: none;">
-<td style="border: none; " width="50%">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px;">
+  <div style="flex: 1; min-width: 300px;">
+    <h3>🎯 个人简介</h3>
+    <ul>
+      <li>🔭 正在专注于 <strong>LLMs</strong> 和 <strong>VLMs</strong> 的研究</li>
+      <li>🌱 探索 <strong>多模态AI</strong> 和 <strong>计算机视觉</strong> 技术</li>
+      <li>🤝 期待在 AI/ML 研究项目上的合作</li>
+      <li>💡 擅长: <strong>NLP</strong>, <strong>计算机视觉</strong>, <strong>VLM</strong></li>
+      <li>🎯 2024目标: 为开源项目贡献代码，发表研究论文</li>
+    </ul>
+  </div>
 
-### 🎯 个人简介
-- 🔭 正在专注于 **LLMs** 和 **VLMs** 的研究
-- 🌱 探索 **多模态AI** 和 **计算机视觉** 技术
-- 🤝 期待在 AI/ML 研究项目上的合作
-- 💡 擅长: **NLP**, **计算机视觉**, **VLM**
-- 🎯 2024目标: 为开源项目贡献代码，发表研究论文
-
-</td>
-<td style="border: none;" width="50%">
-
-### 📊 编码目標
-- LLM 框架
-- Website
-- AI 新架构
-- AI Learning Tech
-</td>
-</tr>
-</table>
+  <div style="flex: 1; min-width: 300px;">
+    <h3>📊 编码目標</h3>
+    <ul>
+      <li>LLM 框架</li>
+      <li>Website</li>
+      <li>AI 新架构</li>
+      <li>AI Learning Tech</li>
+    </ul>
+  </div>
+</div>
 </div>
 
 ## 📊 GitHub 统计
