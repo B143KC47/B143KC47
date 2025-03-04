@@ -80,10 +80,6 @@
 ### 📈 活跃度统计
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true" width="100%" />
 
-### 💻 编程时间统计
-
-
-[![wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6)](https://wakatime.com/@B143KC47)
 
 ## ⏱️ 我的编程时间统计
 
