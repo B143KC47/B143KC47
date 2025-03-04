@@ -48,20 +48,17 @@
 
 <div align="center">
 
-<table style="background-color: #0d1117; border-radius: 10px; overflow: hidden;">
-<tr>
-<td width="50%" align="center">
+<!-- 使用更简洁的布局，避免出现滚轮 -->
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" alt="GitHub统计" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6" alt="Wakatime Stats" />
+</div>
 
-![GitHub统计](https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6)
-
-</td>
-<td width="50%" align="center">
-
-![Wakatime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6)
-</td>
-</tr>
-<tr>
-</table>
+<!-- 同样优化第二行的统计图表 -->
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px;">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=B143KC47&theme=moonlight&border_radius=10&hide_border=true" alt="Monthly Contribution" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=B143KC47&theme=moonlight&border_radius=10&hide_border=true" alt="Contribution Graph" />
+</div>
 
 </div>
 <div align="center">
@@ -72,13 +69,8 @@
 <!--END_SECTION:waka-->
 </div>
 
-
-
 ### 📈 活跃度统计
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true" width="100%" />
-
-
-
 
 ## 🛠️ 技术栈
 
