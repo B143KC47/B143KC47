@@ -89,8 +89,6 @@
 
 </div>
 
-### 🏆 GitHub 成就
-<img src="https://github-profile-trophy.vercel.app/?username=B143KC47&theme=onestar&row=1&column=7&margin-w=15&margin-h=15&no-bg=true&no-frame=true" />
 
 ### 📈 活跃度统计
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true" width="100%" />
@@ -183,24 +181,6 @@ HTML                     1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 </div>
 
-## 🚀 精选项目
-
-<!-- FEATURED_PROJECTS_START -->
-<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
-<table>
-<tr>
-<td width="50%">
- <a href="https://github.com/B143KC47/CityU_GenAi_AIcademy">
-   <img src="https://github-readme-stats.vercel.app/api/pin/?username=B143KC47&repo=CityU_GenAi_AIcademy&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" />
-   <br>
-   <p align="center" style="color: #c792ea;"><strong>CityU GenAI Academy</strong></p>
-   <p align="center" style="color: #a9b1d6;">生成式AI应用研究与开发</p>
- </a>
-</td>
-</tr>
-</table>
-</div>
-<!-- FEATURED_PROJECTS_END -->
 
 ## 🛠️ 技术栈
 
@@ -241,55 +221,6 @@ HTML                     1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&bg_color=0d1117)
 ![Alibaba Cloud](https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibaba-cloud&logoColor=white&bg_color=0d1117)
 </div>
-
-
-## 🔬 研究方向
-
-<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontFamily': 'monospace'}}}%%
-mindmap
- root((AI Research))
-   LLMs
-     Parameter Efficient Fine-tuning
-     Prompt Engineering
-     Model Compression
-   VLMs
-     Multi-modal Learning
-     Zero-shot Learning
-     Cross-modal Transfer
-   MLOps
-     Model Deployment
-     Performance Optimization
-     Monitoring
-```
-
-</div>
-
-## 📚 最新博客文章
-
-<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
-
-### 🎯 技术博客
-<table style="width: 100%; border-collapse: collapse;">
-<tr>
-<td style="padding: 10px; border: 1px solid #30363d;">
- <a href="https://b143kc47.github.io/blog/post1" style="color: #c792ea; text-decoration: none;">
-   <h3>🔮 Exploring Generative AI: Tips and Tricks</h3>
-   <p style="color: #a9b1d6;">深入探讨生成式AI的最佳实践和技巧</p>
- </a>
-</td>
-</tr>
-<tr>
-<td style="padding: 10px; border: 1px solid #30363d;">
- <a href="https://b143kc47.github.io/blog/post2" style="color: #c792ea; text-decoration: none;">
-   <h3>🚀 Optimizing Vision-Language Models for Real-World Use</h3>
-   <p style="color: #a9b1d6;">视觉语言模型在实际应用中的优化策略</p>
- </a>
-</td>
-</tr>
-</table>
 
 </div>
 
