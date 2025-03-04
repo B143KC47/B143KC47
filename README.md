@@ -22,7 +22,7 @@
 
 ## 🤖 关于我
 
-<div align="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+<div align="center">
 <table style="border: none; border-collapse: collapse;" width="100%" >
 <tr style="border: none;">
 <td style="border: none; " width="50%">
