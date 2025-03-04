@@ -23,8 +23,6 @@
 
 <div align="center">
 
-### 我的个人资料与目标
-
 <table>
 <tr>
 <td width="60%" valign="top">
