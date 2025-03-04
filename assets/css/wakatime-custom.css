@@ -1,304 +1,37 @@
-/* WakaTime统计视觉优化 */
-.waka-stats {
-  background-color: #0d1117;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 20px 0;
-  border: 1px solid #30363d;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.waka-stats-title {
-  color: #c792ea;
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  text-align: center;
-  border-bottom: 1px solid #30363d;
-  padding-bottom: 10px;
-}
-
-.waka-stats-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-}
-
-.waka-stats-card {
-  background-color: #161b22;
-  border-radius: 6px;
-  padding: 15px;
-  flex: 1;
-  min-width: 250px;
-  border-left: 4px solid #7957D5;
-}
-
-.waka-stats-card h4 {
-  color: #7fdbca;
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-size: 1rem;
-}
-
-.waka-progress-bar {
-  height: 10px;
-  background-color: #2D333B;
-  border-radius: 5px;
-  overflow: hidden;
-  margin: 5px 0;
-}
-
-.waka-progress-fill {
-  height: 100%;
-  border-radius: 5px;
-}
-
-/* 为不同编程语言设置不同颜色 */
-.lang-python { background-color: #3572A5; }
-.lang-javascript { background-color: #F7DF1E; }
-.lang-typescript { background-color: #2B7489; }
-.lang-cpp { background-color: #F34B7D; }
-.lang-go { background-color: #00ADD8; }
-.lang-rust { background-color: #DEA584; }
-.lang-lua { background-color: #000080; }
-
-.waka-lang-details {
-  display: flex;
-  justify-content: space-between;
-  color: #a9b1d6;
-  font-size: 0.9rem;
-  margin-top: 3px;
-}
-
-/* 图表和嵌入样式 */
-.waka-chart {
-  width: 100%;
-  margin: 20px 0;
-}
-
-.waka-chart figure {
-  margin: 0;
-  padding: 0;
-}
-
-.waka-chart embed {
-  width: 100%;
-  height: 300px;
-  border: none;
-}
-
-.waka-chart figcaption {
-  text-align: center;
-  color: #a9b1d6;
-  font-size: 0.9rem;
-  margin-top: 10px;
-}
-
-/* 里程碑进度条 */
-.milestone-progress-container {
-  background-color: #2D333B;
-  border-radius: 5px;
-  height: 20px;
-  width: 100%;
-  margin: 10px auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.milestone-progress-bar {
-  background-color: #7957D5;
-  border-radius: 5px;
-  height: 20px;
-  transition: width 1s ease-in-out;
-}
-
-.milestone-progress-text {
-  position: absolute;
-  top: 0;
-  left: 10px;
-  line-height: 20px;
-  color: white;
-  font-size: 0.9rem;
-}
-
-/* 响应式调整 */
-@media (max-width: 768px) {
-  .waka-stats-container {
-    flex-direction: column;
-  }
-  
-  .waka-stats-card {
-    min-width: 100%;
-  }
-}
-
-/**
- * WakaTime统计数据自定义样式
- * 优化显示效果和布局
- */
-
-/* WakaTime图表容器 */
-.wakatime-charts {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  margin: 20px 0;
-}
-
-.wakatime-chart {
-  width: 100%;
-  background-color: #161b22;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  border: 1px solid #30363d;
-}
-
-.wakatime-chart:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-}
-
-.wakatime-chart h4 {
-  color: #c792ea;
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 15px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #30363d;
-}
-
-.wakatime-chart figure {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.wakatime-chart img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-/* 编程里程碑样式 */
-.coding-milestone {
-  margin: 30px 0;
-  padding: 20px;
-  background-color: #161b22;
-  border-radius: 10px;
-  border: 1px solid #30363d;
-}
-
-.milestone-progress {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
-
-.milestone-circle {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background: conic-gradient(#7957D5 65%, #2D333B 0);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.milestone-inner {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  background-color: #0d1117;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#milestone-percent {
-  color: #c792ea;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.milestone-bar {
-  width: 100%;
-  max-width: 500px;
-  height: 20px;
-  background-color: #2D333B;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-top: 10px;
-}
-
-.milestone-progress-bar {
-  height: 100%;
-  background-color: #7957D5;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  padding-left: 10px;
-  color: white;
-  font-size: 14px;
-  transition: width 1.5s ease-in-out;
-}
-
 /* WakaTime徽章样式 */
-.wakatime-badge {
+
+/* 徽章容器样式 */
+.waka-badges {
+  text-align: center;
   margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-.wakatime-badge img {
+/* 确保徽章大小一致 */
+.waka-badges img {
   height: 24px;
 }
 
-/* START_SECTION:waka 自动更新区域样式 */
-pre {
-  background-color: #161b22;
-  padding: 15px;
-  border-radius: 8px;
+/* 徽章加载失败时的备用样式 */
+.waka-badge-fallback {
+  color: #7957D5;
+  font-weight: bold;
+  padding: 5px 10px;
   border: 1px solid #30363d;
-  overflow-x: auto;
-}
-
-.progress-bar {
-  height: 8px;
-  background-color: #2D333B;
   border-radius: 4px;
-  margin: 5px 0;
-  overflow: hidden;
+  background-color: #161b22;
 }
 
-.progress-fill {
-  height: 100%;
-  border-radius: 4px;
-  transition: width 1s ease-in-out;
+/* 动画效果 - 简单的渐入效果 */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-/* 响应式设计 */
-@media (min-width: 768px) {
-  .wakatime-charts {
-    flex-direction: row;
-  }
-  
-  .wakatime-chart {
-    width: 48%;
-  }
-}
-
-/* 动画效果 */
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.02); }
-  100% { transform: scale(1); }
-}
-
-.coding-milestone h3 {
-  animation: pulse 2s infinite;
+/* 为徽章添加简单的动画 */
+.waka-badges img {
+  animation: fadeIn 0.5s ease-in-out;
 }
