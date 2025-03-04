@@ -77,7 +77,7 @@
 </div>
 <div align="center">
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-27%20hrs%2023%20mins-blue)
+![Code Time](https://img.shields.io/badge/Code%20Time-27%20hrs%2023%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-53.4%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
 <!--END_SECTION:waka-->
@@ -87,12 +87,6 @@
 
 ### 📈 活跃度统计
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true" width="100%" />
-
-
-
-### 🌟 贡献热力图
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=B143KC47&theme=moonlight&utcOffset=8" width="45%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=B143KC47&theme=moonlight" width="45%" />
 
 
 
