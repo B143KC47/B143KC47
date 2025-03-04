@@ -72,6 +72,7 @@
 
 </td>
 </tr>
+</table>
 
 </div>
 
@@ -208,55 +209,6 @@ HTML                     1 repo              ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </div>
 
 
-## 🔬 研究方向
-
-<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'fontFamily': 'monospace'}}}%%
-mindmap
- root((AI Research))
-   LLMs
-     Parameter Efficient Fine-tuning
-     Prompt Engineering
-     Model Compression
-   VLMs
-     Multi-modal Learning
-     Zero-shot Learning
-     Cross-modal Transfer
-   MLOps
-     Model Deployment
-     Performance Optimization
-     Monitoring
-```
-
-</div>
-
-## 📚 最新博客文章
-
-<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
-
-### 🎯 技术博客
-<table style="width: 100%; border-collapse: collapse;">
-<tr>
-<td style="padding: 10px; border: 1px solid #30363d;">
- <a href="https://b143kc47.github.io/blog/post1" style="color: #c792ea; text-decoration: none;">
-   <h3>🔮 Exploring Generative AI: Tips and Tricks</h3>
-   <p style="color: #a9b1d6;">深入探讨生成式AI的最佳实践和技巧</p>
- </a>
-</td>
-</tr>
-<tr>
-<td style="padding: 10px; border: 1px solid #30363d;">
- <a href="https://b143kc47.github.io/blog/post2" style="color: #c792ea; text-decoration: none;">
-   <h3>🚀 Optimizing Vision-Language Models for Real-World Use</h3>
-   <p style="color: #a9b1d6;">视觉语言模型在实际应用中的优化策略</p>
- </a>
-</td>
-</tr>
-</table>
-
-</div>
 
 ## 📫 联系我 & 支持我
 
