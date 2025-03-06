@@ -40,3 +40,5 @@ jobs:
           # 可能影响输出格式的选项
           IGNORED_REPOS: "*"  # 忽略所有仓库统计
           COMMIT_BY_ME: "False"  # 不显示提交信息
+          
+
