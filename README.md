@@ -23,27 +23,58 @@
 
 <div align="center">
 
-<table>
-<tr>
-<td width="60%" valign="top">
+<table style="width: 100%; border-collapse: separate; border-spacing: 0 10px; background-color: transparent; border: none;">
+<tr style="background-color: transparent; border: none;">
+<td width="60%" style="background: linear-gradient(135deg, #1a1b27 0%, #2a2c3e 100%); border-radius: 16px; padding: 20px; border: 1px solid #30363d; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 
-### 🎯 个人简介
+<h3 align="center">🎯 个人简介</h3>
 
-- 🔭 正在专注于 **LLMs** 和 **VLMs** 的研究
-- 🌱 探索 **多模态AI** 和 **计算机视觉** 技术
-- 🤝 期待在 AI/ML 研究项目上的合作
-- 💡 擅长: **NLP**, **计算机视觉**, **VLM**
-- 🎯 2024目标: 为开源项目贡献代码，发表研究论文
+<table style="width: 100%; border-collapse: collapse; background-color: transparent; border: none;">
+<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
+<td align="center" width="15%" style="padding: 10px;"><b>🔭</b></td>
+<td style="padding: 10px;">正在专注于 <b><span style="color: #c792ea;">LLMs</span></b> 和 <b><span style="color: #7fdbca;">VLMs</span></b> 的研究</td>
+</tr>
+<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
+<td align="center" style="padding: 10px;"><b>🌱</b></td>
+<td style="padding: 10px;">探索 <b><span style="color: #c792ea;">多模态AI</span></b> 和 <b><span style="color: #7fdbca;">计算机视觉</span></b> 技术</td>
+</tr>
+<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
+<td align="center" style="padding: 10px;"><b>🤝</b></td>
+<td style="padding: 10px;">期待在 <b><span style="color: #c792ea;">AI/ML</span></b> 研究项目上的合作</td>
+</tr>
+<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
+<td align="center" style="padding: 10px;"><b>💡</b></td>
+<td style="padding: 10px;">擅长: <b><span style="color: #c792ea;">NLP</span></b>, <b><span style="color: #7fdbca;">计算机视觉</span></b>, <b><span style="color: #ff6e96;">VLM</span></b></td>
+</tr>
+<tr style="background-color: transparent;">
+<td align="center" style="padding: 10px;"><b>🎯</b></td>
+<td style="padding: 10px;">2024目标: 为开源项目贡献代码，发表研究论文</td>
+</tr>
+</table>
 
 </td>
-<td width="40%" valign="top">
+<td width="40%" style="background: linear-gradient(135deg, #1a1b27 0%, #2a2c3e 100%); border-radius: 16px; padding: 20px; margin-left: 15px; border: 1px solid #30363d; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 
-### 📊 编码目标
+<h3 align="center">📊 编码目标</h3>
 
-- LLM 框架开发与优化
-- 个人技术博客网站建设
-- AI 新架构探索与实现
-- AI 学习技术研发与应用
+<table style="width: 100%; border-collapse: collapse; background-color: transparent; border: none;">
+<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
+<td align="center" width="15%" style="padding: 10px;"><b>🧠</b></td>
+<td style="padding: 10px;"><b><span style="color: #c792ea;">LLM</span></b> 框架开发与优化</td>
+</tr>
+<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
+<td align="center" style="padding: 10px;"><b>📝</b></td>
+<td style="padding: 10px;">个人技术博客网站建设</td>
+</tr>
+<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
+<td align="center" style="padding: 10px;"><b>🔍</b></td>
+<td style="padding: 10px;"><b><span style="color: #7fdbca;">AI</span></b> 新架构探索与实现</td>
+</tr>
+<tr style="background-color: transparent;">
+<td align="center" style="padding: 10px;"><b>📚</b></td>
+<td style="padding: 10px;"><b><span style="color: #ff6e96;">AI</span></b> 学习技术研发与应用</td>
+</tr>
+</table>
 
 </td>
 </tr>
