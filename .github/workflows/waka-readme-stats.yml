@@ -15,6 +15,7 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}    
+          
           # 基本配置
           SHOW_LINES_OF_CODE: "True"  # 保留代码行数徽章
           SHOW_TOTAL_CODE_TIME: "True"  # 保留总编码时间
@@ -33,12 +34,18 @@ jobs:
           SHOW_LOC_CHART: "False"
           SHOW_UPDATED_DATE: "False"
           
-
           # 区域设置
           LOCALE: "zh"
           
-          # 可能影响输出格式的选项
+          # 输出格式设置
           IGNORED_REPOS: "*"  # 忽略所有仓库统计
           COMMIT_BY_ME: "False"  # 不显示提交信息
+          SHOW_TITLE: "False"  # 不显示标题
+          BLOCKS: "░▒▓█"  # 自定义进度条字符
+          TIME_RANGE: "all_time"  # 统计所有时间
+          LANG_COUNT: 10  # 显示的语言数量
+          
+          # README 位置设置
+          README_FILE: "./README.md"
           
 
