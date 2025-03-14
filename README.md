@@ -96,9 +96,9 @@
 <div align="center">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-42%20hrs%2034%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-45%20hrs%2020%20mins-blue)
 
-![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-94.4%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
+![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-95.6%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
 
 
 <!--END_SECTION:waka-->
