@@ -1,4 +1,4 @@
-# <div align="center">🌟 欢迎来到我的 GitHub 空间</div>
+# <div align="center">🌟 Welcome to My GitHub Space</div>
 
 <div align="center">
 
@@ -19,7 +19,7 @@
 
 </div>
 
-## 🤖 关于我
+## 🤖 About Me
 
 <div align="center">
 
@@ -27,52 +27,52 @@
 <tr style="background-color: transparent; border: none;">
 <td width="60%" style="background: linear-gradient(135deg, #1a1b27 0%, #2a2c3e 100%); border-radius: 16px; padding: 20px; border: 1px solid #30363d; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 
-<h3 align="center">🎯 个人简介</h3>
+<h3 align="center">🎯 Personal Profile</h3>
 
 <table style="width: 100%; border-collapse: collapse; background-color: transparent; border: none;">
 <tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
 <td align="center" width="15%" style="padding: 10px;"><b>🔭</b></td>
-<td style="padding: 10px;">正在专注于 <b><span style="color: #c792ea;">LLMs</span></b> 和 <b><span style="color: #7fdbca;">VLMs</span></b> 的研究</td>
+<td style="padding: 10px;">Currently focusing on research in <b><span style="color: #c792ea;">LLMs</span></b> and <b><span style="color: #7fdbca;">VLMs</span></b></td>
 </tr>
 <tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
 <td align="center" style="padding: 10px;"><b>🌱</b></td>
-<td style="padding: 10px;">探索 <b><span style="color: #c792ea;">多模态AI</span></b> 和 <b><span style="color: #7fdbca;">计算机视觉</span></b> 技术</td>
+<td style="padding: 10px;">Exploring <b><span style="color: #c792ea;">Multimodal AI</span></b> and <b><span style="color: #7fdbca;">Computer Vision</span></b> technologies</td>
 </tr>
 <tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
 <td align="center" style="padding: 10px;"><b>🤝</b></td>
-<td style="padding: 10px;">期待在 <b><span style="color: #c792ea;">AI/ML</span></b> 研究项目上的合作</td>
+<td style="padding: 10px;">Looking forward to collaborating on <b><span style="color: #c792ea;">AI/ML</span></b> research projects</td>
 </tr>
 <tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
 <td align="center" style="padding: 10px;"><b>💡</b></td>
-<td style="padding: 10px;">擅长: <b><span style="color: #c792ea;">NLP</span></b>, <b><span style="color: #7fdbca;">计算机视觉</span></b>, <b><span style="color: #ff6e96;">VLM</span></b></td>
+<td style="padding: 10px;">Expertise: <b><span style="color: #c792ea;">NLP</span></b>, <b><span style="color: #7fdbca;">Computer Vision</span></b>, <b><span style="color: #ff6e96;">VLM</span></b></td>
 </tr>
 <tr style="background-color: transparent;">
 <td align="center" style="padding: 10px;"><b>🎯</b></td>
-<td style="padding: 10px;">2024目标: 为开源项目贡献代码，发表研究论文</td>
+<td style="padding: 10px;">2024 Goals: Contribute code to open-source projects and publish research papers</td>
 </tr>
 </table>
 
 </td>
 <td width="40%" style="background: linear-gradient(135deg, #1a1b27 0%, #2a2c3e 100%); border-radius: 16px; padding: 20px; margin-left: 15px; border: 1px solid #30363d; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
 
-<h3 align="center">📊 编码目标</h3>
+<h3 align="center">📊 Coding Goals</h3>
 
 <table style="width: 100%; border-collapse: collapse; background-color: transparent; border: none;">
 <tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
 <td align="center" width="15%" style="padding: 10px;"><b>🧠</b></td>
-<td style="padding: 10px;"><b><span style="color: #c792ea;">LLM</span></b> 框架开发与优化</td>
+<td style="padding: 10px;"><b><span style="color: #c792ea;">LLM</span></b> Framework Development and Optimization</td>
 </tr>
 <tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
 <td align="center" style="padding: 10px;"><b>📝</b></td>
-<td style="padding: 10px;">个人技术博客网站建设</td>
+<td style="padding: 10px;">Personal Technical Blog Website Construction</td>
 </tr>
 <tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
 <td align="center" style="padding: 10px;"><b>🔍</b></td>
-<td style="padding: 10px;"><b><span style="color: #7fdbca;">AI</span></b> 新架构探索与实现</td>
+<td style="padding: 10px;">Exploration and Implementation of New <b><span style="color: #7fdbca;">AI</span></b> Architectures</td>
 </tr>
 <tr style="background-color: transparent;">
 <td align="center" style="padding: 10px;"><b>📚</b></td>
-<td style="padding: 10px;"><b><span style="color: #ff6e96;">AI</span></b> 学习技术研发与应用</td>
+<td style="padding: 10px;">Research and Application of <b><span style="color: #ff6e96;">AI</span></b> Learning Technologies</td>
 </tr>
 </table>
 
@@ -82,7 +82,7 @@
 
 </div>
 
-## 📊 GitHub 统计
+## 📊 GitHub Stats
 
 <div align="center">
 
@@ -96,11 +96,8 @@
 <div align="center">
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-39%20hrs%2019%20mins-blue)
 
-![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-111.5%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
-
-![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-81.6%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
+![Lines of code](https://img.shields.io/badge/From%20%22Hello%20World%22%20I%27ve%20written-81.6%20thousand%20lines%20of%20code-blue)
 
 ![Code Time](http://img.shields.io/badge/Code%20Time-38%20hrs%2033%20mins-blue)
 
@@ -108,58 +105,78 @@
 
 </div>
 
-### 📈 活跃度统计
+### 📈 Activity Stats
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true" width="100%" />
 
 
-## 🛠️ 技术栈
+## 🛠️ Tech Stack
 
-<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
+<div align="center">
 
-### 💻 编程语言 & 工具
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&bg_color=0d1117)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white&bg_color=0d1117)
-![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white&bg_color=0d1117)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&bg_color=0d1117)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&bg_color=0d1117)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white&bg_color=0d1117)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white&bg_color=0d1117)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white&bg_color=0d1117)
-[![Obsidian](https://img.shields.io/badge/Obsidian-%23483699.svg?&logo=obsidian&logoColor=white)](#)
+### 💻 Languages
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+    <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
+    <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
+</div>
 
-### 🛠️ 开发工具
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white&bg_color=0d1117)
-[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&bg_color=0d1117)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&bg_color=0d1117)
-![Vim](https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white&bg_color=0d1117)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black&bg_color=0d1117)
-[![Visual Studio](https://custom-icon-badges.demolab.com/badge/Visual%20Studio-5C2D91.svg?&logo=visual-studio&logoColor=white)](#)
-[![Perplexity](https://img.shields.io/badge/Perplexity-1FB8CD?logo=perplexity&logoColor=fff)](#)
-[![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?logo=openai&logoColor=white)](#)
-[![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000?logo=githubcopilot&logoColor=fff)](#)
-[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?logo=googlegemini&logoColor=fff)](#)
+### 🧰 Development Tools
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
+    <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
+    <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="Visual Studio" />
+    <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+    <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim" />
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian" />
+</div>
 
-### 🤖 AI/ML 技术栈
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&bg_color=0d1117)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&bg_color=0d1117)
-![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white&bg_color=0d1117)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white&bg_color=0d1117)
-![Hugging Face](https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge&bg_color=0d1117)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white&bg_color=0d1117)
+### 🤖 AI/ML Tech Stack
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
+    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+    <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
+    <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" alt="OpenCV" />
+    <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge" alt="Hugging Face" />
+    <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
+</div>
 
-### ☁️ 云平台 & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white&bg_color=0d1117)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white&bg_color=0d1117)
-![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white&bg_color=0d1117)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white&bg_color=0d1117)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white&bg_color=0d1117)
-![Alibaba Cloud](https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibaba-cloud&logoColor=white&bg_color=0d1117)
+### ☁️ Cloud & DevOps
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
+    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
+    <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
+    <img src="https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibaba-cloud&logoColor=white" alt="Alibaba Cloud" />
+    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+</div>
 
+### 🧠 AI Tools
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
+    <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
+    <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Copilot" />
+    <img src="https://img.shields.io/badge/Google_Gemini-886FBF?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
+    <img src="https://img.shields.io/badge/Perplexity-1FB8CD?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity" />
+</div>
+
+### 💽 OS & Environments
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+    <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
+    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+</div>
+
+</div>
 </div>
 
 
-## 📫 联系方式 & 支持
+## 📫 Contact & Support
 
 <div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
 
