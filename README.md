@@ -195,6 +195,21 @@
 </a>
 </div>
 
+<!-- 社交媒体平台 -->
+<div style="margin: 20px 0;">
+<a href="https://www.zhihu.com/people/B143KC47">
+<img src="https://img.shields.io/badge/知乎-0084FF?style=for-the-badge&logo=zhihu&logoColor=white&bg_color=0d1117"/>
+</a>
+<a href="https://blog.csdn.net/B143KC47?spm=1000.2115.3001.5343">
+<img src="https://img.shields.io/badge/CSDN-CF000E?style=for-the-badge&logo=c&logoColor=white&bg_color=0d1117"/>
+</a>
+<a href="https://www.youtube.com/@blackc4t-1337">
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&bg_color=0d1117"/>
+</a>
+<a href="https://www.instagram.com/b14ckc4t1337/">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&bg_color=0d1117"/>
+
+
 <div style="margin: 20px 0;">
 <a href="https://www.buymeacoffee.com/your_username">
 <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&bg_color=0d1117"/>
