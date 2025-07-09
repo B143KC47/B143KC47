@@ -1,37 +1,190 @@
-/* WakaTime徽章样式 */
+/* WakaTime统计美化样式 */
+
+/* 主要统计容器 */
+.waka-stats-container {
+  background: linear-gradient(135deg, #161b22 0%, #21262d 100%);
+  border-radius: 16px;
+  padding: 25px;
+  margin: 20px 0;
+  border: 1px solid #30363d;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.waka-stats-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #c792ea, #7fdbca, #ff6e96);
+}
 
 /* 徽章容器样式 */
 .waka-badges {
   text-align: center;
-  margin: 15px 0;
+  margin: 20px 0;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
   flex-wrap: wrap;
 }
 
-/* 确保徽章大小一致 */
+/* 确保徽章大小一致并添加悬停效果 */
 .waka-badges img {
-  height: 24px;
+  height: 28px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  filter: brightness(1.1);
+}
+
+.waka-badges img:hover {
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 4px 12px rgba(121, 87, 213, 0.3);
+}
+
+/* WakaTime 统计文本样式 */
+.waka-stats-text {
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+  line-height: 1.8;
+  color: #a9b1d6;
+}
+
+.waka-stats-text strong {
+  color: #c792ea;
+  font-weight: 600;
+}
+
+.waka-stats-text code {
+  background-color: #30363d;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #7fdbca;
+  font-size: 0.9em;
+}
+
+/* 进度条样式 */
+.waka-progress {
+  background-color: #21262d;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 8px 0;
+  height: 8px;
+  position: relative;
+}
+
+.waka-progress::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #c792ea, #7fdbca);
+  border-radius: inherit;
+  animation: progressShine 2s infinite;
+}
+
+@keyframes progressShine {
+  0% { opacity: 0.8; }
+  50% { opacity: 1; }
+  100% { opacity: 0.8; }
+}
+
+/* 统计项分组 */
+.waka-section {
+  margin: 25px 0;
+  padding: 20px;
+  background-color: rgba(33, 38, 45, 0.5);
+  border-radius: 12px;
+  border-left: 4px solid #7fdbca;
+}
+
+.waka-section:nth-child(even) {
+  border-left-color: #c792ea;
+}
+
+.waka-section:nth-child(3n) {
+  border-left-color: #ff6e96;
+}
+
+.waka-section h4 {
+  color: #c792ea;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+.waka-section h4::before {
+  content: '▶';
+  margin-right: 8px;
+  color: #7fdbca;
+  font-size: 0.8em;
 }
 
 /* 徽章加载失败时的备用样式 */
 .waka-badge-fallback {
   color: #7957D5;
   font-weight: bold;
-  padding: 5px 10px;
+  padding: 8px 16px;
   border: 1px solid #30363d;
-  border-radius: 4px;
-  background-color: #161b22;
+  border-radius: 6px;
+  background: linear-gradient(135deg, #161b22, #21262d);
+  display: inline-block;
+  margin: 4px;
+  transition: all 0.3s ease;
 }
 
-/* 动画效果 - 简单的渐入效果 */
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+.waka-badge-fallback:hover {
+  background: linear-gradient(135deg, #21262d, #161b22);
+  transform: translateY(-1px);
 }
 
-/* 为徽章添加简单的动画 */
-.waka-badges img {
-  animation: fadeIn 0.5s ease-in-out;
+/* 动画效果 */
+@keyframes fadeInUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(20px);
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+/* 为统计内容添加动画 */
+.waka-badges img, .waka-section {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.waka-stats-container:hover {
+  animation: pulse 2s infinite;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .waka-badges {
+    gap: 8px;
+  }
+  
+  .waka-badges img {
+    height: 24px;
+  }
+  
+  .waka-stats-container {
+    padding: 15px;
+    margin: 15px 0;
+  }
+  
+  .waka-section {
+    padding: 15px;
+    margin: 15px 0;
+  }
 }

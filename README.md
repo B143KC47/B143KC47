@@ -86,14 +86,18 @@
 
 <div align="center">
 
-<!-- 使用更简洁的布局，避免出现滚轮 -->
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" alt="GitHub统计" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6" alt="Wakatime Stats" />
+<!-- GitHub统计卡片 -->
+<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-bottom: 30px;">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" alt="GitHub统计" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6" alt="Wakatime Stats" />
 </div>
 
-</div>
-<div align="center">
+<!-- WakaTime 详细统计 -->
+<div class="waka-stats-container" style="background: linear-gradient(135deg, #161b22 0%, #21262d 100%); border-radius: 16px; padding: 25px; margin: 25px 0; border: 1px solid #30363d; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); position: relative;">
+  
+  <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #c792ea, #7fdbca, #ff6e96); border-radius: 16px 16px 0 0;"></div>
+  
+  <h3 align="center" style="color: #c792ea; margin-top: 10px; margin-bottom: 20px; font-size: 1.3em;">⏱️ 编码时间统计</h3>
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-160%20hrs%2049%20mins-blue)
@@ -102,6 +106,8 @@
 
 
 <!--END_SECTION:waka-->
+
+</div>
 
 </div>
 
