@@ -87,18 +87,48 @@
 <div align="center">
 
 <!-- GitHub统计卡片 -->
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px; margin-bottom: 30px;">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" alt="GitHub统计" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6" alt="Wakatime Stats" />
+<div class="github-stats-row">
+  <img src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" alt="GitHub统计" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=midnight-purple&hide_border=true&background=0d1117&ring=c792ea&fire=ff6e96&currStreakLabel=c792ea" alt="GitHub Streak" />
 </div>
 
-<!-- WakaTime 详细统计 -->
-<div class="waka-stats-container" style="background: linear-gradient(135deg, #161b22 0%, #21262d 100%); border-radius: 16px; padding: 25px; margin: 25px 0; border: 1px solid #30363d; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); position: relative;">
-  
-  <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #c792ea, #7fdbca, #ff6e96); border-radius: 16px 16px 0 0;"></div>
-  
-  <h3 align="center" style="color: #c792ea; margin-top: 10px; margin-bottom: 20px; font-size: 1.3em;">⏱️ 编码时间统计</h3>
+</div>
 
+## ⏱️ WakaTime 编码统计
+
+<div align="center">
+
+<!-- WakaTime 统计整体容器 -->
+<div style="max-width: 900px; margin: 0 auto;">
+
+  <!-- WakaTime 概览图 - 优化黑色主题 -->
+  <div class="wakatime-image-container" style="background: linear-gradient(135deg, #000000 0%, #0d1117 50%, #161b22 100%); border-radius: 20px; padding: 25px; margin: 25px 0; border: 2px solid #21262d; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6); position: relative; overflow: hidden;">
+    
+    <!-- 顶部渐变条 -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #c792ea 0%, #7fdbca 50%, #ff6e96 100%); border-radius: 20px 20px 0 0;"></div>
+    
+    <!-- 背景光效 -->
+    <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(199, 146, 234, 0.1) 0%, transparent 70%); animation: rotate 20s linear infinite;"></div>
+    
+    <h3 style="color: #c792ea; margin-bottom: 20px; text-align: center; position: relative; z-index: 2; font-size: 1.4em; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);">🎨 编码时间概览</h3>
+    
+    <div style="position: relative; z-index: 2;">
+      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=dark&hide_border=true&bg_color=00000000&title_color=c792ea&text_color=a9b1d6&icon_color=7fdbca&border_radius=12" alt="Wakatime Stats" style="width: 100%; max-width: 500px; border-radius: 15px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);" />
+    </div>
+  </div>
+
+  <!-- WakaTime 详细统计容器 - 增强黑色主题 -->
+  <div class="waka-stats-container" style="background: linear-gradient(135deg, #000000 0%, #0d1117 30%, #161b22 70%, #21262d 100%); border-radius: 20px; padding: 30px; margin: 25px 0; border: 2px solid #30363d; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.1); position: relative; overflow: hidden;">
+    
+    <!-- 顶部装饰条 -->
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #c792ea 0%, #7fdbca 33%, #ff6e96 66%, #c792ea 100%); border-radius: 20px 20px 0 0;"></div>
+    
+    <!-- 动态背景效果 -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(45deg, transparent 30%, rgba(199, 146, 234, 0.05) 50%, transparent 70%); animation: shimmer 3s ease-in-out infinite;"></div>
+    
+    <h3 align="center" style="color: #c792ea; margin-top: 15px; margin-bottom: 25px; font-size: 1.4em; position: relative; z-index: 2; text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);">📈 详细编码数据</h3>
+
+    <div style="position: relative; z-index: 2;">
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-262%20hrs%2046%20mins-blue)
 
@@ -106,10 +136,31 @@
 
 
 <!--END_SECTION:waka-->
+    </div>
+
+  </div>
 
 </div>
 
 </div>
+
+<!-- CSS动画定义 -->
+<style>
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 0.3; transform: translateX(-100%); }
+  50% { opacity: 0.8; transform: translateX(100%); }
+}
+
+.wakatime-image-container:hover, .waka-stats-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8) !important;
+}
+</style>
 
 ### 📈 Activity Stats
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true" width="100%" />
