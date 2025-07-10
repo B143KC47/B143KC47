@@ -82,18 +82,6 @@
 
 </div>
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<!-- GitHub统计卡片 -->
-<div class="github-stats-row">
-  <img src="https://github-readme-stats.vercel.app/api?username=B143KC47&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&border_radius=10&hide_border=true&bg_color=0d1117&title_color=c792ea&icon_color=7fdbca&text_color=a9b1d6" alt="GitHub统计" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=B143KC47&theme=midnight-purple&hide_border=true&background=0d1117&ring=c792ea&fire=ff6e96&currStreakLabel=c792ea" alt="GitHub Streak" />
-</div>
-
-</div>
-
 ## ⏱️ WakaTime 编码统计
 
 <div align="center">
@@ -122,10 +110,6 @@
 </div>
 
 </div>
-
-### 📈 Activity Stats
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=B143KC47&theme=react-dark&bg_color=0d1117&color=c792ea&line=7fdbca&point=ff6e96&area=true&hide_border=true" width="100%" />
-
 
 ## 🛠️ Tech Stack
 

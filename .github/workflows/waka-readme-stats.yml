@@ -23,14 +23,14 @@ jobs:
           # 启用美化的统计功能
           SHOW_PROFILE_VIEWS: "False"
           SHOW_COMMIT: "False"
-          SHOW_DAYS_OF_WEEK: "True"  # 启用一周编码时间分布
+          SHOW_DAYS_OF_WEEK: "False"  # 禁用一周编码时间分布 (移除本周消耗时间和最有效率日期)
           SHOW_LANGUAGE: "True"  # 启用编程语言统计
           SHOW_OS: "False"
           SHOW_PROJECTS: "False"
           SHOW_TIMEZONE: "False"
           SHOW_EDITORS: "True"  # 启用编辑器使用统计
           SHOW_LANGUAGE_PER_REPO: "False"
-          SHOW_SHORT_INFO: "True"  # 启用简短信息
+          SHOW_SHORT_INFO: "False"  # 禁用简短信息 (可能包含GitHub数据)
           SHOW_LOC_CHART: "True"  # 启用代码行数图表
           SHOW_UPDATED_DATE: "True"  # 显示更新时间
           
