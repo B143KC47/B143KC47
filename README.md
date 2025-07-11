@@ -169,6 +169,10 @@
     <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Copilot" />
     <img src="https://img.shields.io/badge/Google_Gemini-886FBF?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
     <img src="https://img.shields.io/badge/Perplexity-1FB8CD?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity" />
+    <img src="https://img.shields.io/badge/Claude-FF8C00?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+    <img src="https://img.shields.io/badge/Cursor-6366F1?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
+    <img src="https://img.shields.io/badge/Codeium-09B6A2?style=for-the-badge&logo=codeium&logoColor=white" alt="Codeium" />
+    <img src="https://img.shields.io/badge/Tabnine-5E72E4?style=for-the-badge&logo=tabnine&logoColor=white" alt="Tabnine" />
 </div>
 
 ### 💽 OS & Environments
