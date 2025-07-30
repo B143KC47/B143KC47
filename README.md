@@ -195,7 +195,7 @@
 <a href="https://github.com/B143KC47">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&bg_color=0d1117"/>
 </a>
-<a href="https://www.linkedin.com/in/blackcat/?originalSubdomain=hk">
+<a href="https://www.linkedin.com/in/kht1337">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&bg_color=0d1117"/>
 </a>
 <a href="https://b143kc47.github.io">
@@ -216,17 +216,6 @@
 </a>
 <a href="https://www.instagram.com/b14ckc4t1337/">
 <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&bg_color=0d1117"/>
-
-
-<div style="margin: 20px 0;">
-<a href="https://www.buymeacoffee.com/your_username">
-<img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&bg_color=0d1117"/>
-</a>
-<a href="https://ko-fi.com/your_username">
-<img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white&bg_color=0d1117"/>
-</a>
-</div>
-
 
 
 
