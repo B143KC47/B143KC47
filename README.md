@@ -1,57 +1,89 @@
-# <div align="center">Welcome to My GitHub Space</div>
-
 <div align="center">
 
-![Header](./assets/images/github-header-image.png)
+# <span style="background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 3em; font-weight: 800;">Welcome to My GitHub Space</span>
 
-### AI Engineer | Deep Learning Explorer | NLP & Computer Vision Developer
+<p style="color: #a1a1aa; font-size: 1.2em; margin-top: -10px;">
+AI Engineer • Deep Learning Explorer • NLP & Computer Vision Developer
+</p>
 
 <br>
 
-<div style="margin: 10px 0;">
-  <img src="https://img.shields.io/github/followers/B143KC47?style=flat-square&color=A68B5C&label=Followers&logo=github&logoColor=white" alt="GitHub Followers">
-  <img src="https://komarev.com/ghpvc/?username=B143KC47&color=A68B5C&style=flat-square&label=Profile+Views" alt="Profile Views">
-  <img src="https://img.shields.io/github/stars/B143KC47?style=flat-square&color=A68B5C&label=Stars&logo=github&logoColor=white" alt="GitHub Stars">
+<div style="display: flex; gap: 12px; justify-content: center; align-items: center;">
+  <img src="https://img.shields.io/github/followers/B143KC47?style=for-the-badge&color=8B5CF6&labelColor=141414&logo=github&logoColor=white" alt="Followers">
+  <img src="https://komarev.com/ghpvc/?username=B143KC47&color=3B82F6&style=for-the-badge&labelColor=141414" alt="Profile Views">
+  <img src="https://img.shields.io/github/stars/B143KC47?style=for-the-badge&color=F59E0B&labelColor=141414&logo=github&logoColor=white" alt="Stars">
 </div>
 
 </div>
 
 <br>
 
-## About Me
+## <span style="color: #ffffff;">🚀 About Me</span>
 
-<div style="background-color: #FAF8F5; border: 1px solid #E5E2DD; border-radius: 8px; padding: 30px; margin: 20px 0;">
+<div style="background: #141414; border: 1px solid #2a2a2a; border-radius: 12px; padding: 32px; margin: 20px 0; position: relative; overflow: hidden;">
+<div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #8B5CF6, #3B82F6, #14B8A6);"></div>
 
-#### 🎯 Current Focus
-- Researching **Large Language Models (LLMs)** and **Vision-Language Models (VLMs)**
-- Exploring cutting-edge **Multimodal AI** and **Computer Vision** technologies
-- Contributing to open-source AI/ML projects
+<table style="width: 100%; border: none;">
+<tr>
+<td width="50%" style="border: none; padding: 20px;">
 
-#### 💡 Areas of Expertise
-- Natural Language Processing (NLP)
-- Computer Vision
-- Vision-Language Models
-- Deep Learning Frameworks
+### <span style="color: #8B5CF6;">🎯 Current Focus</span>
 
-#### 🎯 2024 Goals
-- Contribute meaningful code to open-source AI projects
-- Publish research papers in top-tier conferences
-- Build scalable AI systems for real-world applications
+<div style="color: #a1a1aa; line-height: 1.8;">
 
-#### 🧠 Active Projects
-- LLM Framework Development and Optimization
-- Personal Technical Blog Website Construction
-- Research and Implementation of Novel AI Architectures
+• Researching **Large Language Models** and **Vision-Language Models**  
+• Exploring cutting-edge **Multimodal AI** technologies  
+• Contributing to open-source **AI/ML** projects  
+
+</div>
+
+### <span style="color: #3B82F6;">💡 Expertise</span>
+
+<div style="color: #a1a1aa; line-height: 1.8;">
+
+• Natural Language Processing  
+• Computer Vision  
+• Vision-Language Models  
+• Deep Learning Frameworks  
+
+</div>
+
+</td>
+<td width="50%" style="border: none; padding: 20px;">
+
+### <span style="color: #14B8A6;">🎯 2024 Goals</span>
+
+<div style="color: #a1a1aa; line-height: 1.8;">
+
+• Contribute to major open-source AI projects  
+• Publish research papers in top conferences  
+• Build scalable AI systems for production  
+
+</div>
+
+### <span style="color: #F59E0B;">🧠 Active Projects</span>
+
+<div style="color: #a1a1aa; line-height: 1.8;">
+
+• LLM Framework Development  
+• Technical Blog Construction  
+• Novel AI Architecture Research  
+
+</div>
+
+</td>
+</tr>
+</table>
 
 </div>
 
 <br>
 
-## 📊 Coding Statistics
+## <span style="color: #ffffff;">📊 Coding Statistics</span>
 
-<div align="center" style="background-color: #FAF8F5; border: 1px solid #E5E2DD; border-radius: 8px; padding: 25px; margin: 20px 0;">
+<div align="center" style="background: #141414; border: 1px solid transparent; background-image: linear-gradient(#141414, #141414), linear-gradient(135deg, #8B5CF6, #3B82F6); background-origin: border-box; background-clip: padding-box, border-box; border-radius: 12px; padding: 32px; margin: 20px 0;">
 
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=default&hide_border=true&bg_color=FAF8F5&title_color=A68B5C&text_color=1B1917" alt="Wakatime Stats" />
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=dark&hide_border=true&bg_color=141414&title_color=8B5CF6&text_color=a1a1aa&icon_color=3B82F6" alt="Wakatime Stats" />
 
 <br><br>
 
@@ -60,11 +92,6 @@
 
 ![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-490.1%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
 
-**时间线**
-
-![Lines of Code chart](https://raw.githubusercontent.com/B143KC47/B143KC47/main/assets/bar_graph.png)
-
-
  Last Updated on 01/09/2025 01:06:32 UTC
 <!--END_SECTION:waka-->
 
@@ -72,113 +99,124 @@
 
 <br>
 
-## Tech Stack
+## <span style="color: #ffffff;">🛠 Tech Stack</span>
 
-<div align="center">
+<div align="center" style="background: #0a0a0a; padding: 30px 0;">
 
-#### Languages
-<div style="margin: 15px 0;">
-  <img src="https://img.shields.io/badge/Python-FAF8F5?style=flat-square&logo=python&logoColor=A68B5C&labelColor=E5E2DD" alt="Python" />
-  <img src="https://img.shields.io/badge/C++-FAF8F5?style=flat-square&logo=c%2B%2B&logoColor=A68B5C&labelColor=E5E2DD" alt="C++" />
-  <img src="https://img.shields.io/badge/JavaScript-FAF8F5?style=flat-square&logo=javascript&logoColor=A68B5C&labelColor=E5E2DD" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-FAF8F5?style=flat-square&logo=typescript&logoColor=A68B5C&labelColor=E5E2DD" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Rust-FAF8F5?style=flat-square&logo=rust&logoColor=A68B5C&labelColor=E5E2DD" alt="Rust" />
-  <img src="https://img.shields.io/badge/Go-FAF8F5?style=flat-square&logo=go&logoColor=A68B5C&labelColor=E5E2DD" alt="Go" />
-  <img src="https://img.shields.io/badge/Lua-FAF8F5?style=flat-square&logo=lua&logoColor=A68B5C&labelColor=E5E2DD" alt="Lua" />
-  <img src="https://img.shields.io/badge/LaTeX-FAF8F5?style=flat-square&logo=latex&logoColor=A68B5C&labelColor=E5E2DD" alt="LaTeX" />
+### <span style="background: linear-gradient(135deg, #8B5CF6, #3B82F6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Languages</span>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <img src="https://img.shields.io/badge/Python-141414?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=141414&color=141414" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-141414?style=for-the-badge&logo=c%2B%2B&logoColor=00599C&labelColor=141414&color=141414" alt="C++" />
+  <img src="https://img.shields.io/badge/JavaScript-141414?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=141414&color=141414" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-141414?style=for-the-badge&logo=typescript&logoColor=3178C6&labelColor=141414&color=141414" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Rust-141414?style=for-the-badge&logo=rust&logoColor=E57324&labelColor=141414&color=141414" alt="Rust" />
+  <img src="https://img.shields.io/badge/Go-141414?style=for-the-badge&logo=go&logoColor=00ADD8&labelColor=141414&color=141414" alt="Go" />
+  <img src="https://img.shields.io/badge/Lua-141414?style=for-the-badge&logo=lua&logoColor=2C2D72&labelColor=141414&color=141414" alt="Lua" />
+  <img src="https://img.shields.io/badge/LaTeX-141414?style=for-the-badge&logo=latex&logoColor=008080&labelColor=141414&color=141414" alt="LaTeX" />
 </div>
 
-#### Development Tools
-<div style="margin: 15px 0;">
-  <img src="https://img.shields.io/badge/VS_Code-FAF8F5?style=flat-square&logo=visual%20studio%20code&logoColor=A68B5C&labelColor=E5E2DD" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Visual_Studio-FAF8F5?style=flat-square&logo=visual%20studio&logoColor=A68B5C&labelColor=E5E2DD" alt="Visual Studio" />
-  <img src="https://img.shields.io/badge/Jupyter-FAF8F5?style=flat-square&logo=jupyter&logoColor=A68B5C&labelColor=E5E2DD" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Git-FAF8F5?style=flat-square&logo=git&logoColor=A68B5C&labelColor=E5E2DD" alt="Git" />
-  <img src="https://img.shields.io/badge/Vim-FAF8F5?style=flat-square&logo=vim&logoColor=A68B5C&labelColor=E5E2DD" alt="Vim" />
-  <img src="https://img.shields.io/badge/Docker-FAF8F5?style=flat-square&logo=docker&logoColor=A68B5C&labelColor=E5E2DD" alt="Docker" />
-  <img src="https://img.shields.io/badge/Obsidian-FAF8F5?style=flat-square&logo=obsidian&logoColor=A68B5C&labelColor=E5E2DD" alt="Obsidian" />
+### <span style="background: linear-gradient(135deg, #3B82F6, #14B8A6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Development Tools</span>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <img src="https://img.shields.io/badge/VS_Code-141414?style=for-the-badge&logo=visual%20studio%20code&logoColor=007ACC&labelColor=141414&color=141414" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Visual_Studio-141414?style=for-the-badge&logo=visual%20studio&logoColor=5C2D91&labelColor=141414&color=141414" alt="Visual Studio" />
+  <img src="https://img.shields.io/badge/Jupyter-141414?style=for-the-badge&logo=jupyter&logoColor=F37626&labelColor=141414&color=141414" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/Git-141414?style=for-the-badge&logo=git&logoColor=F05032&labelColor=141414&color=141414" alt="Git" />
+  <img src="https://img.shields.io/badge/Vim-141414?style=for-the-badge&logo=vim&logoColor=019733&labelColor=141414&color=141414" alt="Vim" />
+  <img src="https://img.shields.io/badge/Docker-141414?style=for-the-badge&logo=docker&logoColor=2496ED&labelColor=141414&color=141414" alt="Docker" />
+  <img src="https://img.shields.io/badge/Obsidian-141414?style=for-the-badge&logo=obsidian&logoColor=7C3AED&labelColor=141414&color=141414" alt="Obsidian" />
 </div>
 
-#### AI/ML Frameworks
-<div style="margin: 15px 0;">
-  <img src="https://img.shields.io/badge/PyTorch-FAF8F5?style=flat-square&logo=pytorch&logoColor=A68B5C&labelColor=E5E2DD" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/TensorFlow-FAF8F5?style=flat-square&logo=tensorflow&logoColor=A68B5C&labelColor=E5E2DD" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/scikit--learn-FAF8F5?style=flat-square&logo=scikit-learn&logoColor=A68B5C&labelColor=E5E2DD" alt="Scikit-Learn" />
-  <img src="https://img.shields.io/badge/OpenCV-FAF8F5?style=flat-square&logo=OpenCV&logoColor=A68B5C&labelColor=E5E2DD" alt="OpenCV" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FAF8F5?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyUzYuNDggMjIgMTIgMjJTMjIgMTcuNTIgMjIgMTJTMTcuNTIgMiAxMiAyWiIgZmlsbD0iI0E2OEI1QyIvPgo8L3N2Zz4=&logoColor=A68B5C&labelColor=E5E2DD" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/CUDA-FAF8F5?style=flat-square&logo=nvidia&logoColor=A68B5C&labelColor=E5E2DD" alt="CUDA" />
+### <span style="background: linear-gradient(135deg, #14B8A6, #10B981); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">AI/ML Frameworks</span>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <img src="https://img.shields.io/badge/PyTorch-141414?style=for-the-badge&logo=pytorch&logoColor=EE4C2C&labelColor=141414&color=141414" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TensorFlow-141414?style=for-the-badge&logo=tensorflow&logoColor=FF6F00&labelColor=141414&color=141414" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/scikit--learn-141414?style=for-the-badge&logo=scikit-learn&logoColor=F7931E&labelColor=141414&color=141414" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/OpenCV-141414?style=for-the-badge&logo=OpenCV&logoColor=5C3EE8&labelColor=141414&color=141414" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/🤗_Hugging_Face-141414?style=for-the-badge&labelColor=141414&color=141414" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/CUDA-141414?style=for-the-badge&logo=nvidia&logoColor=76B900&labelColor=141414&color=141414" alt="CUDA" />
 </div>
 
-#### Cloud & DevOps
-<div style="margin: 15px 0;">
-  <img src="https://img.shields.io/badge/AWS-FAF8F5?style=flat-square&logo=amazon-aws&logoColor=A68B5C&labelColor=E5E2DD" alt="AWS" />
-  <img src="https://img.shields.io/badge/Google_Cloud-FAF8F5?style=flat-square&logo=google-cloud&logoColor=A68B5C&labelColor=E5E2DD" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/Azure-FAF8F5?style=flat-square&logo=microsoft-azure&logoColor=A68B5C&labelColor=E5E2DD" alt="Azure" />
-  <img src="https://img.shields.io/badge/Alibaba_Cloud-FAF8F5?style=flat-square&logo=alibaba-cloud&logoColor=A68B5C&labelColor=E5E2DD" alt="Alibaba Cloud" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-FAF8F5?style=flat-square&logo=github-actions&logoColor=A68B5C&labelColor=E5E2DD" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Kubernetes-FAF8F5?style=flat-square&logo=kubernetes&logoColor=A68B5C&labelColor=E5E2DD" alt="Kubernetes" />
+### <span style="background: linear-gradient(135deg, #F59E0B, #EC4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Cloud & DevOps</span>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <img src="https://img.shields.io/badge/AWS-141414?style=for-the-badge&logo=amazon-aws&logoColor=FF9900&labelColor=141414&color=141414" alt="AWS" />
+  <img src="https://img.shields.io/badge/Google_Cloud-141414?style=for-the-badge&logo=google-cloud&logoColor=4285F4&labelColor=141414&color=141414" alt="Google Cloud" />
+  <img src="https://img.shields.io/badge/Azure-141414?style=for-the-badge&logo=microsoft-azure&logoColor=0078D4&labelColor=141414&color=141414" alt="Azure" />
+  <img src="https://img.shields.io/badge/Alibaba_Cloud-141414?style=for-the-badge&logo=alibaba-cloud&logoColor=FF6A00&labelColor=141414&color=141414" alt="Alibaba Cloud" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-141414?style=for-the-badge&logo=github-actions&logoColor=2088FF&labelColor=141414&color=141414" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Kubernetes-141414?style=for-the-badge&logo=kubernetes&logoColor=326CE5&labelColor=141414&color=141414" alt="Kubernetes" />
 </div>
 
-#### AI Tools
-<div style="margin: 15px 0;">
-  <img src="https://img.shields.io/badge/ChatGPT-FAF8F5?style=flat-square&logo=openai&logoColor=A68B5C&labelColor=E5E2DD" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-FAF8F5?style=flat-square&logo=github&logoColor=A68B5C&labelColor=E5E2DD" alt="GitHub Copilot" />
-  <img src="https://img.shields.io/badge/Google_Gemini-FAF8F5?style=flat-square&logo=google&logoColor=A68B5C&labelColor=E5E2DD" alt="Google Gemini" />
-  <img src="https://img.shields.io/badge/Perplexity-FAF8F5?style=flat-square&logo=perplexity&logoColor=A68B5C&labelColor=E5E2DD" alt="Perplexity" />
-  <img src="https://img.shields.io/badge/Claude-FAF8F5?style=flat-square&logo=anthropic&logoColor=A68B5C&labelColor=E5E2DD" alt="Claude" />
+### <span style="background: linear-gradient(135deg, #EC4899, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">AI Tools</span>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <img src="https://img.shields.io/badge/ChatGPT-141414?style=for-the-badge&logo=openai&logoColor=74aa9c&labelColor=141414&color=141414" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-141414?style=for-the-badge&logo=github&logoColor=white&labelColor=141414&color=141414" alt="GitHub Copilot" />
+  <img src="https://img.shields.io/badge/Google_Gemini-141414?style=for-the-badge&logo=google&logoColor=4285F4&labelColor=141414&color=141414" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/Perplexity-141414?style=for-the-badge&logo=perplexity&logoColor=1FB8CD&labelColor=141414&color=141414" alt="Perplexity" />
+  <img src="https://img.shields.io/badge/Claude-141414?style=for-the-badge&logo=anthropic&logoColor=FF8C00&labelColor=141414&color=141414" alt="Claude" />
 </div>
 
-#### Operating Systems
-<div style="margin: 15px 0;">
-  <img src="https://img.shields.io/badge/Linux-FAF8F5?style=flat-square&logo=linux&logoColor=A68B5C&labelColor=E5E2DD" alt="Linux" />
-  <img src="https://img.shields.io/badge/Windows-FAF8F5?style=flat-square&logo=windows&logoColor=A68B5C&labelColor=E5E2DD" alt="Windows" />
-  <img src="https://img.shields.io/badge/macOS-FAF8F5?style=flat-square&logo=apple&logoColor=A68B5C&labelColor=E5E2DD" alt="macOS" />
-  <img src="https://img.shields.io/badge/Ubuntu-FAF8F5?style=flat-square&logo=ubuntu&logoColor=A68B5C&labelColor=E5E2DD" alt="Ubuntu" />
+### <span style="background: linear-gradient(135deg, #10B981, #3B82F6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Operating Systems</span>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
+  <img src="https://img.shields.io/badge/Linux-141414?style=for-the-badge&logo=linux&logoColor=FCC624&labelColor=141414&color=141414" alt="Linux" />
+  <img src="https://img.shields.io/badge/Windows-141414?style=for-the-badge&logo=windows&logoColor=0078D6&labelColor=141414&color=141414" alt="Windows" />
+  <img src="https://img.shields.io/badge/macOS-141414?style=for-the-badge&logo=apple&logoColor=white&labelColor=141414&color=141414" alt="macOS" />
+  <img src="https://img.shields.io/badge/Ubuntu-141414?style=for-the-badge&logo=ubuntu&logoColor=E95420&labelColor=141414&color=141414" alt="Ubuntu" />
+</div>
+
+</div>
+
+<br>
+
+## <span style="color: #ffffff;">🌐 Connect With Me</span>
+
+<div align="center" style="background: #141414; border-radius: 12px; padding: 30px; margin: 20px 0; position: relative;">
+<div style="position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #F59E0B, #EC4899, #8B5CF6);"></div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+  <a href="mailto:s20200057@ylmass.edu.hk">
+    <img src="https://img.shields.io/badge/Email-141414?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=141414&color=141414" alt="Email"/>
+  </a>
+  <a href="https://github.com/B143KC47">
+    <img src="https://img.shields.io/badge/GitHub-141414?style=for-the-badge&logo=github&logoColor=white&labelColor=141414&color=141414" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/kht1337">
+    <img src="https://img.shields.io/badge/LinkedIn-141414?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=141414&color=141414" alt="LinkedIn"/>
+  </a>
+  <a href="https://b143kc47.github.io">
+    <img src="https://img.shields.io/badge/Website-141414?style=for-the-badge&logo=google-chrome&logoColor=4285F4&labelColor=141414&color=141414" alt="Website"/>
+  </a>
+  <a href="https://openreview.net/profile?id=%7EHo_Tin_Ko2">
+    <img src="https://img.shields.io/badge/OpenReview-141414?style=for-the-badge&logo=openaccess&logoColor=FF6B6B&labelColor=141414&color=141414" alt="OpenReview"/>
+  </a>
+</div>
+
+<br>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+  <a href="https://www.zhihu.com/people/B143KC47">
+    <img src="https://img.shields.io/badge/知乎-141414?style=for-the-badge&logo=zhihu&logoColor=0084FF&labelColor=141414&color=141414" alt="知乎"/>
+  </a>
+  <a href="https://blog.csdn.net/B143KC47?spm=1000.2115.3001.5343">
+    <img src="https://img.shields.io/badge/CSDN-141414?style=for-the-badge&logo=c&logoColor=FC5531&labelColor=141414&color=141414" alt="CSDN"/>
+  </a>
+  <a href="https://www.youtube.com/@blackc4t-1337">
+    <img src="https://img.shields.io/badge/YouTube-141414?style=for-the-badge&logo=youtube&logoColor=FF0000&labelColor=141414&color=141414" alt="YouTube"/>
+  </a>
+  <a href="https://www.instagram.com/b14ckc4t1337/">
+    <img src="https://img.shields.io/badge/Instagram-141414?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=141414&color=141414" alt="Instagram"/>
+  </a>
 </div>
 
 </div>
 
 <br>
 
-## Contact
-
 <div align="center">
-
-<a href="mailto:s20200057@ylmass.edu.hk">
-  <img src="https://img.shields.io/badge/Email-FAF8F5?style=flat-square&logo=gmail&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-<a href="https://github.com/B143KC47">
-  <img src="https://img.shields.io/badge/GitHub-FAF8F5?style=flat-square&logo=github&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-<a href="https://www.linkedin.com/in/kht1337">
-  <img src="https://img.shields.io/badge/LinkedIn-FAF8F5?style=flat-square&logo=linkedin&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-<a href="https://b143kc47.github.io">
-  <img src="https://img.shields.io/badge/Website-FAF8F5?style=flat-square&logo=google-chrome&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-<a href="https://openreview.net/profile?id=%7EHo_Tin_Ko2">
-  <img src="https://img.shields.io/badge/OpenReview-FAF8F5?style=flat-square&logo=openaccess&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-
-<br><br>
-
-<a href="https://www.zhihu.com/people/B143KC47">
-  <img src="https://img.shields.io/badge/知乎-FAF8F5?style=flat-square&logo=zhihu&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-<a href="https://blog.csdn.net/B143KC47?spm=1000.2115.3001.5343">
-  <img src="https://img.shields.io/badge/CSDN-FAF8F5?style=flat-square&logo=c&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-<a href="https://www.youtube.com/@blackc4t-1337">
-  <img src="https://img.shields.io/badge/YouTube-FAF8F5?style=flat-square&logo=youtube&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-<a href="https://www.instagram.com/b14ckc4t1337/">
-  <img src="https://img.shields.io/badge/Instagram-FAF8F5?style=flat-square&logo=instagram&logoColor=A68B5C&labelColor=E5E2DD"/>
-</a>
-
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-A68B5C.svg?style=flat-square" alt="Made with love"/>
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-141414.svg?style=for-the-badge&labelColor=141414&color=141414" alt="Made with love"/>
 </div>
