@@ -179,7 +179,7 @@ AI Engineer • Deep Learning Explorer • NLP & Computer Vision Developer
 <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #F59E0B, #EC4899, #8B5CF6);"></div>
 
 <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
-  <a href="mailto:s20200057@ylmass.edu.hk">
+  <a href="mailto:ltu46166@gmail.com">
     <img src="https://img.shields.io/badge/Email-141414?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=141414&color=141414" alt="Email"/>
   </a>
   <a href="https://github.com/B143KC47">
