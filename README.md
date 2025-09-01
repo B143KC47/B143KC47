@@ -1,238 +1,179 @@
-# <div align="center">🌟 Welcome to My GitHub Space</div>
+# <div align="center">Welcome to My GitHub Space</div>
 
 <div align="center">
 
-![Header](./github-header-image.png)
+![Header](./assets/images/github-header-image.png)
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7319E&center=true&vCenter=true&random=false&width=435&lines=%F0%9F%94%AD+AI+Engineer+%7C+Deep+Learning+Explorer;%F0%9F%94%AE+NLP+%7C+Computer+Vision+%7C+VLM+Developer" alt="Typing SVG" /></a>
+### AI Engineer | Deep Learning Explorer | NLP & Computer Vision Developer
 
-<img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" width="350" />
+<br>
 
-<div style="margin: 20px 0;">
-  <!-- GitHub Followers & Profile Views Badges -->
-  <img src="https://img.shields.io/github/followers/B143KC47?style=flat&color=c792ea&label=Followers&logo=github" alt="GitHub Followers">
-  <img src="https://komarev.com/ghpvc/?username=B143KC47&color=7fdbca&style=flat&label=Profile+Views" alt="Profile Views">
-  
-  <!-- GitHub Stars Badge -->
-  <img src="https://img.shields.io/github/stars/B143KC47?style=flat&color=ff6e96&label=Stars&logo=github" alt="GitHub Stars">
+<div style="margin: 10px 0;">
+  <img src="https://img.shields.io/github/followers/B143KC47?style=flat-square&color=A68B5C&label=Followers&logo=github&logoColor=white" alt="GitHub Followers">
+  <img src="https://komarev.com/ghpvc/?username=B143KC47&color=A68B5C&style=flat-square&label=Profile+Views" alt="Profile Views">
+  <img src="https://img.shields.io/github/stars/B143KC47?style=flat-square&color=A68B5C&label=Stars&logo=github&logoColor=white" alt="GitHub Stars">
 </div>
 
 </div>
 
-## 🤖 About Me
+<br>
 
-<div align="center">
+## About Me
 
-<table style="width: 100%; border-collapse: separate; border-spacing: 0 10px; background-color: transparent; border: none;">
-<tr style="background-color: transparent; border: none;">
-<td width="60%" style="background: linear-gradient(135deg, #1a1b27 0%, #2a2c3e 100%); border-radius: 16px; padding: 20px; border: 1px solid #30363d; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+<div style="background-color: #FAF8F5; border: 1px solid #E5E2DD; border-radius: 8px; padding: 30px; margin: 20px 0;">
 
-<h3 align="center">🎯 Personal Profile</h3>
+#### 🎯 Current Focus
+- Researching **Large Language Models (LLMs)** and **Vision-Language Models (VLMs)**
+- Exploring cutting-edge **Multimodal AI** and **Computer Vision** technologies
+- Contributing to open-source AI/ML projects
 
-<table style="width: 100%; border-collapse: collapse; background-color: transparent; border: none;">
-<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
-<td align="center" width="15%" style="padding: 10px;"><b>🔭</b></td>
-<td style="padding: 10px;">Currently focusing on research in <b><span style="color: #c792ea;">LLMs</span></b> and <b><span style="color: #7fdbca;">VLMs</span></b></td>
-</tr>
-<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
-<td align="center" style="padding: 10px;"><b>🌱</b></td>
-<td style="padding: 10px;">Exploring <b><span style="color: #c792ea;">Multimodal AI</span></b> and <b><span style="color: #7fdbca;">Computer Vision</span></b> technologies</td>
-</tr>
-<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
-<td align="center" style="padding: 10px;"><b>🤝</b></td>
-<td style="padding: 10px;">Looking forward to collaborating on <b><span style="color: #c792ea;">AI/ML</span></b> research projects</td>
-</tr>
-<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
-<td align="center" style="padding: 10px;"><b>💡</b></td>
-<td style="padding: 10px;">Expertise: <b><span style="color: #c792ea;">NLP</span></b>, <b><span style="color: #7fdbca;">Computer Vision</span></b>, <b><span style="color: #ff6e96;">VLM</span></b></td>
-</tr>
-<tr style="background-color: transparent;">
-<td align="center" style="padding: 10px;"><b>🎯</b></td>
-<td style="padding: 10px;">2024 Goals: Contribute code to open-source projects and publish research papers</td>
-</tr>
-</table>
+#### 💡 Areas of Expertise
+- Natural Language Processing (NLP)
+- Computer Vision
+- Vision-Language Models
+- Deep Learning Frameworks
 
-</td>
-<td width="40%" style="background: linear-gradient(135deg, #1a1b27 0%, #2a2c3e 100%); border-radius: 16px; padding: 20px; margin-left: 15px; border: 1px solid #30363d; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+#### 🎯 2024 Goals
+- Contribute meaningful code to open-source AI projects
+- Publish research papers in top-tier conferences
+- Build scalable AI systems for real-world applications
 
-<h3 align="center">📊 Coding Goals</h3>
-
-<table style="width: 100%; border-collapse: collapse; background-color: transparent; border: none;">
-<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
-<td align="center" width="15%" style="padding: 10px;"><b>🧠</b></td>
-<td style="padding: 10px;"><b><span style="color: #c792ea;">LLM</span></b> Framework Development and Optimization</td>
-</tr>
-<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
-<td align="center" style="padding: 10px;"><b>📝</b></td>
-<td style="padding: 10px;">Personal Technical Blog Website Construction</td>
-</tr>
-<tr style="background-color: transparent; border-bottom: 1px solid #30363d;">
-<td align="center" style="padding: 10px;"><b>🔍</b></td>
-<td style="padding: 10px;">Exploration and Implementation of New <b><span style="color: #7fdbca;">AI</span></b> Architectures</td>
-</tr>
-<tr style="background-color: transparent;">
-<td align="center" style="padding: 10px;"><b>📚</b></td>
-<td style="padding: 10px;">Research and Application of <b><span style="color: #ff6e96;">AI</span></b> Learning Technologies</td>
-</tr>
-</table>
-
-</td>
-</tr>
-</table>
+#### 🧠 Active Projects
+- LLM Framework Development and Optimization
+- Personal Technical Blog Website Construction
+- Research and Implementation of Novel AI Architectures
 
 </div>
 
-## ⏱️ WakaTime 编码统计
+<br>
 
-<div align="center">
+## 📊 Coding Statistics
 
-<!-- WakaTime 概览图 -->
-<div class="wakatime-image-container">
-  <h3 style="color: #c792ea; margin-bottom: 15px; text-align: center;">🎨 编码时间概览</h3>
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=c792ea&text_color=a9b1d6" alt="Wakatime Stats" />
-</div>
+<div align="center" style="background-color: #FAF8F5; border: 1px solid #E5E2DD; border-radius: 8px; padding: 25px; margin: 20px 0;">
 
-<!-- WakaTime 详细统计 -->
-<div class="waka-stats-container" style="background: linear-gradient(135deg, #161b22 0%, #21262d 100%); border-radius: 16px; padding: 25px; margin: 25px 0; border: 1px solid #30363d; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); position: relative;">
-  
-  <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #c792ea, #7fdbca, #ff6e96); border-radius: 16px 16px 0 0;"></div>
-  
-  <h3 align="center" style="color: #c792ea; margin-top: 10px; margin-bottom: 20px; font-size: 1.3em;">📈 详细编码数据</h3>
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=@B143KC47&layout=compact&theme=default&hide_border=true&bg_color=FAF8F5&title_color=A68B5C&text_color=1B1917" alt="Wakatime Stats" />
+
+<br><br>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-395%20hrs%2032%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-395%20hrs%2032%20mins-A68B5C?style=flat-square)
 
-![Lines of code](https://img.shields.io/badge/%E4%BB%8E%E3%80%8CHello%20World%E3%80%8D%E8%B5%B7%E6%88%91%E5%B7%B2%E7%BB%8F%E5%86%99%E4%BA%86-490.1%20thousand%20%E8%A1%8C%E4%BB%A3%E7%A0%81-blue)
-
-**时间线**
-
-![Lines of Code chart](https://raw.githubusercontent.com/B143KC47/B143KC47/main/assets/bar_graph.png)
-
+![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-490.1K-A68B5C?style=flat-square)
 
  Last Updated on 31/08/2025 01:00:10 UTC
 <!--END_SECTION:waka-->
 
 </div>
 
-</div>
+<br>
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
-### 💻 Languages
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-    <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" alt="Lua" />
-    <img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
+#### Languages
+<div style="margin: 15px 0;">
+  <img src="https://img.shields.io/badge/Python-FAF8F5?style=flat-square&logo=python&logoColor=A68B5C&labelColor=E5E2DD" alt="Python" />
+  <img src="https://img.shields.io/badge/C++-FAF8F5?style=flat-square&logo=c%2B%2B&logoColor=A68B5C&labelColor=E5E2DD" alt="C++" />
+  <img src="https://img.shields.io/badge/JavaScript-FAF8F5?style=flat-square&logo=javascript&logoColor=A68B5C&labelColor=E5E2DD" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-FAF8F5?style=flat-square&logo=typescript&logoColor=A68B5C&labelColor=E5E2DD" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Rust-FAF8F5?style=flat-square&logo=rust&logoColor=A68B5C&labelColor=E5E2DD" alt="Rust" />
+  <img src="https://img.shields.io/badge/Go-FAF8F5?style=flat-square&logo=go&logoColor=A68B5C&labelColor=E5E2DD" alt="Go" />
+  <img src="https://img.shields.io/badge/Lua-FAF8F5?style=flat-square&logo=lua&logoColor=A68B5C&labelColor=E5E2DD" alt="Lua" />
+  <img src="https://img.shields.io/badge/LaTeX-FAF8F5?style=flat-square&logo=latex&logoColor=A68B5C&labelColor=E5E2DD" alt="LaTeX" />
 </div>
 
-### 🧰 Development Tools
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
-    <img src="https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
-    <img src="https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white" alt="Visual Studio" />
-    <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-    <img src="https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim" />
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-    <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white" alt="Obsidian" />
+#### Development Tools
+<div style="margin: 15px 0;">
+  <img src="https://img.shields.io/badge/VS_Code-FAF8F5?style=flat-square&logo=visual%20studio%20code&logoColor=A68B5C&labelColor=E5E2DD" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Visual_Studio-FAF8F5?style=flat-square&logo=visual%20studio&logoColor=A68B5C&labelColor=E5E2DD" alt="Visual Studio" />
+  <img src="https://img.shields.io/badge/Jupyter-FAF8F5?style=flat-square&logo=jupyter&logoColor=A68B5C&labelColor=E5E2DD" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/Git-FAF8F5?style=flat-square&logo=git&logoColor=A68B5C&labelColor=E5E2DD" alt="Git" />
+  <img src="https://img.shields.io/badge/Vim-FAF8F5?style=flat-square&logo=vim&logoColor=A68B5C&labelColor=E5E2DD" alt="Vim" />
+  <img src="https://img.shields.io/badge/Docker-FAF8F5?style=flat-square&logo=docker&logoColor=A68B5C&labelColor=E5E2DD" alt="Docker" />
+  <img src="https://img.shields.io/badge/Obsidian-FAF8F5?style=flat-square&logo=obsidian&logoColor=A68B5C&labelColor=E5E2DD" alt="Obsidian" />
 </div>
 
-### 🤖 AI/ML Tech Stack
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
-    <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-    <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" />
-    <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" alt="OpenCV" />
-    <img src="https://img.shields.io/badge/🤗_Hugging_Face-FFD21E?style=for-the-badge" alt="Hugging Face" />
-    <img src="https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="CUDA" />
+#### AI/ML Frameworks
+<div style="margin: 15px 0;">
+  <img src="https://img.shields.io/badge/PyTorch-FAF8F5?style=flat-square&logo=pytorch&logoColor=A68B5C&labelColor=E5E2DD" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/TensorFlow-FAF8F5?style=flat-square&logo=tensorflow&logoColor=A68B5C&labelColor=E5E2DD" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/scikit--learn-FAF8F5?style=flat-square&logo=scikit-learn&logoColor=A68B5C&labelColor=E5E2DD" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/OpenCV-FAF8F5?style=flat-square&logo=OpenCV&logoColor=A68B5C&labelColor=E5E2DD" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/Hugging_Face-FAF8F5?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyUzYuNDggMjIgMTIgMjJTMjIgMTcuNTIgMjIgMTJTMTcuNTIgMiAxMiAyWiIgZmlsbD0iI0E2OEI1QyIvPgo8L3N2Zz4=&logoColor=A68B5C&labelColor=E5E2DD" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/CUDA-FAF8F5?style=flat-square&logo=nvidia&logoColor=A68B5C&labelColor=E5E2DD" alt="CUDA" />
 </div>
 
-### ☁️ Cloud & DevOps
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud" />
-    <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
-    <img src="https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibaba-cloud&logoColor=white" alt="Alibaba Cloud" />
-    <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+#### Cloud & DevOps
+<div style="margin: 15px 0;">
+  <img src="https://img.shields.io/badge/AWS-FAF8F5?style=flat-square&logo=amazon-aws&logoColor=A68B5C&labelColor=E5E2DD" alt="AWS" />
+  <img src="https://img.shields.io/badge/Google_Cloud-FAF8F5?style=flat-square&logo=google-cloud&logoColor=A68B5C&labelColor=E5E2DD" alt="Google Cloud" />
+  <img src="https://img.shields.io/badge/Azure-FAF8F5?style=flat-square&logo=microsoft-azure&logoColor=A68B5C&labelColor=E5E2DD" alt="Azure" />
+  <img src="https://img.shields.io/badge/Alibaba_Cloud-FAF8F5?style=flat-square&logo=alibaba-cloud&logoColor=A68B5C&labelColor=E5E2DD" alt="Alibaba Cloud" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-FAF8F5?style=flat-square&logo=github-actions&logoColor=A68B5C&labelColor=E5E2DD" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Kubernetes-FAF8F5?style=flat-square&logo=kubernetes&logoColor=A68B5C&labelColor=E5E2DD" alt="Kubernetes" />
 </div>
 
-### 🧠 AI Tools
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
-    <img src="https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white" alt="ChatGPT" />
-    <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Copilot" />
-    <img src="https://img.shields.io/badge/Google_Gemini-886FBF?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini" />
-    <img src="https://img.shields.io/badge/Perplexity-1FB8CD?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity" />
-    <img src="https://img.shields.io/badge/Claude-FF8C00?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+#### AI Tools
+<div style="margin: 15px 0;">
+  <img src="https://img.shields.io/badge/ChatGPT-FAF8F5?style=flat-square&logo=openai&logoColor=A68B5C&labelColor=E5E2DD" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/GitHub_Copilot-FAF8F5?style=flat-square&logo=github&logoColor=A68B5C&labelColor=E5E2DD" alt="GitHub Copilot" />
+  <img src="https://img.shields.io/badge/Google_Gemini-FAF8F5?style=flat-square&logo=google&logoColor=A68B5C&labelColor=E5E2DD" alt="Google Gemini" />
+  <img src="https://img.shields.io/badge/Perplexity-FAF8F5?style=flat-square&logo=perplexity&logoColor=A68B5C&labelColor=E5E2DD" alt="Perplexity" />
+  <img src="https://img.shields.io/badge/Claude-FAF8F5?style=flat-square&logo=anthropic&logoColor=A68B5C&labelColor=E5E2DD" alt="Claude" />
 </div>
 
-### 💽 OS & Environments
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px;">
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
-    <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
-    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+#### Operating Systems
+<div style="margin: 15px 0;">
+  <img src="https://img.shields.io/badge/Linux-FAF8F5?style=flat-square&logo=linux&logoColor=A68B5C&labelColor=E5E2DD" alt="Linux" />
+  <img src="https://img.shields.io/badge/Windows-FAF8F5?style=flat-square&logo=windows&logoColor=A68B5C&labelColor=E5E2DD" alt="Windows" />
+  <img src="https://img.shields.io/badge/macOS-FAF8F5?style=flat-square&logo=apple&logoColor=A68B5C&labelColor=E5E2DD" alt="macOS" />
+  <img src="https://img.shields.io/badge/Ubuntu-FAF8F5?style=flat-square&logo=ubuntu&logoColor=A68B5C&labelColor=E5E2DD" alt="Ubuntu" />
 </div>
 
 </div>
-</div>
 
+<br>
 
-## 📫 Contact & Support
+## Contact
 
-<div align="center" style="background-color: #0d1117; padding: 20px; border-radius: 10px;">
+<div align="center">
 
-<div style="margin: 20px 0;">
 <a href="mailto:s20200057@ylmass.edu.hk">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/Email-FAF8F5?style=flat-square&logo=gmail&logoColor=A68B5C&labelColor=E5E2DD"/>
 </a>
 <a href="https://github.com/B143KC47">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/GitHub-FAF8F5?style=flat-square&logo=github&logoColor=A68B5C&labelColor=E5E2DD"/>
 </a>
 <a href="https://www.linkedin.com/in/kht1337">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/LinkedIn-FAF8F5?style=flat-square&logo=linkedin&logoColor=A68B5C&labelColor=E5E2DD"/>
 </a>
 <a href="https://b143kc47.github.io">
-<img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/Website-FAF8F5?style=flat-square&logo=google-chrome&logoColor=A68B5C&labelColor=E5E2DD"/>
 </a>
 <a href="https://openreview.net/profile?id=%7EHo_Tin_Ko2">
-<img src="https://img.shields.io/badge/OpenReview-FF6B6B?style=for-the-badge&logo=openaccess&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/OpenReview-FAF8F5?style=flat-square&logo=openaccess&logoColor=A68B5C&labelColor=E5E2DD"/>
 </a>
-</div>
 
-<!-- 社交媒体平台 -->
-<div style="margin: 20px 0;">
+<br><br>
+
 <a href="https://www.zhihu.com/people/B143KC47">
-<img src="https://img.shields.io/badge/知乎-0084FF?style=for-the-badge&logo=zhihu&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/知乎-FAF8F5?style=flat-square&logo=zhihu&logoColor=A68B5C&labelColor=E5E2DD"/>
 </a>
 <a href="https://blog.csdn.net/B143KC47?spm=1000.2115.3001.5343">
-<img src="https://img.shields.io/badge/CSDN-CF000E?style=for-the-badge&logo=c&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/CSDN-FAF8F5?style=flat-square&logo=c&logoColor=A68B5C&labelColor=E5E2DD"/>
 </a>
 <a href="https://www.youtube.com/@blackc4t-1337">
-<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/YouTube-FAF8F5?style=flat-square&logo=youtube&logoColor=A68B5C&labelColor=E5E2DD"/>
 </a>
 <a href="https://www.instagram.com/b14ckc4t1337/">
-<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&bg_color=0d1117"/>
+  <img src="https://img.shields.io/badge/Instagram-FAF8F5?style=flat-square&logo=instagram&logoColor=A68B5C&labelColor=E5E2DD"/>
+</a>
 
-
-
-
-
-<!-- ================================================== -->
-
-
-<!-- ANIMATED FOOTER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=twinkling" width="100%"/>
 </div>
 
+<br>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-ff69b4.svg" alt="Made with love"/>
+  <img src="https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-A68B5C.svg?style=flat-square" alt="Made with love"/>
 </div>
