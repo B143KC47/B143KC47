@@ -31,9 +31,9 @@ AI Engineer • Deep Learning Explorer • NLP & Computer Vision Developer
 
 <div style="color: #a1a1aa; line-height: 1.8;">
 
-• Researching **Large Language Models** and **Vision-Language Models**  
-• Exploring cutting-edge **Multimodal AI** technologies  
-• Contributing to open-source **AI/ML** projects  
+• Learning **Machine Learning** fundamentals and **Deep Learning** concepts  
+• Studying **Neural Networks** and **AI Architectures**  
+• Practicing with **AI/ML** frameworks and tools  
 
 </div>
 
@@ -42,32 +42,39 @@ AI Engineer • Deep Learning Explorer • NLP & Computer Vision Developer
 <div style="color: #a1a1aa; line-height: 1.8;">
 
 • Natural Language Processing  
-• Computer Vision  
-• Vision-Language Models  
-• Deep Learning Frameworks  
+• Generative AI Development & Integration
+• Large Language Models Fine-tuning
+• AI API Development & Implementation
+• Prompt Engineering & Chain Design
+• AI Model Deployment & Optimization
 
 </div>
 
 </td>
 <td width="50%" style="border: none; padding: 20px;">
 
-### <span style="color: #14B8A6;">🎯 2024 Goals</span>
+### <span style="color: #14B8A6;">🎯 Highlights</span>
 
 <div style="color: #a1a1aa; line-height: 1.8;">
 
-• Contribute to major open-source AI projects  
-• Publish research papers in top conferences  
-• Build scalable AI systems for production  
+• Internship in City University of Hong Kong , post paper in Neurips 2025 workshop
+
 
 </div>
 
-### <span style="color: #F59E0B;">🧠 Active Projects</span>
+### <span style="color: #F59E0B;">🧠 My Articles</span>
 
 <div style="color: #a1a1aa; line-height: 1.8;">
 
-• LLM Framework Development  
-• Technical Blog Construction  
-• Novel AI Architecture Research  
+<a href="https://openreview.net/profile?id=%7EHo_Tin_Ko2">
+  <img src="https://img.shields.io/badge/OpenReview-141414?style=for-the-badge&logo=openaccess&logoColor=FF6B6B&labelColor=141414&color=141414" alt="OpenReview"/>
+</a>
+<a href="https://www.zhihu.com/people/B143KC47">
+  <img src="https://img.shields.io/badge/知乎-141414?style=for-the-badge&logo=zhihu&logoColor=0084FF&labelColor=141414&color=141414" alt="知乎"/>
+</a>
+  <a href="https://blog.csdn.net/B143KC47?spm=1000.2115.3001.5343">
+    <img src="https://img.shields.io/badge/CSDN-141414?style=for-the-badge&logo=c&logoColor=FC5531&labelColor=141414&color=141414" alt="CSDN"/>
+  </a>
 
 </div>
 
@@ -191,20 +198,14 @@ AI Engineer • Deep Learning Explorer • NLP & Computer Vision Developer
   <a href="https://b143kc47.github.io">
     <img src="https://img.shields.io/badge/Website-141414?style=for-the-badge&logo=google-chrome&logoColor=4285F4&labelColor=141414&color=141414" alt="Website"/>
   </a>
-  <a href="https://openreview.net/profile?id=%7EHo_Tin_Ko2">
-    <img src="https://img.shields.io/badge/OpenReview-141414?style=for-the-badge&logo=openaccess&logoColor=FF6B6B&labelColor=141414&color=141414" alt="OpenReview"/>
-  </a>
+
 </div>
 
 <br>
 
 <div style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
-  <a href="https://www.zhihu.com/people/B143KC47">
-    <img src="https://img.shields.io/badge/知乎-141414?style=for-the-badge&logo=zhihu&logoColor=0084FF&labelColor=141414&color=141414" alt="知乎"/>
-  </a>
-  <a href="https://blog.csdn.net/B143KC47?spm=1000.2115.3001.5343">
-    <img src="https://img.shields.io/badge/CSDN-141414?style=for-the-badge&logo=c&logoColor=FC5531&labelColor=141414&color=141414" alt="CSDN"/>
-  </a>
+
+
   <a href="https://www.youtube.com/@blackc4t-1337">
     <img src="https://img.shields.io/badge/YouTube-141414?style=for-the-badge&logo=youtube&logoColor=FF0000&labelColor=141414&color=141414" alt="YouTube"/>
   </a>
