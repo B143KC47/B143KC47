@@ -21,34 +21,34 @@
 
 <div style="display: grid; grid-template-columns: 60% 40%; gap: 20px;">
     <div style="padding: 20px;">
-        ### <span style="color: #8B5CF6;">🎯 Current Focus</span>
+        <h3><span style="color: #8B5CF6;">🎯 Current Focus</span></h3>
 
         <div style="color: #a1a1aa; line-height: 1.8;">
-        • Learning **Machine Learning** fundamentals and **Deep Learning** concepts  
-        • Studying **Neural Networks** and **AI Architectures**  
-        • Practicing with **AI/ML** frameworks and tools  
+        • Learning <strong>Machine Learning</strong> fundamentals and <strong>Deep Learning</strong> concepts<br>
+        • Studying <strong>Neural Networks</strong> and <strong>AI Architectures</strong><br>
+        • Practicing with <strong>AI/ML</strong> frameworks and tools
         </div>
 
-        ### <span style="color: #3B82F6;">💡 Expertise</span>
+        <h3><span style="color: #3B82F6;">💡 Expertise</span></h3>
 
         <div style="color: #a1a1aa; line-height: 1.8;">
-        • Natural Language Processing  
-        • Generative AI Development & Integration
-        • Large Language Models Fine-tuning
-        • AI API Development & Implementation
-        • Prompt Engineering & Chain Design
+        • Natural Language Processing<br>
+        • Generative AI Development & Integration<br>
+        • Large Language Models Fine-tuning<br>
+        • AI API Development & Implementation<br>
+        • Prompt Engineering & Chain Design<br>
         • AI Model Deployment & Optimization
         </div>
     </div>
 
     <div style="padding: 20px;">
-        ### <span style="color: #14B8A6;">🎯 Highlights</span>
+        <h3><span style="color: #14B8A6;">🎯 Highlights</span></h3>
 
         <div style="color: #a1a1aa; line-height: 1.8;">
-        • Internship in City University of Hong Kong , post paper in Neurips 2025 workshop
+        • Internship in City University of Hong Kong, post paper in NeurIPS 2025 workshop
         </div>
 
-        ### <span style="color: #F59E0B;">🧠 My Articles</span>
+        <h3><span style="color: #F59E0B;">🧠 My Articles</span></h3>
 
         <div style="color: #a1a1aa; line-height: 1.8; display: flex; flex-direction: column; gap: 10px;">
             <a href="https://openreview.net/profile?id=%7EHo_Tin_Ko2">
@@ -63,8 +63,9 @@
         </div>
     </div>
 </div>
-
 </div>
+
+
 
 <br>
 
