@@ -38,11 +38,11 @@
 <div style="color: #a1a1aa; line-height: 1.8;">
 
 • Natural Language Processing  
-• Generative AI Development & Integration
+• Generative AI Development 
 • Large Language Models Fine-tuning
-• AI API Development & Implementation
-• Prompt Engineering & Chain Design
-• AI Model Deployment & Optimization
+• AI API Development 
+• Prompt Engineering 
+• AI Model Deployment 
 
 </div>
 
@@ -53,8 +53,7 @@
 
 <div style="color: #a1a1aa; line-height: 1.8;">
 
-• Internship in City University of Hong Kong , post paper in Neurips 2025 workshop
-
+• Completed internship at City University of Hong Kong and published a paper in NeurIPS 2025 Workshop
 
 </div>
 
