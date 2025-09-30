@@ -37,12 +37,12 @@
 
 <div style="color: #a1a1aa; line-height: 1.8;">
 
-• Natural Language Processing  
-• Generative AI Development 
-• Large Language Models Fine-tuning
-• AI API Development 
-• Prompt Engineering 
-• AI Model Deployment 
+• Natural Language Processing  <br>
+• Generative AI Development  <br>
+• Large Language Models Fine-tuning <br>
+• AI API Development  <br>
+• Prompt Engineering  <br>
+• AI Model Deployment  <br>
 
 </div>
 
