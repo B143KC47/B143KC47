@@ -2,10 +2,6 @@
 
 # <span style="background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 3em; font-weight: 800;">Welcome to My GitHub Space</span>
 
-<p style="color: #a1a1aa; font-size: 1.2em; margin-top: -10px;">
-AI Engineer • Deep Learning Explorer • NLP & Computer Vision Developer
-</p>
-
 <br>
 
 <div style="display: flex; gap: 12px; justify-content: center; align-items: center;">
@@ -23,64 +19,50 @@ AI Engineer • Deep Learning Explorer • NLP & Computer Vision Developer
 <div style="background: #141414; border: 1px solid #2a2a2a; border-radius: 12px; padding: 32px; margin: 20px 0; position: relative; overflow: hidden;">
 <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #8B5CF6, #3B82F6, #14B8A6);"></div>
 
-<table style="width: 100%; border: none;">
-<tr>
-<td width="50%" style="border: none; padding: 20px;">
+<div style="display: grid; grid-template-columns: 60% 40%; gap: 20px;">
+    <div style="padding: 20px;">
+        ### <span style="color: #8B5CF6;">🎯 Current Focus</span>
 
-### <span style="color: #8B5CF6;">🎯 Current Focus</span>
+        <div style="color: #a1a1aa; line-height: 1.8;">
+        • Learning **Machine Learning** fundamentals and **Deep Learning** concepts  
+        • Studying **Neural Networks** and **AI Architectures**  
+        • Practicing with **AI/ML** frameworks and tools  
+        </div>
 
-<div style="color: #a1a1aa; line-height: 1.8;">
+        ### <span style="color: #3B82F6;">💡 Expertise</span>
 
-• Learning **Machine Learning** fundamentals and **Deep Learning** concepts  
-• Studying **Neural Networks** and **AI Architectures**  
-• Practicing with **AI/ML** frameworks and tools  
+        <div style="color: #a1a1aa; line-height: 1.8;">
+        • Natural Language Processing  
+        • Generative AI Development & Integration
+        • Large Language Models Fine-tuning
+        • AI API Development & Implementation
+        • Prompt Engineering & Chain Design
+        • AI Model Deployment & Optimization
+        </div>
+    </div>
 
+    <div style="padding: 20px;">
+        ### <span style="color: #14B8A6;">🎯 Highlights</span>
+
+        <div style="color: #a1a1aa; line-height: 1.8;">
+        • Internship in City University of Hong Kong , post paper in Neurips 2025 workshop
+        </div>
+
+        ### <span style="color: #F59E0B;">🧠 My Articles</span>
+
+        <div style="color: #a1a1aa; line-height: 1.8; display: flex; flex-direction: column; gap: 10px;">
+            <a href="https://openreview.net/profile?id=%7EHo_Tin_Ko2">
+                <img src="https://img.shields.io/badge/OpenReview-141414?style=for-the-badge&logo=openaccess&logoColor=FF6B6B&labelColor=141414&color=141414" alt="OpenReview"/>
+            </a>
+            <a href="https://www.zhihu.com/people/B143KC47">
+                <img src="https://img.shields.io/badge/知乎-141414?style=for-the-badge&logo=zhihu&logoColor=0084FF&labelColor=141414&color=141414" alt="知乎"/>
+            </a>
+            <a href="https://blog.csdn.net/B143KC47?spm=1000.2115.3001.5343">
+                <img src="https://img.shields.io/badge/CSDN-141414?style=for-the-badge&logo=c&logoColor=FC5531&labelColor=141414&color=141414" alt="CSDN"/>
+            </a>
+        </div>
+    </div>
 </div>
-
-### <span style="color: #3B82F6;">💡 Expertise</span>
-
-<div style="color: #a1a1aa; line-height: 1.8;">
-
-• Natural Language Processing  
-• Generative AI Development & Integration
-• Large Language Models Fine-tuning
-• AI API Development & Implementation
-• Prompt Engineering & Chain Design
-• AI Model Deployment & Optimization
-
-</div>
-
-</td>
-<td width="50%" style="border: none; padding: 20px;">
-
-### <span style="color: #14B8A6;">🎯 Highlights</span>
-
-<div style="color: #a1a1aa; line-height: 1.8;">
-
-• Internship in City University of Hong Kong , post paper in Neurips 2025 workshop
-
-
-</div>
-
-### <span style="color: #F59E0B;">🧠 My Articles</span>
-
-<div style="color: #a1a1aa; line-height: 1.8;">
-
-<a href="https://openreview.net/profile?id=%7EHo_Tin_Ko2">
-  <img src="https://img.shields.io/badge/OpenReview-141414?style=for-the-badge&logo=openaccess&logoColor=FF6B6B&labelColor=141414&color=141414" alt="OpenReview"/>
-</a>
-<a href="https://www.zhihu.com/people/B143KC47">
-  <img src="https://img.shields.io/badge/知乎-141414?style=for-the-badge&logo=zhihu&logoColor=0084FF&labelColor=141414&color=141414" alt="知乎"/>
-</a>
-  <a href="https://blog.csdn.net/B143KC47?spm=1000.2115.3001.5343">
-    <img src="https://img.shields.io/badge/CSDN-141414?style=for-the-badge&logo=c&logoColor=FC5531&labelColor=141414&color=141414" alt="CSDN"/>
-  </a>
-
-</div>
-
-</td>
-</tr>
-</table>
 
 </div>
 
