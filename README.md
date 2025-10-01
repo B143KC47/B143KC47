@@ -53,8 +53,9 @@
 
 <div style="color: #a1a1aa; line-height: 1.8;">
 
-• Completed internship at City University of Hong Kong and published a paper in NeurIPS 2025 Workshop
-
+• Completed internship at City University of Hong Kong and published papers in 
+- NeurIPS 2025 Workshop
+- ICLR 2026 Conference
 </div>
 
 ### <span style="color: #F59E0B;">🧠 My Articles</span>
