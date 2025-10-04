@@ -123,22 +123,8 @@
   <img src="https://img.shields.io/badge/C++-141414?style=for-the-badge&logo=c%2B%2B&logoColor=00599C&labelColor=141414&color=141414" alt="C++" />
   <img src="https://img.shields.io/badge/JavaScript-141414?style=for-the-badge&logo=javascript&logoColor=F7DF1E&labelColor=141414&color=141414" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-141414?style=for-the-badge&logo=typescript&logoColor=3178C6&labelColor=141414&color=141414" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Rust-141414?style=for-the-badge&logo=rust&logoColor=E57324&labelColor=141414&color=141414" alt="Rust" />
-  <img src="https://img.shields.io/badge/Go-141414?style=for-the-badge&logo=go&logoColor=00ADD8&labelColor=141414&color=141414" alt="Go" />
   <img src="https://img.shields.io/badge/Lua-141414?style=for-the-badge&logo=lua&logoColor=2C2D72&labelColor=141414&color=141414" alt="Lua" />
   <img src="https://img.shields.io/badge/LaTeX-141414?style=for-the-badge&logo=latex&logoColor=008080&labelColor=141414&color=141414" alt="LaTeX" />
-</div>
-
-### <span style="background: linear-gradient(135deg, #3B82F6, #14B8A6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Development Tools</span>
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
-  <img src="https://img.shields.io/badge/VS_Code-141414?style=for-the-badge&logo=visual%20studio%20code&logoColor=007ACC&labelColor=141414&color=141414" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Visual_Studio-141414?style=for-the-badge&logo=visual%20studio&logoColor=5C2D91&labelColor=141414&color=141414" alt="Visual Studio" />
-  <img src="https://img.shields.io/badge/Jupyter-141414?style=for-the-badge&logo=jupyter&logoColor=F37626&labelColor=141414&color=141414" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Git-141414?style=for-the-badge&logo=git&logoColor=F05032&labelColor=141414&color=141414" alt="Git" />
-  <img src="https://img.shields.io/badge/Vim-141414?style=for-the-badge&logo=vim&logoColor=019733&labelColor=141414&color=141414" alt="Vim" />
-  <img src="https://img.shields.io/badge/Docker-141414?style=for-the-badge&logo=docker&logoColor=2496ED&labelColor=141414&color=141414" alt="Docker" />
-  <img src="https://img.shields.io/badge/Obsidian-141414?style=for-the-badge&logo=obsidian&logoColor=7C3AED&labelColor=141414&color=141414" alt="Obsidian" />
 </div>
 
 ### <span style="background: linear-gradient(135deg, #14B8A6, #10B981); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">AI/ML Frameworks</span>
@@ -150,38 +136,6 @@
   <img src="https://img.shields.io/badge/OpenCV-141414?style=for-the-badge&logo=OpenCV&logoColor=5C3EE8&labelColor=141414&color=141414" alt="OpenCV" />
   <img src="https://img.shields.io/badge/🤗_Hugging_Face-141414?style=for-the-badge&labelColor=141414&color=141414" alt="Hugging Face" />
   <img src="https://img.shields.io/badge/CUDA-141414?style=for-the-badge&logo=nvidia&logoColor=76B900&labelColor=141414&color=141414" alt="CUDA" />
-</div>
-
-### <span style="background: linear-gradient(135deg, #F59E0B, #EC4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Cloud & DevOps</span>
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
-  <img src="https://img.shields.io/badge/AWS-141414?style=for-the-badge&logo=amazon-aws&logoColor=FF9900&labelColor=141414&color=141414" alt="AWS" />
-  <img src="https://img.shields.io/badge/Google_Cloud-141414?style=for-the-badge&logo=google-cloud&logoColor=4285F4&labelColor=141414&color=141414" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/Azure-141414?style=for-the-badge&logo=microsoft-azure&logoColor=0078D4&labelColor=141414&color=141414" alt="Azure" />
-  <img src="https://img.shields.io/badge/Alibaba_Cloud-141414?style=for-the-badge&logo=alibaba-cloud&logoColor=FF6A00&labelColor=141414&color=141414" alt="Alibaba Cloud" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-141414?style=for-the-badge&logo=github-actions&logoColor=2088FF&labelColor=141414&color=141414" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Kubernetes-141414?style=for-the-badge&logo=kubernetes&logoColor=326CE5&labelColor=141414&color=141414" alt="Kubernetes" />
-</div>
-
-### <span style="background: linear-gradient(135deg, #EC4899, #8B5CF6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">AI Tools</span>
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
-  <img src="https://img.shields.io/badge/ChatGPT-141414?style=for-the-badge&logo=openai&logoColor=74aa9c&labelColor=141414&color=141414" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-141414?style=for-the-badge&logo=github&logoColor=white&labelColor=141414&color=141414" alt="GitHub Copilot" />
-  <img src="https://img.shields.io/badge/Google_Gemini-141414?style=for-the-badge&logo=google&logoColor=4285F4&labelColor=141414&color=141414" alt="Google Gemini" />
-  <img src="https://img.shields.io/badge/Perplexity-141414?style=for-the-badge&logo=perplexity&logoColor=1FB8CD&labelColor=141414&color=141414" alt="Perplexity" />
-  <img src="https://img.shields.io/badge/Claude-141414?style=for-the-badge&logo=anthropic&logoColor=FF8C00&labelColor=141414&color=141414" alt="Claude" />
-</div>
-
-### <span style="background: linear-gradient(135deg, #10B981, #3B82F6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Operating Systems</span>
-
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 20px 0;">
-  <img src="https://img.shields.io/badge/Linux-141414?style=for-the-badge&logo=linux&logoColor=FCC624&labelColor=141414&color=141414" alt="Linux" />
-  <img src="https://img.shields.io/badge/Windows-141414?style=for-the-badge&logo=windows&logoColor=0078D6&labelColor=141414&color=141414" alt="Windows" />
-  <img src="https://img.shields.io/badge/macOS-141414?style=for-the-badge&logo=apple&logoColor=white&labelColor=141414&color=141414" alt="macOS" />
-  <img src="https://img.shields.io/badge/Ubuntu-141414?style=for-the-badge&logo=ubuntu&logoColor=E95420&labelColor=141414&color=141414" alt="Ubuntu" />
-</div>
-
 </div>
 
 <br>
