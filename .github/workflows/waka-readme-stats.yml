@@ -31,7 +31,7 @@ jobs:
           SHOW_EDITORS: "False"  # 禁用编辑器使用统计 (移除本周消耗时间中的编辑器部分)
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_SHORT_INFO: "False"  # 禁用简短信息 (可能包含GitHub数据)
-          SHOW_LOC_CHART: "True"  # 启用代码行数图表
+          SHOW_LOC_CHART: "False"  # 禁用代码行数图表
           SHOW_UPDATED_DATE: "True"  # 显示更新时间
           
           # 区域设置
